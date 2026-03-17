@@ -24,8 +24,8 @@ Whale系统包含了处理出金申请、提现处理、对账、单独处理异
 ## 资金参数配置
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
-<div class='callout-emoji'>🎁</div>
-<p>⚓ 业务参数设置 &gt; 资金参数&gt;公司银行账户</p>
+<div class='callout-emoji'>📍</div>
+<p>业务参数设置 &gt; 资金参数&gt;公司银行账户</p>
 </div>
 
 <img src="/assets/Yc86b25pOo4MGbxxW4ojPOOUphg.png" src-width="2844" src-height="1304" align="center"/>
@@ -34,11 +34,11 @@ Whale系统包含了处理出金申请、提现处理、对账、单独处理异
 
 <img src="/assets/EfH0bL2L0oxYFgx1OXmjCoYIphh.png" src-width="2846" src-height="1330" align="center"/>
 
-1. 打开币种的出金功能开关
+- 打开币种的出金功能开关
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
-<div class='callout-emoji'>🎁</div>
-<p>📍 菜单入口：业务参数设定&gt;资金参数&gt;币种</p>
+<div class='callout-emoji'>📍</div>
+<p>菜单入口：业务参数设定&gt;资金参数&gt;币种</p>
 </div>
 
 <img src="/assets/ZvACbu3PLo2hDoxg3TqjtfHJpRd.png" src-width="2858" src-height="1318" align="center"/>
@@ -50,8 +50,8 @@ Whale系统包含了处理出金申请、提现处理、对账、单独处理异
 ## 自动出金规则
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
-<div class='callout-emoji'>🎁</div>
-<p>⚓ 业务参数设置&gt;出金规则&gt;自动出金规则</p>
+<div class='callout-emoji'>📍</div>
+<p>业务参数设置&gt;出金规则&gt;自动出金规则</p>
 </div>
 
 配置出金渠道打包规则，用以控制出金批量是自动还是手工处理。同时还能通过规则控制出金的单笔限额，以及服务窗口期以及支持的客户银行等。
@@ -69,8 +69,8 @@ Whale系统包含了处理出金申请、提现处理、对账、单独处理异
 ## 日限额以及变动表
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
-<div class='callout-emoji'>🎁</div>
-<p>⚓ 业务参数设置&gt;出金规则&gt;日限额</p>
+<div class='callout-emoji'>📍</div>
+<p>业务参数设置&gt;出金规则&gt;日限额</p>
 </div>
 
 客户相应出金的渠道可能存在日限额，所以为了降低出金异常情况，建立了出金日限额监控提示以及管理。
@@ -85,8 +85,8 @@ Whale系统包含了处理出金申请、提现处理、对账、单独处理异
 - 调整：调整当前出金银行对应的日限额额度
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
-<div class='callout-emoji'>🎁</div>
-<p>⚓ 业务参数设置&gt;出金规则&gt;日限额变动表</p>
+<div class='callout-emoji'>📍</div>
+<p>业务参数设置&gt;出金规则&gt;日限额变动表</p>
 </div>
 
 可以查询出金银行的日限额历史变动记录
@@ -100,8 +100,8 @@ Whale系统包含了处理出金申请、提现处理、对账、单独处理异
 ## 余额拦截
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
-<div class='callout-emoji'>🎁</div>
-<p>⚓ 业务参数设置&gt;出金规则&gt;余额拦截</p>
+<div class='callout-emoji'>📍</div>
+<p>业务参数设置&gt;出金规则&gt;余额拦截</p>
 </div>
 
 目前指用于出金业务。在出金业务中，系统会根据财务人员选择的出金银行进行余额查询，根据查询到的余额对待出金的金额进行判断，如果余额不足以支持用户提交的出金请求，则会将相应的出金进行拦截，等待财务后续人工处理。
@@ -125,8 +125,8 @@ Whale系统包含了处理出金申请、提现处理、对账、单独处理异
 ## 自动审核规则
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
-<div class='callout-emoji'>🎁</div>
-<p>⚓ 业务参数设置&gt;出金规则&gt;自动审核规则</p>
+<div class='callout-emoji'>📍</div>
+<p> 业务参数设置&gt;出金规则&gt;自动审核规则</p>
 </div>
 
 对于客户提交出金申请是否需要后台人工审核，可以在「自动审核规则」进行设定。目前可支援的审核规则包括：人工审批需工单、人工审批无需工单、自动提交和自动驳回
@@ -143,8 +143,8 @@ Whale系统包含了处理出金申请、提现处理、对账、单独处理异
 ## 更多设置
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
-<div class='callout-emoji'>🎁</div>
-<p>⚓ 业务参数设置&gt;出金规则&gt;更多设置</p>
+<div class='callout-emoji'>📍</div>
+<p>业务参数设置&gt;出金规则&gt;更多设置</p>
 </div>
 
 对于在「款项管理-出金-提现处理-待处理」对应操作的【直接出账】提交后是否需要工单审批，可以在「更多设置」进行配置
@@ -154,8 +154,8 @@ Whale系统包含了处理出金申请、提现处理、对账、单独处理异
 ## 出金参数
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
-<div class='callout-emoji'>🎁</div>
-<p>⚓ 业务参数设置&gt;出金规则&gt;出金参数</p>
+<div class='callout-emoji'>📍</div>
+<p> 业务参数设置&gt;出金规则&gt;出金参数</p>
 </div>
 
 可根据客户出金银行区分配置预计到账时间、预估费用等参数
@@ -171,8 +171,8 @@ Whale系统包含了处理出金申请、提现处理、对账、单独处理异
 # 出金操作
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
-<div class='callout-emoji'>🎁</div>
-<p>📍 菜单入口：款项管理-出金</p>
+<div class='callout-emoji'>📍</div>
+<p>菜单入口：款项管理-出金</p>
 </div>
 
 ## 出金申请
@@ -199,6 +199,23 @@ Whale系统包含了处理出金申请、提现处理、对账、单独处理异
 
 在初审人员提交出金申请后，复审操作人员需要进行提现处理。提现处理提供了2种方式：直接出账与打包提审。其中：
 
+<table header_row="1">
+<colgroup>
+<col width="100"/>
+<col width="344"/>
+</colgroup>
+<thead>
+<tr><th><p>出金方式</p></th><th><p>适用场景</p></th></tr>
+</thead>
+<tbody>
+<tr><td><p>直接出账</p></td><td><p>出金的记录较少，且需要快速进行出金</p></td></tr>
+<tr><td><p>打包提审</p></td><td><ul>
+<li>出金记录数量较多，需支援针对某一时段、特定客户或其他需集中处理出金的情境。</li>
+<li>若已对接 API 渠道出金，则仅能透过打包提审方式进行出帐。</li>
+</ul></td></tr>
+</tbody>
+</table>
+
 - 直接出账
     <img src="/assets/PDZzbZULhoGcENxS9wxjNkqDpDc.png" src-width="3826" src-height="1024" align="center"/>
     <img src="/assets/BrpKbcaAyoZUfbxkr8LjcGOipTc.png" src-width="1674" src-height="1748" align="center"/>
@@ -214,11 +231,12 @@ Whale系统包含了处理出金申请、提现处理、对账、单独处理异
     <img src="/assets/D6S0bNYxIoqkgvxgubZjCtirpAg.png" src-width="3826" src-height="1826" align="center"/>
     <img src="/assets/Q6GzbDztNoAe5xxipVxjnJm6pgb.png" src-width="3910" src-height="1942" align="center"/>
     - 选择目标记录后，点选批次操作行的【打包提审】，如果在打包后需要进行移除部分明细记录，可以在弹跳窗内进行操作，填好出金的银行资讯以及渠道资讯后，该批进入审核流程
-    - 提交审核后，记录流转至「打包待处理」页面，审核者需进行工单审批，审核通过后，完成出账
-    - 注：由于出金的数量与渠道限制，部分出金管道需要人工更新出金的状态，用户需要点选【检视并更新结果】进入至详情页面进行手动更新（可批量更新）
-    - 完成出账后，可将出金文件下载至电脑本地留存
-
-<img src="/assets/RedgbrrgFoD2qAxN93rjDjgxpsc.png" src-width="3836" src-height="1826" align="center"/>
+    - 提交审核后，记录流转至「打包待处理」页面，审核者需进行工单审批，审核通过后。
+    - 若选择的渠道出金方式为网银，则需由财务部线下至网银操作付款。若有对接批次付款档案出金，可于批次审核通过后下载批次档，直接汇入网银进行拨款，简化网银作业流程。作业完成后，依据网银实际付款结果，回到 WBO 后台手工更新出金状态。
+        <img src="/assets/RedgbrrgFoD2qAxN93rjDjgxpsc.png" src-width="3836" src-height="1826" align="center"/>
+        - 点选批次记录中的【检视并更新结果】进入弹跳窗内，依照批次内的明细记录实际出金情况进行手动更新为「成功」（可批次操作）
+            <img src="/assets/H9VDbp5OhoQ7BUxYud7jeSBbppo.png" src-width="1280" src-height="680" align="center"/>
+    - 若选择的渠道出金方式为 API，则无须线下透过网银付款。批次审核通过后，系统将直接提交至银行处理；银行处理完毕后，系统会自动更新出金状态，处理结果可于后台查询。
 
 - 指标卡
 
@@ -228,7 +246,26 @@ Whale系统包含了处理出金申请、提现处理、对账、单独处理异
 
 - 支票列印
 
-用户若是采用支票方式出金，流程结束后需要列印支票时，可点选页面右上方的【支票列印】进入二级页面
+用户若采用<b>支票方式出金</b>，流程结束后需列印支票时，可点选页面右上方的【支票列印】按钮进入二级页面。
+
+可支援支票列印的出金帐户，须符合以下条件：
+
+<table header_row="1">
+<colgroup>
+<col width="122"/>
+<col width="155"/>
+</colgroup>
+<thead>
+<tr><th><p>银行</p></th><th><p>SWIFT CODE</p></th></tr>
+</thead>
+<tbody>
+<tr><td><p>中银香港</p></td><td><p>BKCHHKHHXXX</p></td></tr>
+<tr><td><p>创兴银行</p></td><td><p>LCHBHKHH</p></td></tr>
+<tr><td><p>华侨永亨银行</p></td><td><p>WIHBHKHH</p></td></tr>
+<tr><td><p>渣打银行</p></td><td><p>SCBLHKHHXXX</p></td></tr>
+<tr><td><p>大新银行</p></td><td><p>DSBAHKHH</p></td></tr>
+</tbody>
+</table>
 
 <img src="/assets/THR7bELzlooyZtxWyP2jezBzpGd.png" src-width="3326" src-height="1712" align="center"/>
 
@@ -248,20 +285,17 @@ Whale系统包含了处理出金申请、提现处理、对账、单独处理异
 
 ## 异常出金
 
-若出金申请在提现与对账流程发现了异常，可在异常出金页面进行处理（<b>可批量操作</b>）。系统提供了4种处理方式：
-
-```text
-- 转成功
-- 转失败
-- 再付款（重新生成提现单再次进行付款）
-- 重提交（原提现单重新提交渠道付款）
-```
+若 API 提交出金后，银行回传的错误讯息无法解析为成功或失败，系统将自动判定为异常单。若是人工处理网银出金时，将结果更新为异常，亦可于异常出金页面进行处理（支援批量操作）。系统提供了4种处理方式：
+- 转成功：指出金异常经人工确认银行已完成出帐，将提现单状态更新为成功，并解冻用户资金进行出帐。
+- 转失败：指出金异常经人工确认银行未出帐且后续不会自动出帐，且因用户提交资讯错误导致无法出帐，将提现单状态更新为失败，并将资金解冻退回用户帐户。
+- 再付款：经确认银行端出帐失败且不再出帐，但人工确认需再次为用户打款；因对应渠道具备防重功能，需重新产生提现单后再进行付款。
+- 重提交：经确认银行端出帐失败且不再出帐，但人工确认需再次为用户打款；若对应渠道无防重功能，或尚未提交至渠道，则直接重新提交原提现单即可。
 
 <img src="/assets/WAO6bPnTJoEycZx0Gc2jUBcGp4c.png" src-width="3826" src-height="1788" align="center"/>
 
 - 选择了具体的处理方式后，记录流转只待审核页面，业务人员需要再次复核处理结果，通过后异常出金记录处理完毕
 
-<img src="/assets/UYW9bindRo7nJxxbuCgj9GR8pod.png" src-width="3832" src-height="1312" align="center"/>
+<img src="/assets/L37CbhU2aoajKbxEFBXjEJKcpfe.png" src-width="3330" src-height="1764" align="center"/>
 
 ## 出金记录
 
@@ -274,8 +308,8 @@ Whale系统包含了处理出金申请、提现处理、对账、单独处理异
 指代券商公司银行账户所有资金的出账变动记录，是核对出金业务的重要依据。
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
-<div class='callout-emoji'>🎁</div>
-<p>📍 菜单入口：款项管理-银行账单-出金账单</p>
+<div class='callout-emoji'>📍</div>
+<p>菜单入口：款项管理-银行账单-出金账单</p>
 </div>
 
 - 如果银行已经对接银企直连，则系统可以自动取得银行账单。

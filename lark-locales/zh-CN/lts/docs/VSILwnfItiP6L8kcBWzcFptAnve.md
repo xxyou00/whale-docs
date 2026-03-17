@@ -18,8 +18,8 @@ WHALE的款项管理系统提供了多情境的出金功能，使用者可以在
 1. 设定公司银行账户出金方式
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
-<div class='callout-emoji'>🎁</div>
-<p>📍 菜单入口：业务参数设定&gt;资金参数&gt;公司银行账户</p>
+<div class='callout-emoji'>📍</div>
+<p>菜单入口：业务参数设定&gt;资金参数&gt;公司银行账户</p>
 </div>
 
 <img src="/assets/LoGZbTNcio7qBoxNydfjduGzpAg.png" src-width="2844" src-height="1304" align="center"/>
@@ -31,8 +31,8 @@ WHALE的款项管理系统提供了多情境的出金功能，使用者可以在
 1. 打开币种的出金功能开关
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
-<div class='callout-emoji'>🎁</div>
-<p>📍 菜单入口：业务参数设定&gt;资金参数&gt;币种</p>
+<div class='callout-emoji'>📍</div>
+<p>菜单入口：业务参数设定&gt;资金参数&gt;币种</p>
 </div>
 
 <img src="/assets/KDrJbtUvCo2ONYx8jS9jPQNLpAe.png" src-width="2858" src-height="1318" align="center"/>
@@ -83,7 +83,7 @@ WHALE的款项管理系统提供了多情境的出金功能，使用者可以在
 
 <img src="/assets/Bb5ob3ctMoyaBLxIgjLjndc4pVd.png" src-width="3324" src-height="592" align="center"/>
 
-**步骤五：**若不需要工单审批，可以至“业务参数设定&gt;出金规则&gt;更多设置”中关闭开关
+<b>步骤五：</b>若不需要工单审批，可以至“业务参数设定&gt;出金规则&gt;更多设置”中关闭开关
 
 <img src="/assets/BXt7btw4XoroeBxFoodjU10Op4c.png" src-width="3816" src-height="1780" align="center"/>
 
@@ -97,19 +97,21 @@ WHALE的款项管理系统提供了多情境的出金功能，使用者可以在
 
 <img src="/assets/VkvpbAAHgoLgzExhEHVj0Ncepje.png" src-width="3318" src-height="1760" align="center"/>
 
-<b>步骤三：进入打包待处理分类，选取刚刚打包好的批次，点选【审批】，在被召唤的工单中审批通过</b>
+<b>步骤三：</b>进入打包待处理分类，选取刚刚打包好的批次，点选【审批】，在被召唤的工单中审批通过
 
 <img src="/assets/DGVhb91Kjow4SWxJvk6jbxQVp6c.png" src-width="3304" src-height="1024" align="center"/>
 
-<b>步骤四：点选批次记录中的【检视并更新结果】进入弹跳窗内，依照批次内的明细记录实际出金情况进行手动更新为「成功」（可批次操作）</b>
+<b>步骤四：</b>若选择的渠道出金方式为网银，则需由财务部线下至网银操作付款。若有对接批次付款档案出金，可于批次审核通过后下载批次档，直接汇入网银进行拨款，简化网银作业流程。作业完成后，依据网银实际付款结果，回到 WBO 后台手工更新出金状态。
+<img src="/assets/O2gAbTrxPoCMOJx9pFfjSxp9pNg.png" src-width="1280" src-height="609" align="center"/>
+- 点选批次记录中的【检视并更新结果】进入弹跳窗内，依照批次内的明细记录实际出金情况进行手动更新为「成功」（可批次操作）
+    <img src="/assets/WKqhbikcpoXEFMxmI1Kjdeklp7e.png" src-width="3318" src-height="1764" align="center"/>
+- 进入工单系统中针对刚刚更新的结果再次进行审核通过，即可完成出账
+    <img src="/assets/WgLIbAfBmohJvDxSATkjn7zlple.png" src-width="3808" src-height="1868" align="center"/>
+    <img src="/assets/XqhVb00nvokjZPx60cVj3S99pcf.png" src-width="3306" src-height="1686" align="center"/>
 
-<img src="/assets/WKqhbikcpoXEFMxmI1Kjdeklp7e.png" src-width="3318" src-height="1764" align="center"/>
+<b>步骤五：</b>若选择的渠道出金方式为 API，则无须线下透过网银付款。批次审核通过后，系统将直接提交至银行处理；银行处理完毕后，系统会自动更新出金状态，处理结果可于后台查询。
 
-<b>步骤五：进入工单系统中针对刚刚更新的结果再次进行审核通过，即可完成出账</b>
-
-<img src="/assets/WgLIbAfBmohJvDxSATkjn7zlple.png" src-width="3808" src-height="1868" align="center"/>
-
-<img src="/assets/XqhVb00nvokjZPx60cVj3S99pcf.png" src-width="3306" src-height="1686" align="center"/>
+<img src="/assets/PS9mbMf78oAXj9xy00djtuq5puh.png" src-width="3306" src-height="1686" align="center"/>
 
 ### 日限额（设定）
 
@@ -119,7 +121,7 @@ WHALE的款项管理系统提供了多情境的出金功能，使用者可以在
 
 <img src="/assets/Cb2Kb7lkGoMaXdxhe8Uj5uQCpGd.png" src-width="3836" src-height="1770" align="center"/>
 
-<b>步骤二：若需要新增限额，点选【新建】，进入弹窗填入对应的栏位后点选【确定】</b>
+<b>步骤二：</b>若需要新增限额，点选【新建】，进入弹窗填入对应的栏位后点选【确定】
 
 <img src="/assets/GEX4bHS0voUK7kxGs4Uj04mwpQc.png" src-width="3834" src-height="1858" align="center"/>
 
@@ -141,13 +143,13 @@ WHALE的款项管理系统提供了多情境的出金功能，使用者可以在
 
 ## 处理异常出金
 
-在实际业务中，出金可能会因种种原因被银行拒绝，该部分记录会被标记为异常，需要人工单独处理
+若 API 提交出金后，银行回传的错误讯息无法解析为成功或失败，系统将自动判定为异常单。若是人工处理网银出金时，将结果更新为异常，亦可于异常出金页面进行处理（支援批量操作）。
 
-<b>步骤一：进入待处理页面选择目标记录，点选【处理】，在弹跳窗中的4种方式中选择1种，点选【确定】</b>
+<b>步骤一：</b>进入待处理页面选择目标记录，点选【处理】，在弹跳窗中的4种方式中选择1种，点选【确定】
 
 <img src="/assets/WwEMbhwKxo8OlQx0Cn5jemxEpDe.png" src-width="3322" src-height="1696" align="center"/>
 
-<b>步骤二：进入待审核页面，选择目标记录后进行复核</b>
+<b>步骤二：</b>进入待审核页面，选择目标记录后进行复核
 
-<img src="/assets/IhK1b9v9foIFbNxOWI6jJCaXpud.png" src-width="3288" src-height="1218" align="center"/>
+<img src="/assets/DD2KbIGBJo0zQJxJGvQjTMqQpQZ.png" src-width="3330" src-height="1764" align="center"/>
 

@@ -31,13 +31,13 @@ After the files are successfully imported and parsed, the system will execute th
 Based on the imported 05 file, the system will generate corporate actions with positions on the registration date.
 ```
 
-<img src="/assets/AbtrbiUgNodgdox8070jaDcBp1b.png" src-width="3570" src-height="1780" align="center"/>
+<img src="/assets/AlkMbAuPCoQHs5xRVJPjSf7npJe.png" src-width="3006" src-height="1360" align="center"/>
 
-<img src="/assets/W5TIbeXXeorDnOxdY3ljR4FApJg.png" src-width="3570" src-height="1780" align="center"/>
+<img src="/assets/DeX3bjH9eoRXKlx3n3ljGMa8p1e.png" src-width="2998" src-height="1368" align="center"/>
 
-<img src="/assets/O2v3b3WmAod1jNxqSQXjC9WDpsf.png" src-width="3570" src-height="1780" align="center"/>
+<img src="/assets/YZqFb8oXaonvJCxvu41jh0fnpTg.png" src-width="3022" src-height="1350" align="center"/>
 
-## 2. Registration
+2. Registration
 
 ```text
 Operations on corporate actions can begin on the evening of the CCASS payment date (return of residual value) or on the following day.
@@ -47,17 +47,17 @@ Operations on corporate actions can begin on the evening of the CCASS payment da
 Click [Register]. Path: Corporate Actions - Corporate Actions - Details
 ```
 
-<img src="/assets/ZC30by2fBoUhBix2ibAjBi1MpWc.png" src-width="3548" src-height="1806" align="center"/>
+<img src="/assets/N2Nibb9Q8oQpTTxCNxZjaSnmpjh.png" src-width="3006" src-height="1358" align="center"/>
 
-<img src="/assets/PV1ubLWzWoKDDVxeeqvjlVN3p7b.png" src-width="3548" src-height="1806" align="center"/>
+<img src="/assets/MVyqbQZR8oSaxGxvzyOjntMgpFe.png" src-width="3006" src-height="1348" align="center"/>
 
-<img src="/assets/UapqbpZPcoCBfKxB07ejklqapEf.png" src-width="3548" src-height="1806" align="center"/>
+<img src="/assets/Hupab5sMioZGkcxJ05wjKhKNphe.png" src-width="3008" src-height="1360" align="center"/>
 
-<img src="/assets/JRT4blOypoLEfhxxV90jyTJHp4E.png" src-width="3548" src-height="1806" align="center"/>
+<img src="/assets/VDXKb56i5oYIRBxq0jsjbDcApqe.png" src-width="3010" src-height="1350" align="center"/>
 
-<img src="/assets/RfBObmNJXojAM2xguHfjeprDpGf.png" src-width="3548" src-height="1806" align="center"/>
+<img src="/assets/TcfzbiGtooopYixxF3njYiBfp5e.png" src-width="3000" src-height="1344" align="center"/>
 
-<img src="/assets/DKmNbtGEYoM2BBxiqAujZWVnp7d.png" src-width="3634" src-height="1886" align="center"/>
+<img src="/assets/ZcxObWEaFoFcuXxYeI5jSlTJp6b.png" src-width="3016" src-height="1360" align="center"/>
 
 ## 3. Residual Adjustment
 
@@ -67,9 +67,9 @@ If the funds paid by brokers need to be aligned with CCASS values, residual adju
 
 Click "Residual Adjustment"
 
-<img src="/assets/T5FabHaFkotGrixLm6tjHlWBpv2.png" src-width="3548" src-height="1806" align="center"/>
+<img src="/assets/FVfKbd9QxoNl9fxDyfKjxfDap9b.png" src-width="2996" src-height="1340" align="center"/>
 
-<img src="/assets/NzSxb0OKAoHob3xvjFTjYW45pSb.png" src-width="3548" src-height="1806" align="center"/>
+<img src="/assets/Wvf2bWJvlolNG4xd6O6jEvRnpLe.png" src-width="3004" src-height="1344" align="center"/>
 
 ## 4. Execution
 
@@ -81,11 +81,11 @@ Execution consists of two steps: execution submission and execution review; dual
 
 Click "Submit Execution"
 
-<img src="/assets/KP2Ub4y3aohChVxXdtDjmbYzpff.png" src-width="3548" src-height="1806" align="center"/>
+<img src="/assets/VUrNbTc8FoBbjfxIsdpjbrgwpVf.png" src-width="3014" src-height="1446" align="center"/>
 
-<img src="/assets/YqB8bwM3coeFiKxfyvMjVhZ6pze.png" src-width="3548" src-height="1806" align="center"/>
+<img src="/assets/NoWsbPmR0oKp4ixUeQSjRFFjp4b.png" src-width="3002" src-height="1358" align="center"/>
 
 Click "Execution Review"
 
-<img src="/assets/EKrkbgRGvoltNPxCWwWjImFSpCg.png" src-width="3548" src-height="1806" align="center"/>
+<img src="/assets/IVrxboUrVoc0WjxhQcpjZPMsphc.png" src-width="3000" src-height="1452" align="center"/>
 

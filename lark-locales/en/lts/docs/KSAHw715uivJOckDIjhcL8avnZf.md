@@ -17,8 +17,6 @@ Depending on whether clients participate in a corporate action, corporate action
 
 During corporate action processing, interactions also occur with clearing services, the message center, and asset services.
 
-<img src="/assets/YpIcbZIsfoWYxDxHlt9jlL93pAe.png" src-width="3030" src-height="1698" align="center"/>
-
 <b>Process Flow</b>
 
 1. Announcement and plan creation
@@ -76,11 +74,11 @@ General fee settings
 
 The system allows maintenance of global fee charging configurations for corporate actions (plan type - fee type).
 
-<img src="/assets/Cdcqb90C2o2lHIxYz0VjngiEpke.png" src-width="3344" src-height="1558" align="center"/>
+<img src="/assets/TKg3bHqQKo1jlCxtWlXjaW2Ppmh.png" src-width="3008" src-height="1352" align="center"/>
 
 You can click [Edit] on the right of a record to modify the corresponding corporate action fee configuration, or click [New] in the upper-left to add a fee configuration.
 
-<img src="/assets/KqswbDfm7oc7faxxFw6jeMz1pah.png" src-width="3192" src-height="1842" align="center"/>
+<img src="/assets/HWqjbhS7RoKNF3xH0lwj2dlxphe.png" src-width="3012" src-height="1350" align="center"/>
 
 - Plan type: one of the matching conditions; the primary matching criterion.
 - Market: one of the matching conditions; selection only.
@@ -106,9 +104,9 @@ When adding a transfer fee configuration, you may configure it as a standalone c
 - Standalone charge: independent from the Handling Fee; this configuration is recommended.
 - Combined charge: combined with the Handling Fee; when charging Handling, the transfer fee portion is automatically offset.
 
-<img src="/assets/CA6rbagWeoy7B5x2YRBjQPhup4d.png" src-width="3348" src-height="992" align="center"/>
+<img src="/assets/I6p7bfofOofTizxN4Raj4pC2pve.png" src-width="3018" src-height="606" align="center"/>
 
-<img src="/assets/DQjxbmFUhoj7T2xvqjjjiaPKpjb.png" src-width="3376" src-height="1254" align="center"/>
+<img src="/assets/SjpZbAAe4o971gxcKInjtLWgpTg.png" src-width="3018" src-height="1280" align="center"/>
 
 # 3. Layout Area Description
 
@@ -116,29 +114,19 @@ When adding a transfer fee configuration, you may configure it as a standalone c
 
 On the corporate action announcement query/details screen, the layout is as follows: the central area displays the “Progress Status” and the “Instruction Collection Status” to facilitate quick location.
 
-<img src="/assets/JoADbdTgKova7qxwLcTjxwk2pRc.png" src-width="3186" src-height="1520" align="center"/>
+<img src="/assets/Do09bfQmLo9G4Ix2G5ljPIAQpRh.png" src-width="3002" src-height="1364" align="center"/>
 
 The right-hand record area displays the actionable function buttons for the corporate action (reducing misoperations and facilitating single-corporate-action handling).
 
-<img src="/assets/TiXbbRwTYo3uTGxHerbjSdTxpdb.png" src-width="3184" src-height="1512" align="center"/>
+<img src="/assets/UhbXb4PhRorSOExhfdBjvk0Up6f.png" src-width="2990" src-height="1360" align="center"/>
 
-Because corporate action types are numerous and business nodes differ, the system provides step-by-step copy (operation guidance) tailored to corporate action types.
+Remarks copy is shown in the list columns.
 
-<img src="/assets/R6npbLWIxo8i2Qxc6nvjn1gnped.png" src-width="2664" src-height="956" align="center"/>
-
-Remarks copy is also shown in the list columns.
-
-<img src="/assets/E9GkbEhp5ozEvXxBPy9jaEyLpvd.png" src-width="3560" src-height="1528" align="center"/>
+<img src="/assets/JV2ubnW90o4Grkx77xrj9sQ1pDc.png" src-width="2990" src-height="1360" align="center"/>
 
 Batch operation functionality: the system evaluates states and provides available action buttons.
 
-<img src="/assets/BdHbblS3SoU6j9xaVzejORQKpJd.png" src-width="3324" src-height="1598" align="center"/>
-
-Interactive support for the 02 file is provided to update corporate action status in real time.
-
-<img src="/assets/WSAGbJKRzoyVqwxNmR6jpj67p0f.png" src-width="3334" src-height="1478" align="center"/>
-
-<img src="/assets/Z3mvbtToGoDZXMxTxRojzIAMpid.png" src-width="3358" src-height="1002" align="center"/>
+<img src="/assets/FoYfbcUDgoaaGjxvtrRjbmqspHe.png" src-width="3018" src-height="1350" align="center"/>
 
 ## 2. Detail Page
 
@@ -148,36 +136,36 @@ Click to enter the detail page, which is divided into several information areas 
 
 Corporate action type icon and progress status.
 
-<img src="/assets/CJarb2K6GoQAMZxSeqzjXzi7pqc.png" src-width="2388" src-height="292" align="center"/>
+<img src="/assets/QtXEbz995ohbQJxqNkrjKomxp7R.png" src-width="3002" src-height="1350" align="center"/>
 
 <b>Corporate Action Announcement Information</b>
 
 Records key fields of the corporate action announcement (announcement type / underlying / execution method / record date / distribution date, etc.).
 
-<img src="/assets/Afdxbu7Y7o5TyixokO3jUjnPpcf.png" src-width="2762" src-height="1033" align="center"/>
+<img src="/assets/BP9NbsuXZoiBa6xC4y3j5TtFpRe.png" src-width="2996" src-height="1362" align="center"/>
 
 <b>Plan Information and Fee Rules</b>
 
 This area records the related announcement plan records and fee rules. If a corporate action has separate rules, they can be maintained in fee rule maintenance.
 
-<img src="/assets/TM0QbRQS4oNJsixNEBwjmA8SpIh.png" src-width="2682" src-height="1138" align="center"/>
+<img src="/assets/EojebdN1roJtS2xZZOsjC1ddpxc.png" src-width="3004" src-height="2483" align="center"/>
 
 <b>Summary and Client Details</b>
 
 This area records the registered client summary information and client details.
 
-<img src="/assets/CukObCGzTor6oYxf8ZcjWVo3pjf.png" src-width="2674" src-height="1182" align="center"/>
+<img src="/assets/VKzKbrBnoob9ARxBOWrjPUFQpQd.png" src-width="2990" src-height="1338" align="center"/>
 
 At the detail page, virtually all actionable function buttons are provided:
 
 - On the detail page you can directly add, delete, or modify client entitlement calculations.
 - On the detail page — client details you can further perform offline exercises, modify entitlements, and adjust fees.
 
-<img src="/assets/T2sfbgrG4orokDx5THSjq0n5pbe.png" src-width="2504" src-height="1634" align="center"/>
+<img src="/assets/LKXybFezboVfMdxajpGjtKQvpld.png" src-width="2990" src-height="1350" align="center"/>
 
-<img src="/assets/ZuU1bxFCoolv4wxguuNjejBJp1g.png" src-width="2380" src-height="814" align="center"/>
+<img src="/assets/KOXsb6dE7o4zJFx5Y4CjpIsFpVZ.png" src-width="3016" src-height="1352" align="center"/>
 
-<img src="/assets/PgrLbAGtJom8KcxuLBpjpjBapfd.png" src-width="2370" src-height="1046" align="center"/>
+<img src="/assets/VsfiboXB9o8Sohx6L3fjSK38pxb.png" src-width="2994" src-height="1352" align="center"/>
 
 ## 3. Notes Field Description
 
@@ -189,13 +177,13 @@ HK market processed automatically; other markets manually entered.
 
 TM, BE, IP types: stock code + market + name + comma + CCASS note.
 
-<img src="/assets/JVpBbukmioX5xdxZcCTjD6cipLs.png" src-width="3548" src-height="1806" align="center"/>
+<img src="/assets/LRSybJQMxo5ZcZxgIiwjohwrpHf.png" src-width="3000" src-height="1354" align="center"/>
 
 <b>Entitlement note</b>
 
 - Plan note + comma + holdings
 
-<img src="/assets/QbPRbRRlNoAuy9xLsOcj9OieppP.png" src-width="3548" src-height="1806" align="center"/>
+<img src="/assets/NDXKbT8b8oQiHTxlXvwjRhLopod.png" src-width="2978" src-height="1346" align="center"/>
 
 <b>Fee note</b>
 
@@ -203,7 +191,7 @@ Format (non-TAX_FEE): Fee name in English + stock code + market + stock name.
 
 Example: CROSSTEC03893.HK handling fee
 
-<img src="/assets/S2mvbQ8choIb0XxmV19jtv5VpAf.png" src-width="3548" src-height="1806" align="center"/>
+<img src="/assets/CmH9bJ8yzoRxuExXMLpjkKFapdd.png" src-width="3014" src-height="1262" align="center"/>
 
 <b>Fee note format (TAX_FEE)</b>
 

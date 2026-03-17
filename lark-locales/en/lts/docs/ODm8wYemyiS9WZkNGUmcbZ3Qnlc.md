@@ -26,11 +26,11 @@ sidebar_position: 3
 
 - The system will, based on the imported 05 file, generate Corporate Actions with positions on the record date
 
-<img src="/assets/Y84nbiWFjokIR2xOtLpjLVVbpwe.png" src-width="3570" src-height="1780" align="center"/>
+<img src="/assets/O4OGbN98no8lE8xWOTnjQ3ULpnb.png" src-width="3006" src-height="1360" align="center"/>
 
-<img src="/assets/OgmebEfLCoLyxwxWuqbjh9NGple.png" src-width="3570" src-height="1780" align="center"/>
+<img src="/assets/GgqxbyQueoWHpgxprdEjFwUrpCg.png" src-width="2998" src-height="1368" align="center"/>
 
-<img src="/assets/YYJ1bk4tloNtbvx9pbljM2m8pad.png" src-width="3570" src-height="1780" align="center"/>
+<img src="/assets/X6RtblekuojMBpxqvu1juKWwpSd.png" src-width="3022" src-height="1350" align="center"/>
 
 ## 2. Registration
 
@@ -39,15 +39,13 @@ sidebar_position: 3
 
 - Click [Register]. Path: Corporate Action &gt; Corporate Action &gt; Details
 
-<img src="/assets/XCTMbrqHWowGxixKHMJj4qo1pBd.png" src-width="3548" src-height="1806" align="center"/>
+<img src="/assets/JqzibvZEjoStmPxZmmsj4wLppQb.png" src-width="2998" src-height="1352" align="center"/>
 
-<img src="/assets/DwVfbp3GJoBFg5xlQZfjBXlPpEe.png" src-width="3548" src-height="1806" align="center"/>
+<img src="/assets/DEjfbV4KGo2XeqxEf00j2S7Jplf.png" src-width="2996" src-height="1352" align="center"/>
 
-<img src="/assets/HYn4btoujog3HCxd2sjjl63Dpdd.png" src-width="3548" src-height="1806" align="center"/>
+<img src="/assets/TV1hbLGPwoiyeOxekJVjTcUnpng.png" src-width="3006" src-height="1350" align="center"/>
 
-<img src="/assets/O5o7bwlI4o3RrLx7erYjZ9DYpwc.png" src-width="3548" src-height="1806" align="center"/>
-
-<img src="/assets/UwXcbbxvwoll5uxiwCwjjPwcpSg.png" src-width="3548" src-height="1806" align="center"/>
+<img src="/assets/QDOcbacGmonco5xEzDOj4M3SpBS.png" src-width="3008" src-height="1346" align="center"/>
 
 ## 3. Tail Adjustment
 
@@ -55,11 +53,9 @@ sidebar_position: 3
 
 Click Tail Adjustment
 
-<img src="/assets/A16ObpPPyozGcUxVWPfjnsstppb.png" src-width="3548" src-height="1806" align="center"/>
+<img src="/assets/UPW1bNSkAopWHSxqL0aj1FOApgh.png" src-width="2998" src-height="1352" align="center"/>
 
-<img src="/assets/Muc4bq0droO7IhxnOd5jswqlpEc.png" src-width="3548" src-height="1806" align="center"/>
-
-<img src="/assets/I6PJbINLLoQctPxcysojOIAMpKe.png" src-width="3548" src-height="1806" align="center"/>
+<img src="/assets/Mhi0bSiSZok1C8xkjh7jgYJ8pae.png" src-width="3018" src-height="1438" align="center"/>
 
 ## 4. Execution
 
@@ -68,19 +64,17 @@ Click Tail Adjustment
 
 Click Submit Execution
 
-<img src="/assets/RJqZbU2y3oYsbmxnuewjACHDpBh.png" src-width="3548" src-height="1806" align="center"/>
+<img src="/assets/U556bYyxCohMWlxyq8JjV0nopGN.png" src-width="3002" src-height="1444" align="center"/>
 
-<img src="/assets/WOKSbJUmbojqI6xk4UojNrSlp2f.png" src-width="3548" src-height="1806" align="center"/>
+<img src="/assets/RyTtbcSGJoQALzxHMYKjT4aJpkc.png" src-width="3012" src-height="1446" align="center"/>
 
 - After submission, use system data to further verify holdings, share transfers, and charges
 
-<img src="/assets/P1dXbCIoOohMOxxuZvWjCTilpyb.png" src-width="3548" src-height="1806" align="center"/>
+<img src="/assets/PMApbgKmmontOMxaeRJjnQFkp8f.png" src-width="3000" src-height="1448" align="center"/>
 
 - After verification, formally submit for execution
 
 Click Execution Review
 
-<img src="/assets/VszjbQQwRoAOx5x2LxXjkAo9pIb.png" src-width="3548" src-height="1806" align="center"/>
-
-<img src="/assets/DSYNbepZQoWBb3xIM2MjAB09pyd.png" src-width="3548" src-height="1806" align="center"/>
+<img src="/assets/LbXAbjWu4o1CyXxlNOEj98GYpaf.png" src-width="3002" src-height="1452" align="center"/>
 

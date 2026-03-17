@@ -18,8 +18,8 @@ WHALE的款項管理系統提供了多情境的出金功能，使用者可以在
 1. 設定公司銀行賬戶出金方式
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
-<div class='callout-emoji'>🎁</div>
-<p>📍 菜單入口：業務參數設定&gt;資金參數&gt;公司銀行賬戶</p>
+<div class='callout-emoji'>📍</div>
+<p>菜單入口：業務參數設定&gt;資金參數&gt;公司銀行賬戶</p>
 </div>
 
 <img src="/assets/LoGZbTNcio7qBoxNydfjduGzpAg.png" src-width="2844" src-height="1304" align="center"/>
@@ -31,8 +31,8 @@ WHALE的款項管理系統提供了多情境的出金功能，使用者可以在
 1. 打開幣種的出金功能開關
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
-<div class='callout-emoji'>🎁</div>
-<p>📍 菜單入口：業務參數設定&gt;資金參數&gt;幣種</p>
+<div class='callout-emoji'>📍</div>
+<p>菜單入口：業務參數設定&gt;資金參數&gt;幣種</p>
 </div>
 
 <img src="/assets/KDrJbtUvCo2ONYx8jS9jPQNLpAe.png" src-width="2858" src-height="1318" align="center"/>
@@ -83,7 +83,7 @@ WHALE的款項管理系統提供了多情境的出金功能，使用者可以在
 
 <img src="/assets/Bb5ob3ctMoyaBLxIgjLjndc4pVd.png" src-width="3324" src-height="592" align="center"/>
 
-**步驟五：**若不需要工單審批，可以至“業務參數設定&gt;出金規則&gt;更多設置”中關閉開關
+<b>步驟五：</b>若不需要工單審批，可以至“業務參數設定&gt;出金規則&gt;更多設置”中關閉開關
 
 <img src="/assets/BXt7btw4XoroeBxFoodjU10Op4c.png" src-width="3816" src-height="1780" align="center"/>
 
@@ -97,19 +97,21 @@ WHALE的款項管理系統提供了多情境的出金功能，使用者可以在
 
 <img src="/assets/VkvpbAAHgoLgzExhEHVj0Ncepje.png" src-width="3318" src-height="1760" align="center"/>
 
-<b>步驟三：進入打包待處理分類，選取剛剛打包好的批次，點選【審批】，在被召喚的工單中審批通過</b>
+<b>步驟三：</b>進入打包待處理分類，選取剛剛打包好的批次，點選【審批】，在被召喚的工單中審批通過
 
 <img src="/assets/DGVhb91Kjow4SWxJvk6jbxQVp6c.png" src-width="3304" src-height="1024" align="center"/>
 
-<b>步驟四：點選批次記錄中的【檢視並更新結果】進入彈跳窗內，依照批次內的明細記錄實際出金情況進行手動更新为「成功」（可批次操作）</b>
+<b>步驟四：</b>若選擇的渠道出金方式為網銀，則需由財務部線下至網銀操作付款。若有對接批次付款檔案出金，可於批次審核通過後下載批次檔，直接匯入網銀進行撥款，簡化網銀作業流程。作業完成後，依據網銀實際付款結果，回到 WBO 後台手工更新出金狀態。
+<img src="/assets/O2gAbTrxPoCMOJx9pFfjSxp9pNg.png" src-width="1280" src-height="609" align="center"/>
+- 點選批次記錄中的【檢視並更新結果】進入彈跳窗內，依照批次內的明細記錄實際出金情況進行手動更新为「成功」（可批次操作）
+    <img src="/assets/WKqhbikcpoXEFMxmI1Kjdeklp7e.png" src-width="3318" src-height="1764" align="center"/>
+- 進入工單系統中針對剛剛更新的結果再次進行審核通過，即可完成出賬
+    <img src="/assets/WgLIbAfBmohJvDxSATkjn7zlple.png" src-width="3808" src-height="1868" align="center"/>
+    <img src="/assets/XqhVb00nvokjZPx60cVj3S99pcf.png" src-width="3306" src-height="1686" align="center"/>
 
-<img src="/assets/WKqhbikcpoXEFMxmI1Kjdeklp7e.png" src-width="3318" src-height="1764" align="center"/>
+<b>步驟五：</b>若選擇的渠道出金方式為 API，則無須線下透過網銀付款。批次審核通過後，系統將直接提交至銀行處理；銀行處理完畢後，系統會自動更新出金狀態，處理結果可於後台查詢。
 
-<b>步驟五：進入工單系統中針對剛剛更新的結果再次進行審核通過，即可完成出賬</b>
-
-<img src="/assets/WgLIbAfBmohJvDxSATkjn7zlple.png" src-width="3808" src-height="1868" align="center"/>
-
-<img src="/assets/XqhVb00nvokjZPx60cVj3S99pcf.png" src-width="3306" src-height="1686" align="center"/>
+<img src="/assets/PS9mbMf78oAXj9xy00djtuq5puh.png" src-width="3306" src-height="1686" align="center"/>
 
 ### 日限額（設定）
 
@@ -119,7 +121,7 @@ WHALE的款項管理系統提供了多情境的出金功能，使用者可以在
 
 <img src="/assets/Cb2Kb7lkGoMaXdxhe8Uj5uQCpGd.png" src-width="3836" src-height="1770" align="center"/>
 
-<b>步驟二：若需要新增限額，點選【新建】，進入彈窗填入對應的欄位後點選【確定】</b>
+<b>步驟二：</b>若需要新增限額，點選【新建】，進入彈窗填入對應的欄位後點選【確定】
 
 <img src="/assets/GEX4bHS0voUK7kxGs4Uj04mwpQc.png" src-width="3834" src-height="1858" align="center"/>
 
@@ -141,13 +143,13 @@ WHALE的款項管理系統提供了多情境的出金功能，使用者可以在
 
 ## 處理異常出金
 
-在實際業務中，出金可能會因種種原因被銀行拒絕，該部分記錄會被標記為異常，需要人工單獨處理
+若 API 提交出金後，銀行回傳的錯誤訊息無法解析為成功或失敗，系統將自動判定為異常單。若是人工處理網銀出金時，將結果更新為異常，亦可於異常出金頁面進行處理（支援批量操作）。
 
-<b>步驟一：進入待處理頁面選擇目標記錄，點選【處理】，在彈跳窗中的4種方式中選擇1種，點選【確定】</b>
+<b>步驟一：</b>進入待處理頁面選擇目標記錄，點選【處理】，在彈跳窗中的4種方式中選擇1種，點選【確定】
 
 <img src="/assets/WwEMbhwKxo8OlQx0Cn5jemxEpDe.png" src-width="3322" src-height="1696" align="center"/>
 
-<b>步驟二：進入待審核頁面，選擇目標記錄後進行複核</b>
+<b>步驟二：</b>進入待審核頁面，選擇目標記錄後進行複核
 
-<img src="/assets/IhK1b9v9foIFbNxOWI6jJCaXpud.png" src-width="3288" src-height="1218" align="center"/>
+<img src="/assets/DD2KbIGBJo0zQJxJGvQjTMqQpQZ.png" src-width="3330" src-height="1764" align="center"/>
 

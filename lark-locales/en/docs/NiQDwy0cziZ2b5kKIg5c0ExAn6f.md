@@ -30,11 +30,11 @@ After the files are imported and parsed successfully, the system will execute th
 The system will generate Corporate Actions with holdings on the record date based on the imported 05 file.
 ```
 
-<img src="/assets/IY6gbTntgoaeHUxcvFyjaYN6pih.png" src-width="3570" src-height="1780" align="center"/>
+<img src="/assets/EWOvbq8uio03FWx7NSRjLoWDpbh.png" src-width="3006" src-height="1348" align="center"/>
 
-<img src="/assets/QQH4bYuoEo0cpvxnVNcjhLrUpKf.png" src-width="3570" src-height="1780" align="center"/>
+<img src="/assets/MO9ybSfStoTLdBxcPwxj4unhpYb.png" src-width="3570" src-height="1780" align="center"/>
 
-<img src="/assets/GDLybn49noUh6exb5EujdFgzppu.png" src-width="3570" src-height="1780" align="center"/>
+<img src="/assets/UUEtbbt4Pocer7xR1hTjXs9Ap0d.png" src-width="3006" src-height="1360" align="center"/>
 
 ## 2. Registration
 
@@ -48,15 +48,9 @@ Click [Register]. Path: Corporate Actions - Corporate Actions - Details
     Note: When multiple options are selected in the share/cash election, charges will be consolidated and applied according to the option with the greater number of exercises. When configuring fees, ensure BE-CASH DIVIDEND and BE-SCRIP DIVIDEND are kept consistent.
 ```
 
-<img src="/assets/WTu2bOnSYoRYItxnSptjl1C8pPd.png" src-width="3548" src-height="1806" align="center"/>
+<img src="/assets/Z5WQb6JGOoyHuLxIXxkjdu3Up4x.png" src-width="3016" src-height="1346" align="center"/>
 
-<img src="/assets/Xls8bKJe0oYU19xHpIyjSg2RpBc.png" src-width="3548" src-height="1806" align="center"/>
-
-<img src="/assets/Gp0wbQHGOodacqx31IJjbwDCpAb.png" src-width="3548" src-height="1806" align="center"/>
-
-<img src="/assets/GlTCbSTA8oXenzxlveXjiEXupch.png" src-width="3548" src-height="1806" align="center"/>
-
-<img src="/assets/Vhy7bimOtoXXd6xWenojMyPSpVc.png" src-width="3548" src-height="1806" align="center"/>
+<img src="/assets/Yu53bsX2AoV5mexxswwjvyzupXd.png" src-width="3004" src-height="2483" align="center"/>
 
 ## 3. Notifying Clients
 
@@ -67,9 +61,9 @@ Between the selected start time and end time, click [Collect Exercise Instructio
 Path: Corporate Actions - Corporate Actions - Details - Collect Exercise Instructions
 ```
 
-<img src="/assets/HesFbeRmroj5cbxfRQNjQDj8p0z.png" src-width="3548" src-height="1806" align="center"/>
+<img src="/assets/AHwtbYOSrotrDIxiNd3jiKB3pEJ.png" src-width="3004" src-height="1452" align="center"/>
 
-<img src="/assets/MjPEbvkbSo89i9xzjvFjVhIJpTd.png" src-width="3548" src-height="1806" align="center"/>
+<img src="/assets/X9XubZsEooSckqxvG00j0Fu7pNf.png" src-width="3014" src-height="1442" align="center"/>
 
 ## 4. Client Exercises and Backend Exercises
 
@@ -77,9 +71,9 @@ Path: Corporate Actions - Corporate Actions - Details - Collect Exercise Instruc
 After a client exercises via the App, the operation record can be tracked in the Details Summary.
 ```
 
-<img src="/assets/LFTMb77qqoiTHPxMHKdjaxAmpHg.png" src-width="3548" src-height="1806" align="center"/>
+<img src="/assets/VfAHbDknHo63c9xXKn6jW6PApBf.png" src-width="2996" src-height="1352" align="center"/>
 
-<img src="/assets/Tb3ZbbzazoriDxxhrn9jo8XJpUf.png" src-width="3548" src-height="1806" align="center"/>
+<img src="/assets/Mi7LbjqxVoietHxxZNgjx26hpAf.png" src-width="3004" src-height="1358" align="center"/>
 
 ```text
 Settlement staff may perform exercises in the backend.
@@ -88,11 +82,9 @@ Settlement staff may perform exercises in the backend.
 Path: Corporate Actions - Corporate Actions - Details - Client Details - Details - Exercise
 ```
 
-<img src="/assets/PLsLbSiC1ovXLixFFZQjI11upyf.png" src-width="3548" src-height="1806" align="center"/>
+<img src="/assets/Mvv6b4mGMo4kgpxKHEIj37BqpEe.png" src-width="3002" src-height="1350" align="center"/>
 
-<img src="/assets/KJDrbtNROoObgkxL36rjk8xapZf.png" src-width="3548" src-height="1806" align="center"/>
-
-<img src="/assets/NyqqbLw3no5nBQxOAnZjjbeip8e.png" src-width="3548" src-height="1806" align="center"/>
+<img src="/assets/XyoTb6ZsJoBXXPxz01TjEs4upMh.png" src-width="3016" src-height="1364" align="center"/>
 
 ## 5. Tail Difference Handling
 
@@ -102,9 +94,9 @@ If the broker's paid funds need to be aligned with CCASS values, tail difference
 
 Click Tail Difference Adjustment
 
-<img src="/assets/KtOSbhsu8osYLqxJ5uFjn1wkpsb.png" src-width="3548" src-height="1806" align="center"/>
+<img src="/assets/JwwVb2UWUoDjtTxnLwGjgSNepKe.png" src-width="3006" src-height="1360" align="center"/>
 
-<img src="/assets/U7QjbcuB9oTYgcxgblgjlS1MpLd.png" src-width="3548" src-height="1806" align="center"/>
+<img src="/assets/UG7IbAVdboTgvcxzLwkjS3a6pxf.png" src-width="3004" src-height="1344" align="center"/>
 
 ## 6. Execution
 
@@ -118,15 +110,13 @@ Execution consists of two steps: submission and execution review. A two-person w
 Click Submit Execution (Maker)
 ```
 
-<img src="/assets/XX8mbKDUFoHJCzxqqdJjpowVpNd.png" src-width="3548" src-height="1806" align="center"/>
+<img src="/assets/YilrbtreboofHHxB5Ytjo0Dhpib.png" src-width="3014" src-height="1446" align="center"/>
 
-<img src="/assets/YXdmbuukKo8uGUxIgr6jONAwpJd.png" src-width="3548" src-height="1806" align="center"/>
-
-<img src="/assets/DLv2brZAJoEfOlxqTg9jDjsIpH2.png" src-width="3548" src-height="1806" align="center"/>
+<img src="/assets/CH29bSwEXoDqtIxewXljJDvIp6V.png" src-width="3002" src-height="1358" align="center"/>
 
 ```text
 Click Execute Review (Checker)
 ```
 
-<img src="/assets/XIxJbxUjkoje0nxTdX0jCVIVpDh.png" src-width="3548" src-height="1806" align="center"/>
+<img src="/assets/IlEabvZ6doMZndxrX9rjeGzEpbf.png" src-width="3002" src-height="1358" align="center"/>
 
