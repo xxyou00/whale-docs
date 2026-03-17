@@ -6,18 +6,30 @@ version: lts
 ---
 
 
-# 2026-02-07 Update Log
-
-# 2026-02-07 Release Notes
+# 2026-03-16 Release Notes
 
 # 🎉 New Features
 
-- The client "My Rates" page supports custom configuration of display columns.
-    - Path: Business Parameter Settings - Billing Management - Client Display
-    - Notes
-        - Data updates will take effect on the client within 10 minutes.
-        - When a new market is launched, the delivery team must enable the market; after it takes effect (within 10 minutes), manual initialization is required. "Normal Order" is the first configuration to take effect (refer to other markets for detailed configuration); once effective, operators are not permitted to edit it.
-        - Commission-exempt cards support market-specific handling; special charge columns cannot yet be identified. If a column is not supported, supplemental information may be provided in the column description.
-            <img src="/assets/BN6gbkR8UoC3uHxAsshj51Wdpxf.png" src-width="3010" src-height="1118" align="center"/>
-    <img src="/assets/EzzCbtPxaoJDTFxoHXfjzcfVpEf.png" src-width="750" src-height="1144" align="center"/>
+- Position Inquiry and Real-time Acquisition / Prompt Position and Interception Position Configuration / Settlement Channel Account Configuration / Fund Allocation Rule Configuration (Create/Edit/Copy) / Scheduled Task Automatic Allocation / Event-triggered Automatic Allocation (Insufficient Position, Withdrawal/Deposit Submission/Failure, Successful Deposit) / Manual Fund Allocation and Work Order Approval / Allocation Record Inquiry and Status Verification
+    - Added position inquiry and real-time balance reacquisition functions, supporting filtered queries by channel, currency, and account type, applicable to both fiat and cryptocurrencies.
+    - Added prompt position and intercept position configurations with corresponding alert mechanisms. For withdrawal scenarios, intercepts are supported when principal or fees are insufficient.
+        - Path: VA Clearing Management - Position Management Inquiry
+    -  Added settlement channel account configuration for maintaining upstream account information before position allocation.
+        - Path: Service Parameter - Fund Parameters - Settle Chnl Acct
+    - Added fund allocation rule configuration, supporting creation, editing, and copying of transfer rules between settlement accounts.
+    - Enabled automatic allocation, supporting scheduled transfers and event-triggered transfers in multiple scenarios.
+        - Path: Service Parameter - Fund Parameters - Funds Alloc Config
+    - Launched manual allocation and approval workflow, supporting initiation, review, rejection, and reapplication.
+    - Optimized allocation record inquiry. Operators can query details including allocation status, amount, currency, sender/receiver accounts, and business order numbers to ensure traceable processes and accurate data.
+        - Path: Cash Management - Bank Statement - Company Fund Allocation
+    - Permission
+        - Position Management Inquiry assets.position_anagement_inquiry_query
+        - Position Management Operation assets.position_anagement_inquiry_operation
+        - Company Fund Allocation Inquiry atm.company_fund_allocation_inquiry
+        - Company Fund Allocation Operation atm.company_fund_allocation_operation
+        - Company Fund Allocation Approval atm.company_fund_allocation_approval
+        - Settle Chnl Acct Inquiry atm.settle_chnl_bank_acct_inquiry
+        - Settle Chnl Acct Operation atm.settle_chnl_bank_acct_operation
+        - Funds Alloc Config Inquiry atm.funds_alloc_config_inquiry
+        - Funds Alloc Config Operation atm.funds_alloc_config_operation
 

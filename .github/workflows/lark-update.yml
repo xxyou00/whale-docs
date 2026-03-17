@@ -34,14 +34,16 @@ jobs:
           FEISHU_APP_ID: ${{ secrets.LARK_APP_ID }}
           FEISHU_APP_SECRET: ${{ secrets.LARK_APP_SECRET }}
           FEISHU_SPACE_ID: ${{ secrets.LARK_SPACE_ID }}
+          PORTAI_API_KEY: ${{ secrets.PORTAI_API_KEY }}
+          PORTAI_UID: ${{ secrets.PORTAI_UID }}
         run: |
           bun install
           bun run lark-zh-HK-export
           bun run lark-en-export
           bun run lark-setup
-          # bun run auto-translate-new
-          # bun run lark-en-export
-          # bun run lark-setup
+          bun run auto-translate-new
+          bun run lark-en-export
+          bun run lark-setup
 
       - name: Setup Git
         run: |

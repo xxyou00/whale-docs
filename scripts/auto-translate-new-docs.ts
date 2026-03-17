@@ -72,6 +72,8 @@ interface NewDocInfo {
 
 const DIFY_API_URL = "https://dify.longbridge-inc.com/v1/completion-messages"
 const DIFY_API_KEY = process.env.DIFY_API_KEY
+const PORTAI_API_KEY = process.env.PORTAI_API_KEY
+const PORTAI_UID = process.env.PORTAI_UID
 const DIFY_INPUT_VAR = "query"
 const DELAY_BETWEEN_REQUESTS = 300 // 0.3 seconds
 const DIFY_REQUEST_TIMEOUT = 600000 // 10 minutes
@@ -159,6 +161,92 @@ function findParentToken(nodes: DocNode[], targetSlug: string): string | null {
 }
 
 // ==================== 翻译功能 ====================
+
+async function translateWithPortai(text: string): Promise<string> {
+  try {
+    const response = await axios.post(
+      `https://api.lbkrs.com/v1/babbage/api/agents/${PORTAI_UID}/runs`,
+      { query: text },
+      {
+        headers: {
+          "x-agent-key": PORTAI_API_KEY,
+          "Content-Type": "application/json",
+          "Accept": "text/event-stream"
+        },
+        responseType: 'stream',
+        timeout: DIFY_REQUEST_TIMEOUT
+      }
+    )
+
+    // 处理 SSE 流式响应
+    let fullAnswer = ''
+    let buffer = '' // 跨 chunk 缓冲不完整的行
+
+    return new Promise((resolve, reject) => {
+      response.data.on('data', (chunk: Buffer) => {
+        // 将新数据追加到缓冲区，按换行符分割处理完整行
+        buffer += chunk.toString()
+        const lines = buffer.split('\n')
+        // 最后一项可能是不完整的行，保留到下一个 chunk
+        buffer = lines.pop() ?? ''
+
+        for (const line of lines) {
+          // 跳过空行和注释行
+          if (!line.trim() || line.startsWith(':')) {
+            continue
+          }
+
+          // 实际 SSE 格式为 data:{...}（无空格）
+          if (line.startsWith('data:')) {
+            const jsonStr = line.slice(5).trim()
+
+            try {
+              const data = JSON.parse(jsonStr)
+
+              // message 事件: data.data.text 包含增量输出
+              if (data.event === 'message' && data.data?.text) {
+                fullAnswer += data.data.text
+              }
+
+              // workflow_finished 事件: 执行完成
+              if (data.event === 'workflow_finished') {
+                const status = data.data?.status
+                if (status === 'failed') {
+                  reject(new Error(`PortAI 执行失败: ${data.data?.error || '未知错误'}`))
+                } else {
+                  resolve(fullAnswer.trim())
+                }
+              }
+            } catch (parseError) {
+              // 忽略 JSON 解析错误,继续处理下一行
+              console.warn('解析 SSE 数据失败:', jsonStr)
+            }
+          }
+        }
+      })
+
+      response.data.on('end', () => {
+        // 流结束时,如果还没有 resolve,则返回已收集的内容
+        if (fullAnswer) {
+          resolve(fullAnswer.trim())
+        } else {
+          reject(new Error('PortAI 未返回任何内容'))
+        }
+      })
+
+      response.data.on('error', (error: Error) => {
+        reject(error)
+      })
+    })
+  } catch (error: any) {
+    if (error.response) {
+      console.error("PortAI API 错误:", error.response.status, error.response.data)
+    } else {
+      console.error("PortAI API 错误:", error.message)
+    }
+    throw error
+  }
+}
 
 /**
  * 使用 Dify API 翻译文本 (流式模式)
@@ -302,14 +390,14 @@ async function translateMarkdownFile(
   console.log(`  📝 翻译文件: ${basename(inputPath)}`)
 
   const content = readFileSync(inputPath, "utf-8")
-  const translatedRes = await translateWithDify(content)
+  const translatedRes = await translateWithPortai(content)
 
   let { frontmatter, body } = parseMarkdown(translatedRes)
 
   if (!frontmatter.slug) {
     // Dify 接口偶尔会将 frontmatter 省略
     const { frontmatter: originalFrontmatter } = parseMarkdown(content)
-    const rawTitle = await translateWithDify(originalFrontmatter.title)
+    const rawTitle = await translateWithPortai(originalFrontmatter.title)
     frontmatter = {
       ...originalFrontmatter,
       title: rawTitle,
@@ -631,7 +719,7 @@ async function main() {
         : resolve(EN_OUTPUT_DIR, `${info.node.slug}.md`)
 
       // 翻译标题
-      const translatedTitle = await translateWithDify(info.node.title)
+      const translatedTitle = await translateWithPortai(info.node.title)
       console.log(`  📝 标题翻译: ${info.node.title} -> ${translatedTitle}`)
 
       await delay(DELAY_BETWEEN_REQUESTS)
@@ -737,31 +825,7 @@ async function main() {
     })
   }
 
-  // 8. 重新导出英文文档
-  // console.log("🔄 重新导出英文文档...\n")
-  // try {
-  //   console.log("  执行: bun run lark-en-export")
-  //   execSync("bun run lark-en-export", {
-  //     cwd: resolve(__dirname, ".."),
-  //     stdio: 'inherit'
-  //   })
-
-  //   console.log("\n  执行: bun run lark-setup")
-  //   execSync("bun run lark-setup", {
-  //     cwd: resolve(__dirname, ".."),
-  //     stdio: 'inherit'
-  //   })
-
-  //   console.log("\n✅ 导出和同步完成")
-  // } catch (error: any) {
-  //   console.error("❌ 导出失败:", error.message)
-  // }
-
-  // console.log("\n🎉 所有操作完成!")
-  // console.log(`\n📊 统计:`)
-  // console.log(`  - 发现新增文档: ${newDocs.length}`)
   console.log(`  - 新增文档已翻译完成并上传完成: ${translatedFiles.length}`)
-  // console.log(`  - 成功上传: ${uploadedCount}`)
 }
 
 // 运行主流程
