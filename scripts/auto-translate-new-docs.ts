@@ -29,7 +29,7 @@
  * 前置条件:
  * 1. 已执行 bun run lark-zh-HK-export 和 bun run lark-en-export
  * 2. 已执行 bun run lark-setup
- * 3. 配置了必要的环境变量 (DIFY_API_KEY, LARK_APP_ID, LARK_APP_SECRET 等)
+ * 3. 配置了必要的环境变量 (PORTAI_API_KEY, LARK_APP_ID, LARK_APP_SECRET 等)
  */
 
 import { readFileSync, writeFileSync, existsSync, mkdirSync, cpSync, readdirSync } from "fs"
@@ -71,7 +71,6 @@ interface NewDocInfo {
 // ==================== 配置 ====================
 
 const DIFY_API_URL = "https://dify.longbridge-inc.com/v1/completion-messages"
-const DIFY_API_KEY = process.env.DIFY_API_KEY
 const PORTAI_API_KEY = process.env.PORTAI_API_KEY
 const PORTAI_UID = process.env.PORTAI_UID
 const DIFY_INPUT_VAR = "query"
@@ -251,96 +250,96 @@ async function translateWithPortai(text: string): Promise<string> {
 /**
  * 使用 Dify API 翻译文本 (流式模式)
  */
-async function translateWithDify(text: string): Promise<string> {
-  try {
-    const response = await axios.post(
-      DIFY_API_URL,
-      {
-        inputs: {
-          [DIFY_INPUT_VAR]: text
-        },
-        response_mode: "streaming",
-        user: "auto-translate-script"
-      },
-      {
-        headers: {
-          "Authorization": `Bearer ${DIFY_API_KEY}`,
-          "Content-Type": "application/json"
-        },
-        responseType: 'stream',
-        timeout: DIFY_REQUEST_TIMEOUT
-      }
-    )
+// async function translateWithDify(text: string): Promise<string> {
+//   try {
+//     const response = await axios.post(
+//       DIFY_API_URL,
+//       {
+//         inputs: {
+//           [DIFY_INPUT_VAR]: text
+//         },
+//         response_mode: "streaming",
+//         user: "auto-translate-script"
+//       },
+//       {
+//         headers: {
+//           "Authorization": `Bearer ${DIFY_API_KEY}`,
+//           "Content-Type": "application/json"
+//         },
+//         responseType: 'stream',
+//         timeout: DIFY_REQUEST_TIMEOUT
+//       }
+//     )
 
-    // 处理流式响应
-    let fullAnswer = ''
+//     // 处理流式响应
+//     let fullAnswer = ''
 
-    return new Promise((resolve, reject) => {
-      response.data.on('data', (chunk: Buffer) => {
-        const lines = chunk.toString().split('\n')
+//     return new Promise((resolve, reject) => {
+//       response.data.on('data', (chunk: Buffer) => {
+//         const lines = chunk.toString().split('\n')
 
-        for (const line of lines) {
-          // 跳过空行和注释行
-          if (!line.trim() || line.startsWith(':')) {
-            continue
-          }
+//         for (const line of lines) {
+//           // 跳过空行和注释行
+//           if (!line.trim() || line.startsWith(':')) {
+//             continue
+//           }
 
-          // 解析 SSE 格式: data: {...}
-          if (line.startsWith('data: ')) {
-            const jsonStr = line.slice(6).trim()
+//           // 解析 SSE 格式: data: {...}
+//           if (line.startsWith('data: ')) {
+//             const jsonStr = line.slice(6).trim()
 
-            // 跳过 [DONE] 标记
-            if (jsonStr === '[DONE]') {
-              continue
-            }
+//             // 跳过 [DONE] 标记
+//             if (jsonStr === '[DONE]') {
+//               continue
+//             }
 
-            try {
-              const data = JSON.parse(jsonStr)
+//             try {
+//               const data = JSON.parse(jsonStr)
 
-              // 根据 Dify 文档,流式响应中的 answer 字段包含增量内容
-              if (data.answer) {
-                fullAnswer += data.answer
-              }
+//               // 根据 Dify 文档,流式响应中的 answer 字段包含增量内容
+//               if (data.answer) {
+//                 fullAnswer += data.answer
+//               }
 
-              // 如果是最后一个消息(event: message_end 或 event: workflow_finished)
-              if (data.event === 'message_end' || data.event === 'workflow_finished') {
-                resolve(fullAnswer.trim())
-              }
+//               // 如果是最后一个消息(event: message_end 或 event: workflow_finished)
+//               if (data.event === 'message_end' || data.event === 'workflow_finished') {
+//                 resolve(fullAnswer.trim())
+//               }
 
-              // 处理错误事件
-              if (data.event === 'error') {
-                reject(new Error(`Dify API 错误: ${data.message || '未知错误'}`))
-              }
-            } catch (parseError) {
-              // 忽略 JSON 解析错误,继续处理下一行
-              console.warn('解析 SSE 数据失败:', jsonStr)
-            }
-          }
-        }
-      })
+//               // 处理错误事件
+//               if (data.event === 'error') {
+//                 reject(new Error(`Dify API 错误: ${data.message || '未知错误'}`))
+//               }
+//             } catch (parseError) {
+//               // 忽略 JSON 解析错误,继续处理下一行
+//               console.warn('解析 SSE 数据失败:', jsonStr)
+//             }
+//           }
+//         }
+//       })
 
-      response.data.on('end', () => {
-        // 流结束时,如果还没有 resolve,则返回已收集的内容
-        if (fullAnswer) {
-          resolve(fullAnswer.trim())
-        } else {
-          reject(new Error('Dify API 未返回任何内容'))
-        }
-      })
+//       response.data.on('end', () => {
+//         // 流结束时,如果还没有 resolve,则返回已收集的内容
+//         if (fullAnswer) {
+//           resolve(fullAnswer.trim())
+//         } else {
+//           reject(new Error('Dify API 未返回任何内容'))
+//         }
+//       })
 
-      response.data.on('error', (error: Error) => {
-        reject(error)
-      })
-    })
-  } catch (error: any) {
-    if (error.response) {
-      console.error("Dify API 错误:", error.response.status, error.response.data)
-    } else {
-      console.error("Dify API 错误:", error.message)
-    }
-    throw error
-  }
-}
+//       response.data.on('error', (error: Error) => {
+//         reject(error)
+//       })
+//     })
+//   } catch (error: any) {
+//     if (error.response) {
+//       console.error("Dify API 错误:", error.response.status, error.response.data)
+//     } else {
+//       console.error("Dify API 错误:", error.message)
+//     }
+//     throw error
+//   }
+// }
 
 /**
  * 解析 Markdown frontmatter
@@ -619,8 +618,8 @@ async function main() {
   console.log("🚀 开始自动翻译和上传新增文档...\n")
 
   // 1. 检查环境变量
-  if (!DIFY_API_KEY) {
-    console.error("❌ 错误: 缺少 DIFY_API_KEY 环境变量")
+  if (!PORTAI_API_KEY) {
+    console.error("❌ 错误: 缺少 PORTAI_API_KEY 环境变量")
     process.exit(1)
   }
 
