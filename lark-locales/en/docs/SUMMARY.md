@@ -33,7 +33,7 @@
           - [Quick Start](IzqQwXrPZiJdNskiz2rjnx1Kpgb.md)
           - [Frequently Asked Questions](VuNPwJeJVinTK8kMKnzjnGTfpXf.md)
           - [System Overview](NPTCwCW0biTlZLkt8cdjBSv5pJf.md)
-        - [Position Management](YEq0wUtChiIToCkCzrgjKVMEpkd.md)
+        - [Position Management](VxnpwC6GOiu5yMk4441jnTN2pYg.md)
       - [Cryptocurrency Deposits and Withdrawals](PHmYwFYkAi6lwnkVPxJj8z8Qpnc.md)
         - [Customer Wallet Address](F3jewneyhiPZKqkezHojlPtPpRf.md)
           - [Business Introduction](TrN0wjq09iIgPLkaHjQjtMF9psI.md)
