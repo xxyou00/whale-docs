@@ -31,11 +31,14 @@ jobs:
 
       - name: Download lark wiki pages
         env:
-          LARK_APP_ID: ${{ secrets.LARK_APP_ID }}
-          LARK_APP_SECRET: ${{ secrets.LARK_APP_SECRET }}
-          LARK_SPACE_ID: ${{ secrets.LARK_SPACE_ID }}
+          FEISHU_APP_ID: ${{ secrets.LARK_APP_ID }}
+          FEISHU_APP_SECRET: ${{ secrets.LARK_APP_SECRET }}
+          FEISHU_SPACE_ID: ${{ secrets.LARK_SPACE_ID }}
           PORTAI_API_KEY: ${{ secrets.PORTAI_API_KEY }}
           PORTAI_UID: ${{ secrets.PORTAI_UID }}
+          LARK_PARENT_NODE_TOKEN: "JFPtwJXwCiJMTIkqXvljMViWp2B"
+          ENTRY_MD_PATH: ./translate/en/docs
+          ENTRY_JSON_PATH: ./lark-pages/en/docs.json
         run: |
           bun install
           bun run lark-zh-HK-export

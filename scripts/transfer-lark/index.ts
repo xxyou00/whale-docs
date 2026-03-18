@@ -13,9 +13,9 @@
  *   bun run ./scripts/transfer-lark/index.ts
  *
  * 环境变量配置 (.env):
- *   LARK_APP_ID=xxx
- *   LARK_APP_SECRET=xxx
- *   LARK_SPACE_ID=xxx          # 知识库空间ID
+ *   FEISHU_APP_ID=xxx
+ *   FEISHU_APP_SECRET=xxx
+ *   FEISHU_SPACE_ID=xxx          # 知识库空间ID
  *   LARK_PARENT_NODE_TOKEN=xxx  # 父节点token
  *   ENTRY_MD_PATH=./translate/en/docs  # 本地md文档目录路径
  *   ENTRY_JSON_PATH=./lark-pages/en/docs.json  # 入口json文件路径
@@ -100,9 +100,9 @@ export async function uploadSingleFile(
     }
     // 获取配置（从环境变量或传入的配置）
     const finalConfig: Config = {
-        appId: config?.appId || process.env.LARK_APP_ID || '',
-        appSecret: config?.appSecret || process.env.LARK_APP_SECRET || '',
-        wikiSpaceId: config?.wikiSpaceId || process.env.LARK_SPACE_ID || '',
+        appId: config?.appId || process.env.FEISHU_APP_ID || '',
+        appSecret: config?.appSecret || process.env.FEISHU_APP_SECRET || '',
+        wikiSpaceId: config?.wikiSpaceId || process.env.FEISHU_SPACE_ID || '',
         targetParentToken: parentToken || config?.targetParentToken || process.env.LARK_PARENT_NODE_TOKEN,
         entryPath: filePath,
         assetsDir: config?.assetsDir,

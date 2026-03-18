@@ -9,127 +9,158 @@ sidebar_position: 0
 
 ## Prerequisites
 
-You must obtain the following authorizations before you can use the activity system normally.
+You must obtain the following authorizations before using the Activity System.
 
-- If you need to configure physical or coupon rewards for an activity, please create them first in the Benefits System ✅ (链接丢失).
-- If you need to restrict participating users for an activity, obtain the permission to create user segments first; see the Delivery System ✅ (链接丢失).
+- To configure physical or coupon rewards for an activity, first create them in the Entitlements System ✅ (DywHd0YkNovvhOxPRXBjKeBJpud).
+- To restrict participating users in an activity, first obtain permission to create user segments; see the Distribution System ✅ (FDTedGVVroDDg0xsKZAj6PtdpKe).
 
-## Types of Activity Achievement Tasks and Descriptions
+## Activity Achievement Task Types and Descriptions
 
 ## Standard Activity Management
 
-Invitation Activity: Users invite friends to complete tasks; both parties receive rewards (a common viral growth activity model).
+Invitation Activity: Users invite friends to complete tasks; both parties receive rewards (a common viral activity model).
 
-Basic Activity: The user personally completes the corresponding task to receive a reward; used to improve key conversion points and achieve growth goals such as user acquisition, deposits, and trading.
+Basic Activity: The user completes specified tasks to receive rewards; designed to improve key conversion points and drive acquisition, deposits, and trading growth.
 
-Team Activity: Multiple people participate together; when the specified number of participants is reached and all team members complete the corresponding tasks, rewards are granted.
+Team Activity: Multiple users participate as a team; when the specified number of participants is met and team members complete the required tasks, rewards are issued.
 
 ### How to Create an Invitation Activity
 
-Click the "New" button under the Invitation Activity module.
+<div class="callout callout-bg-5 callout-border-5 callout-color-1">
+<div class='callout-emoji'>🎁</div>
+<p>⚓ Menu path: Operations System ＞ Activity System ＞ Standard Activity Management</p>
+</div>
 
-<img src="/assets/Gh8cbgyFaoZH8wxaMbZjcZJjpqd.jpeg" src-width="2700" src-height="420" align="center"/>
+Click the New button in the Invitation Activity module.
 
-The Invitation Activity creation page is as follows:
+<img src="/assets/GNtUbFh1RocHJjxacqzjhqb8pTb.jpeg" src-width="2700" src-height="420" align="center"/>
 
-<img src="/assets/HmfYbj7DloWc6Cxm6yWjT9wfpcd.jpeg" src-width="1280" src-height="1178" align="center"/>
+The invitation activity creation page appears as follows:
+
+<img src="/assets/MXDnbRpatoiy2bxCNmGjQHjCpOh.jpeg" src-width="1280" src-height="1178" align="center"/>
 
 Reward Rules
 
-Click "Add Reward Rule"; different fields are required depending on the reward type:
+Click Add Reward Rule. The required fields vary by reward type.
 
-Fixed Reward
+Fixed Reward:
 
-<img src="/assets/VtOXb0mN3o2A7Zx9yvrjzHEWpls.jpeg" src-width="2274" src-height="1742" align="center"/>
+<img src="/assets/V0QObmhTdoPlCJxoZAujqnI4phe.jpeg" src-width="2274" src-height="1742" align="center"/>
 
-Tiered Reward
+Tiered Reward:
 
-<img src="/assets/V7YRbniUwoloprxlvywj7yDCp4c.jpeg" src-width="2340" src-height="1752" align="center"/>
+<img src="/assets/KMdBbtPNDo5DeTx069zjLDMOpLc.jpeg" src-width="2340" src-height="1752" align="center"/>
 
 Prize Settings
 
-Click "Create Prize Setting" to display configuration options.
+Click Create Prize Setting to reveal configuration items.
 
-You can limit how many times each user may receive a given prize under the reward rules.
+You can limit how many times each user can receive a given prize within the reward rule.
 
-<img src="/assets/X7wVb3sCRoe2cxxVJE0j3jQ2pf4.jpeg" src-width="1280" src-height="242" align="center"/>
+<img src="/assets/SmHAbUPXvos1uMxxAMdjEC2ApEh.jpeg" src-width="1280" src-height="242" align="center"/>
 
-After submission, the invitation activity will be created.
+After submission, the invitation activity is created.
 
 ### How to Create a Basic Activity
 
-Click the "New" button under the Basic Activity module.
+<div class="callout callout-bg-5 callout-border-5 callout-color-1">
+<div class='callout-emoji'>🎁</div>
+<p>⚓ Menu path: Operations System ＞ Activity System ＞ Standard Activity Management</p>
+</div>
 
-<img src="/assets/YbO0bXYosobuncxWjPVjPYzup2b.jpeg" src-width="2718" src-height="432" align="center"/>
+Click the New button in the Basic Activity module.
 
-Open the following page:
+<img src="/assets/AsltbfYBOone5bxbo7zjejNQp0b.jpeg" src-width="2718" src-height="432" align="center"/>
 
-<img src="/assets/OXBRbkaqloUuwMxQay0jklysp3c.jpeg" src-width="2058" src-height="1480" align="center"/>
+The page opens as follows:
+
+<img src="/assets/Zlncbgpzfo8u5oxvnu0j57ULpTg.jpeg" src-width="2058" src-height="1480" align="center"/>
 
 Reward Rules
 
-<img src="/assets/YQwIbBY8gozuUZxgZw9jBk5Qpye.jpeg" src-width="2256" src-height="1744" align="center"/>
+<img src="/assets/A1NIb0mQooXkkkxf8X7jP9q2pAg.jpeg" src-width="2256" src-height="1744" align="center"/>
 
-- The reward calculation logic may differ slightly depending on the reward generation timing rule.
-- If you want to configure multiple tiers for trading- or asset-related achievement tasks with corresponding multiple rewards, you can add multiple reward rules.
+- The reward calculation logic may vary depending on the reward generation timing rule.
 
-Example: The following shows four reward rules set in the same activity. The net deposit task is divided into three tiers. If "Generated in Real Time During Period" is selected, a reward is generated each time the user meets a tier.
+- If you wish to configure multiple tiers for trading or asset-related achievement tasks, you may add multiple reward rules.
 
-<img src="/assets/MluJb6NLxozRLkxIMvejw9vcpp7.jpeg" src-width="3144" src-height="548" align="center"/>
+Example: The following shows four reward rules set within the same activity. The net deposit task is divided into three tiers and “Generated in Real Time During the Period” is selected. When a user meets each tier, a reward record is generated.
+
+<img src="/assets/CgdybZV54oaCXux0BNCj6qhIpkg.jpeg" src-width="3144" src-height="548" align="center"/>
 
 ### How to Create a Team Activity
 
-Click the "New" button under the Team Activity module.
+<div class="callout callout-bg-5 callout-border-5 callout-color-1">
+<div class='callout-emoji'>🎁</div>
+<p>⚓ Menu path: Operations System ＞ Activity System ＞ Standard Activity Management</p>
+</div>
 
-<img src="/assets/E8vmbvBL4ojejjxx2IXjXZWnpab.jpeg" src-width="2700" src-height="426" align="center"/>
+Click the New button in the Team Activity module.
 
-Open the following page:
+<img src="/assets/L2xobbQSpo8WohxhQNnj4aEbpNd.jpeg" src-width="2700" src-height="426" align="center"/>
 
-<img src="/assets/QR0Qb9HXTo6y9HxwMBkjSJhNpAb.jpeg" src-width="1886" src-height="1648" align="center"/>
+The page opens as follows:
 
-After submission, the "Assist to Win" type team activity will be created.
+<img src="/assets/INDybgSWxoo1wOxdTlXjYNNlpkK.jpeg" src-width="1886" src-height="1648" align="center"/>
 
-## Non-Standard Activity Management
+<div class="callout callout-bg-5 callout-border-5 callout-color-1">
+<div class='callout-emoji'>🎁</div>
+<p>💡 Currently, only the “Support Reward” activity form is available in Activity Attribute. The “Basic Team Reward” and “Team Split” forms are not yet launched.</p>
+</div>
 
-Applicable scenario: offline reward distribution events, e.g., large customer appreciation, where there are no specific activity rules and the event merely distributes rewards to users.
+After submission, a Support Reward–type team activity is created.
 
-Primary function: create an activity here and obtain an activity code; later associate the activity code in the Rewards Center of the Benefits System to distribute rewards.
+## Non-standard Activity Management
 
-### How to Create a Non-Standard Activity
+Applicable scenarios: offline reward distribution (for example, large-customer appreciation) with no specific activity rules—used solely to distribute rewards to users.
 
-Click the "New" button at the top of the page to open the following page.
+Main function: create an activity here and obtain an activity code, which can then be associated with the activity code in the Rewards Center of the Entitlements System to distribute rewards.
 
-<img src="/assets/HLi8bcvyTojB3xxHesGjhBIXpLf.jpeg" src-width="1742" src-height="1612" align="center"/>
+### How to Create a Non-standard Activity
 
-Ignore other fields; focus on the following fields.
+<div class="callout callout-bg-5 callout-border-5 callout-color-1">
+<div class='callout-emoji'>🎁</div>
+<p>⚓ Menu path: Operations System ＞ Activity System ＞ Non-standard Activity Management</p>
+</div>
+
+Click the New button at the top of the page to open the following page:
+
+<img src="/assets/PKUCbNJlMo9OPZxqzKTjRRa9p3c.jpeg" src-width="1742" src-height="1612" align="center"/>
+
+Ignore other fields; focus on the following:
 
 ## Invitation Relationship Management
 
-You can query invitation relationships bound through invitation activities here, and you can also bind them manually.
+You can query invitation relationships bound through invitation activities here, or manually bind them.
 
 ### How to Add an Invitation Relationship
 
+<div class="callout callout-bg-5 callout-border-5 callout-color-1">
+<div class='callout-emoji'>🎁</div>
+<p>⚓ Menu path: Operations System ＞ Activity System ＞ Invitation Relationship Management</p>
+</div>
+
 Add Registration Invitation Relationship
 
-In the Registration Invitation tab, click the "New" button on the Invitation Relationship Management page to open the following dialog.
+In the Registration Invitation tab, click the New button on the Invitation Relationship Management page to open the following dialog:
 
-<img src="/assets/X9pbbtLHLo4aR1xJp6ZjsjO3pSe.jpeg" src-width="1280" src-height="183" align="center"/>
+<img src="/assets/BtXbbleWDoV9aoxCeAIjgoV1pJd.jpeg" src-width="1280" src-height="183" align="center"/>
 
-<img src="/assets/O8AzbX15AoH2ToxIqbBj2F0Hpnb.jpeg" src-width="936" src-height="708" align="center"/>
+<img src="/assets/SQvKb3QscorGTyxRGGTjZFeRpBf.jpeg" src-width="936" src-height="708" align="center"/>
 
-Enter the invitee's and inviter's client IDs to complete the binding.
+Enter the invitee’s and inviter’s customer IDs to complete the binding.
 
 Add Account-Opening Invitation Relationship / Deposit Invitation Relationship
 
-First, locate the invitee user for whom you want to bind an inviter through filtering and click that user's details to view them.
+First, filter to locate the invitee user for whom you wish to bind an inviter; click the user to view details.
 
-<img src="/assets/M4wSbog26oMH3Uxh2wjj3s77p1f.jpeg" src-width="2698" src-height="392" align="center"/>
+<img src="/assets/JxIDbV7L3oaQQcxOSQojYwoYpSf.jpeg" src-width="2698" src-height="392" align="center"/>
 
-The details will show the user's registration inviter, and you can select to further bind an account-opening inviter and a deposit inviter here.
+The details display the user’s registration inviter and allow you to bind an account-opening inviter and a deposit inviter here.
 
-<img src="/assets/QwKYbiYlfo55mvxbz1oj9DmVpbc.jpeg" src-width="2712" src-height="1710" align="center"/>
+<img src="/assets/KdxZb88G2oLKxsxyNK5joCirpAe.jpeg" src-width="2712" src-height="1710" align="center"/>
 
-In the dialog that appears, enter the inviter's user ID to complete the binding of the account-opening/deposit inviter for that invitee.
+In the popup, enter the inviter’s user ID to complete the binding for the invitee’s account-opening or deposit inviter.
 
-(For actions that have already been completed, the corresponding node's inviter cannot be bound. For nodes where the action has not been completed, the inviter can be bound or changed.)
+(For actions already completed, you cannot bind the corresponding node’s inviter. For incomplete action nodes, the inviter may be bound or changed.)
 

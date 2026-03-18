@@ -7,18 +7,22 @@ import { Config } from './types';
 
 dotenv.config();
 
+const ENTRY_JSON_PATH = process.env.ENTRY_JSON_PATH || './lark-pages/en/docs.json'
+const ENTRY_MD_PATH = process.env.ENTRY_MD_PATH || './translate/en/docs'
+const LARK_PARENT_NODE_TOKEN = process.env.LARK_PARENT_NODE_TOKEN || "JFPtwJXwCiJMTIkqXvljMViWp2B"
+
 export function getConfig(): Config {
     const program = new Command();
 
     program
         .name('transfer-lark')
         .description('将本地 Markdown 文档上传至Lark知识库')
-        .option('-e, --entry <path>', '入口文件或json目录路径', process.env.ENTRY_JSON_PATH)
-        .option('-d, --dir <path>', '本地md文档目录路径', process.env.ENTRY_MD_PATH)
-        .option('-t, --target <token>', '目标父节点 Token', process.env.LARK_PARENT_NODE_TOKEN)
-        .option('-s, --space <id>', 'Lark Wiki 空间 ID', process.env.LARK_SPACE_ID)
-        .option('--app-id <id>', 'Lark App ID', process.env.LARK_APP_ID)
-        .option('--app-secret <secret>', 'Lark App Secret', process.env.LARK_APP_SECRET)
+        .option('-e, --entry <path>', '入口文件或json目录路径', ENTRY_JSON_PATH)
+        .option('-d, --dir <path>', '本地md文档目录路径', ENTRY_MD_PATH)
+        .option('-t, --target <token>', '目标父节点 Token', LARK_PARENT_NODE_TOKEN)
+        .option('-s, --space <id>', 'Lark Wiki 空间 ID', process.env.FEISHU_SPACE_ID)
+        .option('--app-id <id>', 'Lark App ID', process.env.FEISHU_APP_ID)
+        .option('--app-secret <secret>', 'Lark App Secret', process.env.FEISHU_APP_SECRET)
         .option('--assets-dir <path>', '资源文件目录（图片等）')
         .parse(process.argv);
 

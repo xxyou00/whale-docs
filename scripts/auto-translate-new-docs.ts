@@ -29,7 +29,7 @@
  * 前置条件:
  * 1. 已执行 bun run lark-zh-HK-export 和 bun run lark-en-export
  * 2. 已执行 bun run lark-setup
- * 3. 配置了必要的环境变量 (PORTAI_API_KEY, LARK_APP_ID, LARK_APP_SECRET 等)
+ * 3. 配置了必要的环境变量 (PORTAI_API_KEY, FEISHU_APP_ID, FEISHU_APP_SECRET 等)
  */
 
 import { readFileSync, writeFileSync, existsSync, mkdirSync, cpSync, readdirSync } from "fs"
@@ -87,9 +87,9 @@ const ZH_HK_ASSETS_DIR = resolve(__dirname, "../lark-pages/zh-HK/docs/assets")
 const EN_ASSETS_DIR = resolve(__dirname, "../translate/en/assets")
 
 // Lark 配置
-const LARK_APP_ID = process.env.LARK_APP_ID
-const LARK_APP_SECRET = process.env.LARK_APP_SECRET
-const LARK_SPACE_ID = process.env.LARK_SPACE_ID
+const FEISHU_APP_ID = process.env.FEISHU_APP_ID
+const FEISHU_APP_SECRET = process.env.FEISHU_APP_SECRET
+const FEISHU_SPACE_ID = process.env.FEISHU_SPACE_ID
 const LARK_EN_PARENT_TOKEN = "JFPtwJXwCiJMTIkqXvljMViWp2B"
 
 // ==================== 工具函数 ====================
@@ -623,8 +623,8 @@ async function main() {
     process.exit(1)
   }
 
-  if (!LARK_APP_ID || !LARK_APP_SECRET || !LARK_SPACE_ID) {
-    console.error("❌ 错误: 缺少 Lark 配置 (LARK_APP_ID, LARK_APP_SECRET, LARK_SPACE_ID)")
+  if (!FEISHU_APP_ID || !FEISHU_APP_SECRET || !FEISHU_SPACE_ID) {
+    console.error("❌ 错误: 缺少 Lark 配置 (FEISHU_APP_ID, FEISHU_APP_SECRET, FEISHU_SPACE_ID)")
     process.exit(1)
   }
 
