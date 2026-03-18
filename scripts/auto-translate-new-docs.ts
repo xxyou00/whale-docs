@@ -90,7 +90,7 @@ const EN_ASSETS_DIR = resolve(__dirname, "../translate/en/assets")
 const LARK_APP_ID = process.env.LARK_APP_ID
 const LARK_APP_SECRET = process.env.LARK_APP_SECRET
 const LARK_SPACE_ID = process.env.LARK_SPACE_ID
-const LARK_EN_PARENT_TOKEN = process.env.LARK_PARENT_NODE_TOKEN
+const LARK_EN_PARENT_TOKEN = "JFPtwJXwCiJMTIkqXvljMViWp2B"
 
 // ==================== 工具函数 ====================
 
@@ -625,24 +625,6 @@ async function main() {
 
   if (!LARK_APP_ID || !LARK_APP_SECRET || !LARK_SPACE_ID) {
     console.error("❌ 错误: 缺少 Lark 配置 (LARK_APP_ID, LARK_APP_SECRET, LARK_SPACE_ID)")
-    process.exit(1)
-  }
-
-  if (!LARK_EN_PARENT_TOKEN) {
-    console.error("❌ 错误: 缺少 LARK_EN_PARENT_NODE_TOKEN 或 LARK_PARENT_NODE_TOKEN 环境变量")
-    process.exit(1)
-  }
-
-  // 2. 检查文件是否存在
-  if (!existsSync(ZH_HK_DOCS_JSON)) {
-    console.error(`❌ 错误: 文件不存在: ${ZH_HK_DOCS_JSON}`)
-    console.error("请先执行: bun run lark-zh-HK-export")
-    process.exit(1)
-  }
-
-  if (!existsSync(EN_DOCS_JSON)) {
-    console.error(`❌ 错误: 文件不存在: ${EN_DOCS_JSON}`)
-    console.error("请先执行: bun run lark-en-export")
     process.exit(1)
   }
 

@@ -31,9 +31,9 @@ jobs:
 
       - name: Download lark wiki pages
         env:
-          FEISHU_APP_ID: ${{ secrets.LARK_APP_ID }}
-          FEISHU_APP_SECRET: ${{ secrets.LARK_APP_SECRET }}
-          FEISHU_SPACE_ID: ${{ secrets.LARK_SPACE_ID }}
+          LARK_APP_ID: ${{ secrets.LARK_APP_ID }}
+          LARK_APP_SECRET: ${{ secrets.LARK_APP_SECRET }}
+          LARK_SPACE_ID: ${{ secrets.LARK_SPACE_ID }}
           PORTAI_API_KEY: ${{ secrets.PORTAI_API_KEY }}
           PORTAI_UID: ${{ secrets.PORTAI_UID }}
         run: |
