@@ -106,11 +106,11 @@ As an intermediary platform for currency exchange, the broker may charge fees on
     - Markups may be specified as an absolute value or as a percentage.
     - Setting a markup on the reference exchange rate:
     - Reference-rate markups are applied at the time of exchange submission, based on the underlying reference exchange rate. Example calculation:
-    i. Given a user-selected pair, for example USD to CNH, compute the unmarked rate = 7.8147 ÷ 1.095 = 7.1367 (exchange rate rounded/truncated to 4 decimal places; rate precision is taken from the currency configuration).
-    > Reference exchange rate formula = Buy price of the source currency ÷ Sell price of the target currency
-    <img src="/assets/HBhJblgq7ozWAOx9ba7j6id6pfh.png" src-width="896" src-height="254" align="center"/>
-    ii. Based on the result in i and the chosen source currency, for example USD to CNH, the calculations are as follows:
-    <img src="/assets/Z1jYbSByjow4iexBLK5jiFV5p3b.png" src-width="1506" src-height="208" align="center"/>
+        - i. Given a user-selected pair, for example USD to CNH, compute the unmarked rate = 7.8147 ÷ 1.095 = 7.1367 (exchange rate rounded/truncated to 4 decimal places; rate precision is taken from the currency configuration).
+            > Reference exchange rate formula = Buy price of the source currency ÷ Sell price of the target currency
+                        <img src="/assets/HBhJblgq7ozWAOx9ba7j6id6pfh.png" src-width="896" src-height="254" align="center"/>
+                        - ii. Based on the result in i and the chosen source currency, for example USD to CNH, the calculations are as follows:
+            <img src="/assets/Z1jYbSByjow4iexBLK5jiFV5p3b.png" src-width="1506" src-height="208" align="center"/>
     - Setting a markup on the executed exchange rate:
     - Executed-rate markups are applied at the time the customer’s exchange is executed, based on the underlying execution rate; see the reference-rate markup example for guidance.
 
