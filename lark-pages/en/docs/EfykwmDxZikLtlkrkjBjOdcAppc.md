@@ -14,13 +14,13 @@ The Activity System is the core marketing campaign management module provided by
 
 Manage diverse campaigns using convenient marketing templates to achieve digital marketing.
 
-<img src="/assets/CB6Fb2eI3oQJMGxMRK1jOWSApoc.jpeg" src-width="1276" src-height="920" align="center"/>
+<img src="/assets/XlDobYRVMo1nOkxWOjNjpgDEpkg.png" src-width="1280" src-height="945" align="center"/>
 
 ## 1. Features
 
 ### 1.1 System Architecture
 
-<img src="/assets/UMkMbaeq8oEUxLxwh6rji9MkpZf.jpeg" src-width="806" src-height="492" align="center"/>
+<img src="/assets/FUWfbI8OBoQFKzxQu38jgHGrpQf.png" src-width="1280" src-height="729" align="center"/>
 
 ### 1.2 Achievement Task Types and Descriptions
 
@@ -38,7 +38,7 @@ Applicable personnel: operations staff. The activity system involves the followi
 - User Segmentation: Defines target users and obtains asset-related data during the activity.
 - Rights System: Associates relevant activity rewards.
 
-<img src="/assets/HF46bSUtpoaVADxouffjKnwhphh.jpeg" src-width="2190" src-height="894" align="center"/>
+<img src="/assets/CwKzbRBj1oZoScxBes6jdxL3pUc.png" src-width="1280" src-height="511" align="center"/>
 
 ## 2. Standard Activity Management
 
@@ -49,7 +49,7 @@ This operation allows maintenance and management of standard activities.
 - Upper level: choose an activity template to create an activity.
 - Lower level: query and manage records of created activities.
 
-<img src="/assets/STTobhq1foDic8xmzV4jKjRHpdh.jpeg" src-width="3766" src-height="1562" align="center"/>
+<img src="/assets/MkZGbIW1doSjfQx8TGHjfTNtprc.png" src-width="1280" src-height="546" align="center"/>
 
 Activity management list field descriptions
 
@@ -61,7 +61,7 @@ If any activity page has a sharing function configured, when a user shares that 
 
 Referral activities issue rewards based on the binding relationship.
 
-<img src="/assets/DlwsbXXHGooKv2xs1Uxjdd2cpaf.jpeg" src-width="1474" src-height="494" align="center"/>
+<img src="/assets/VYvobSZmAoX9iWxSTUkjli7dpq6.png" src-width="1280" src-height="470" align="center"/>
 
 Referral activities support two reward types: fixed rewards and tiered rewards.
 
@@ -74,11 +74,11 @@ Navigation: Operations System &gt; Activity System &gt; Standard Activity
 
 To add a new referral activity, click the "New" button under the Referral Activities module.
 
-<img src="/assets/MElhb4WvpoUCj6x2mr5jFmgzpkb.jpeg" src-width="1280" src-height="199" align="center"/>
+<img src="/assets/ZgnjbJS7CoKceExUzfXjLBv1pFD.png" src-width="1280" src-height="541" align="center"/>
 
 The referral activity creation page:
 
-<img src="/assets/LhHjbLECwoACpjxw30BjEyL8pCd.jpeg" src-width="2108" src-height="1941" align="center"/>
+<img src="/assets/PqWbbggmEoSxpWxxBu6jN6MZpSc.png" src-width="1194" src-height="1280" align="center"/>
 
 Configure template fields as follows:
 
@@ -88,11 +88,11 @@ Click to add a reward rule. Required fields vary by reward type and activity att
 
 Fixed reward:
 
-<img src="/assets/K5aIbbBUholk2Axk2HZjA9uopkg.jpeg" src-width="1280" src-height="980" align="center"/>
+<img src="/assets/UpBlbRrCLowcqQxP3Rhjsc73pbg.png" src-width="1280" src-height="877" align="center"/>
 
 Tiered reward:
 
-<img src="/assets/OgqgbKjVDoXUE3xoNCMjSV27pif.jpeg" src-width="1280" src-height="958" align="center"/>
+<img src="/assets/RIxCbgCZNoZZBYx8RETj001np0g.png" src-width="1280" src-height="907" align="center"/>
 
 Note: Once filled, do not switch activity type or reward type arbitrarily, as this may clear configured lists.
 
@@ -100,7 +100,7 @@ Prize Settings
 
 Click to create a prize rule. This section provides configuration options to limit how many times each user may receive a given prize.
 
-<img src="/assets/UguBbyknOodbzPx7RYbjvdBGpIh.jpeg" src-width="2040" src-height="386" align="center"/>
+<img src="/assets/FOxabgneVosY8TxZSsBj7Gn7p4e.png" src-width="1280" src-height="224" align="center"/>
 
 #### 2.1.3 Referral Activity Reward Data Query
 
@@ -108,7 +108,7 @@ Data appears only when the activity is running and rewards are being issued.
 
 Click the Details button for the corresponding activity, then open the "Winners" tab to access the following page:
 
-<img src="/assets/FYqMbZ5p4oerd1xTU0ijZRYspOI.jpeg" src-width="3280" src-height="852" align="center"/>
+<img src="/assets/V1g9bxd3botEXnxxgbBjNMDspnf.png" src-width="1280" src-height="269" align="center"/>
 
 Data categories:
 
@@ -124,7 +124,7 @@ Data categories:
 
 #### 2.2.1 Basic Activity Business Logic
 
-<img src="/assets/Bmw9bHqZRo2XHVx3JnTjTJmkpXc.jpeg" src-width="1394" src-height="494" align="center"/>
+<img src="/assets/RZHZbPbo8oTUxixuSnSjk0vMpac.png" src-width="1280" src-height="460" align="center"/>
 
 #### 2.2.2 Basic Activity Configuration
 
@@ -132,17 +132,17 @@ Navigation: Operations System &gt; Activity System &gt; Standard Activity
 
 Click the "New" button under the Basic Activities module.
 
-<img src="/assets/ZdYgbspOaogwDwx3lzFjYsVfpbm.jpeg" src-width="1280" src-height="203" align="center"/>
+<img src="/assets/Wi34bHfonoCN3Xx1GfgjRj0vpAd.png" src-width="1280" src-height="375" align="center"/>
 
 Open the following page:
 
-<img src="/assets/TUuKbmQaToP5cRx7ZFGjQGoCpey.jpeg" src-width="2058" src-height="1480" align="center"/>
+<img src="/assets/X61sb14Hzo8kIaxMsqNjGRmbpru.png" src-width="1280" src-height="936" align="center"/>
 
 Configure template fields as follows:
 
 Reward Rules
 
-<img src="/assets/K2FybqjQSoVfA7x85Hej1NTLp0n.jpeg" src-width="1280" src-height="989" align="center"/>
+<img src="/assets/RWWpbzeeNoYCfAxKW5zjNyFGpTb.png" src-width="1280" src-height="808" align="center"/>
 
 - Reward calculation logic varies slightly depending on the reward generation timing.
 
@@ -150,7 +150,7 @@ Reward Rules
 
 Example: The following shows one activity with four reward rules. The net deposit task is split into three tiers; selecting "Real-time Generation" creates a reward record each time a user meets a tier.
 
-<img src="/assets/AVWkbYTWtonHY5xsALljIHmIpYg.jpeg" src-width="3144" src-height="548" align="center"/>
+<img src="/assets/KolTbRU4voZn57xxeXzjeVI4pSc.png" src-width="1280" src-height="467" align="center"/>
 
 #### 2.2.3 Basic Activity Reward Data Query
 
@@ -158,7 +158,7 @@ Reward data is available only when the activity is running and rewards are being
 
 Click Details for the relevant activity and open the "Winners" tab to view:
 
-<img src="/assets/CMzgb87xEoOrYjxY6kFjYZicpAc.jpeg" src-width="2712" src-height="1132" align="center"/>
+<img src="/assets/Y2iLbucvGoj51XxFiwxjYq3Ypqb.png" src-width="1280" src-height="271" align="center"/>
 
 Data categories:
 
@@ -169,65 +169,6 @@ Data categories:
 - Cancelled: Reward records for which issuance was cancelled.
 - Locked: If the activity’s achievement task has a lockup configured, this shows the number of reward records currently in lockup.
 - All: Total reward records for the activity.
-
-### 2.3 Team Activities
-
-#### 2.3.1 Team Activity Business Process
-
-<img src="/assets/XRLtbFHEAoeW8oxWLVUjSncMpfb.jpeg" src-width="2274" src-height="434" align="center"/>
-
-#### 2.3.2 Team Activity Configuration
-
-Navigation: Operations System &gt; Activity System &gt; Standard Activity
-
-Click the "New" button under the Team Activities module.
-
-<img src="/assets/A4WDb3ls3oW1MkxyvPsjQEMZpEg.jpeg" src-width="1280" src-height="201" align="center"/>
-
-Open the following page:
-
-<img src="/assets/YUnXb38Y2oBOX2xYd0JjO21mpib.jpeg" src-width="1886" src-height="1648" align="center"/>
-
-Note: Currently, within "Activity Attribute" only the "Assist-to-Win" activity form is available; the "Basic Team Reward" and "Team Split" forms are not yet launched.
-
-<img src="/assets/FIvEbYJocoBqYMxXOfejufVQpKc.jpeg" src-width="1280" src-height="958" align="center"/>
-
-Configure template fields as follows:
-
-#### 2.3.3 Team Activity Reward Data Query
-
-Data appears only when the activity is running and rewards are being issued.
-
-Click the Details button for the corresponding activity and open the "Winners" tab to access:
-
-<img src="/assets/FjDcbA9TMoMRq8xVbydjWOkRpGc.jpeg" src-width="2730" src-height="818" align="center"/>
-
-Data categories:
-
-- Pending Submission: Reward records that have not had issuance requests submitted.
-- Issuing: Reward records currently being issued.
-- Issued: Reward records successfully issued.
-- Failed: Reward records that failed issuance.
-- Cancelled: Reward records for which issuance was cancelled.
-- Locked: Not applicable to assist-type team activities; ignore.
-- All: Total reward records for the activity.
-
-#### 2.3.4 Team Information Viewing
-
-For assist activities, the initiator invites assistants to form a team; team information can be viewed.
-
-Data appears only when the activity is running.
-
-Click Details for the corresponding activity and open the "Team Information" tab to access:
-
-<img src="/assets/VnACbAnFYonrDdxXeBOj8HPap3b.jpeg" src-width="2716" src-height="838" align="center"/>
-
-Team statuses:
-
-- In Progress: Teams initiated during the activity that have not yet reached the required number of assistants.
-- Team Successful: Teams that reached the required number of assistants.
-- Team Failed: Teams that did not reach the required number of assistants by activity end.
-- All: All teams initiated for the activity.
 
 ## 3. Non-Standard Activity Management
 
@@ -241,7 +182,7 @@ Navigation: Operations System &gt; Activity System &gt; Non-Standard Activity Ma
 
 You can query and manage created activities. (Note: standard activities are also archived in this list; thus, this list serves as a comprehensive activity repository.)
 
-<img src="/assets/JxlJbogw2o8cihxxuEIj4HKIpOg.jpeg" src-width="2720" src-height="1216" align="center"/>
+<img src="/assets/QZMSbhrLmoeaDGx6RSqjg6iBpde.png" src-width="1280" src-height="292" align="center"/>
 
 Activity management list field descriptions
 
@@ -249,7 +190,7 @@ Activity management list field descriptions
 
 Click the New button at the top of the page to open:
 
-<img src="/assets/LGo3bGyWxoQ99FxaWdojcdZvpYd.jpeg" src-width="1742" src-height="1612" align="center"/>
+<img src="/assets/A0LGbXPeFobgmIx28BkjfWO9pAO.png" src-width="1237" src-height="1280" align="center"/>
 
 Because non-standard activities do not have explicit rules, creating them is mainly to obtain the activity code. Subsequent reward issuance is associated with this activity code in the Reward Center. Optional fields on the creation page may be left blank.
 
@@ -265,7 +206,7 @@ Referral relationships created via activity sharing can be queried here and may 
 
 Navigation: Operations System &gt; Activity System &gt; Referral Relationship Management
 
-<img src="/assets/HKOxbsYmYoRSHSxHFM5jhLmqpsE.jpeg" src-width="2730" src-height="1010" align="center"/>
+<img src="/assets/TRQgbiJzjoXoVWxlKC6j6GXzpye.png" src-width="1280" src-height="395" align="center"/>
 
 Primary functions:
 
@@ -281,9 +222,9 @@ Primary functions:
 
 Click the New button in Referral Relationship Management to open the dialog:
 
-<img src="/assets/ZNVZbTDH6o5xO5xerbYjmjgcpTh.jpeg" src-width="1280" src-height="183" align="center"/>
+<img src="/assets/JZwubvM7MoOsNRx2lW9jsF4Opyr.png" src-width="1280" src-height="120" align="center"/>
 
-<img src="/assets/A95nbupPCouJa1xociDj00k6pld.jpeg" src-width="936" src-height="708" align="center"/>
+<img src="/assets/JxwNbPbSSosUCmxruEfjMPpTpWc.png" src-width="764" src-height="696" align="center"/>
 
 Enter the invitee and inviter customer IDs to complete the binding.
 
@@ -291,11 +232,11 @@ Enter the invitee and inviter customer IDs to complete the binding.
 
 First, locate the invitee user you want to bind to by searching, then click the user’s details to view:
 
-<img src="/assets/KRE7bMRYcoUQ5zxAKD4jqhiYpBh.jpeg" src-width="2698" src-height="392" align="center"/>
+<img src="/assets/MnKsbDcMZoHQvpxH8zLjCjZZpZc.png" src-width="1280" src-height="142" align="center"/>
 
 The details view shows the user’s registration inviter and allows binding of account-opening and deposit inviters.
 
-<img src="/assets/ChQCbpamjo03NSx1Uyyja9kZpqc.jpeg" src-width="2712" src-height="1710" align="center"/>
+<img src="/assets/Hhrjbj5PFozPPoxdZiCjp7vmpSc.png" src-width="1280" src-height="542" align="center"/>
 
 In the pop-up, input the inviter’s user ID to bind the account-opening or deposit inviter for the invitee.
 
@@ -309,13 +250,13 @@ Navigation: Operations System &gt; Activity System &gt; Standard Activity Manage
 
 First verify that the activity configuration is correct. Click Details for the activity and review the configured rules and rewards.
 
-<img src="/assets/XaV0bQkdOo51Vax1ZWzjkrRYpof.jpeg" src-width="1280" src-height="595" align="center"/>
+<img src="/assets/NLMVbnUfkoFX1HxrBL5j1YBxpVe.png" src-width="1280" src-height="171" align="center"/>
 
-<img src="/assets/GHhobcRoIoc8t6x9EkyjwUZup9r.jpeg" src-width="1280" src-height="636" align="center"/>
+<img src="/assets/Q4J9byRWloYKhuxchusjLmkTp6L.png" src-width="1280" src-height="559" align="center"/>
 
 If configuration is correct, verify the Winners list to see whether a reward record was generated and check the reward record status.
 
-<img src="/assets/Lyc2bomFmoNqsqxBtojj5Gf5pUg.jpeg" src-width="1280" src-height="443" align="center"/>
+<img src="/assets/Pm1rbTXuHoDp46xxEWbjdbXfpHc.png" src-width="1280" src-height="263" align="center"/>
 
 If status is Issuing, the system is still processing issuance. If Pending Submission, operations staff must click Submit to issue the reward.
 
@@ -323,11 +264,11 @@ Q: How to check whether a user's referral binding succeeded?
 
 Navigation: Operations System &gt; Activity System &gt; Referral Relationship Management
 
-<img src="/assets/PiPBbYe65oFn9Lx8GKwjxUe7pYd.jpeg" src-width="1280" src-height="492" align="center"/>
+<img src="/assets/NZFvbInruoWw1lxb091jkHH4p7g.png" src-width="1280" src-height="153" align="center"/>
 
 After searching, the list shows all referral bindings for the user. Click Details to view the specific bound user information.
 
 <img src="/assets/Qhynb3sm3oVJZQxD5tdjmiyupFh.jpeg" src-width="1280" src-height="395" align="center"/>
 
-<img src="/assets/PKYYbdOzioLuYZxl03Vjoaicpsg.jpeg" src-width="1280" src-height="632" align="center"/>
+<img src="/assets/UHDEbYtZzoDmS4xSChJjtSJ5pxc.png" src-width="1280" src-height="536" align="center"/>
 

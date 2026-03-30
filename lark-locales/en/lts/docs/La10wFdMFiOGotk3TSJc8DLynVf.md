@@ -27,7 +27,7 @@ Click the "New" button in the top right to open the following page.
 
 Coupon information is divided into Basic Information and Rule Configuration. For each coupon type, the required fields for Basic Information are the same, while the fields required for Rule Configuration differ.
 
-<img src="/assets/IedXbzaY4o8IzKxW5o5jIvlFpmb.png" src-width="1668" src-height="1960" align="center"/>
+<img src="/assets/QbIUbfOs4ozWp6xAz6RjCRfBp6X.png" src-width="874" src-height="860" align="center"/>
 
 Basic Information
 
@@ -45,13 +45,13 @@ This module provides coupon issuance data viewing. The list shows each individua
 
 Menu path: Operations System &gt; Rights System &gt; Coupon Benefits &gt; Coupon Management
 
-<img src="/assets/FrDdbebZQorkPOxpqgujRlclpsc.png" src-width="1280" src-height="380" align="center"/>
+<img src="/assets/AMEcbLT6bocoflxy3qljZgcupOg.png" src-width="1514" src-height="727" align="center"/>
 
 ## How to configure a physical reward?
 
 Menu path: Operations System &gt; Rights System &gt; Coupon Benefits &gt; Physical Rewards
 
-<img src="/assets/RrfdbC10uojAcHxdHKmjGIU2pxv.png" src-width="1680" src-height="2645" align="center"/>
+<img src="/assets/IWqsb0mQWo0eaMx9ddwjnTpkpbe.png" src-width="555" src-height="832" align="center"/>
 
 Configure the following fields in the panel:
 
@@ -63,7 +63,7 @@ Menu path: Operations System &gt; Rights System &gt; Coupon Benefits &gt; Physic
 
 Step 1. Filter users who have provided addresses
 
-<img src="/assets/S7yWbR0Vyo6GcqxlC49j4zlhpzf.png" src-width="1280" src-height="404" align="center"/>
+<img src="/assets/TVvZb2QEQoyuhXxg0EWjnMCdpUg.png" src-width="1562" src-height="526" align="center"/>
 
 When a user receives a reward but has not provided an address, the shipping status is "Address Not Provided". After the user fills in the address, the status changes to "Address Provided".
 
@@ -71,21 +71,21 @@ You can filter the records here to find those that have provided addresses and a
 
 Step 2. Export addresses
 
-<img src="/assets/URZ5b9WFooQwsnxKz5ijDCNCp8e.png" src-width="1280" src-height="439" align="center"/>
+<img src="/assets/JPizbAIaIotVmfxGLeOj6HIjpig.png" src-width="1280" src-height="395" align="center"/>
 
 Step 3. Modify order status
 
 To prevent users from modifying addresses after exporting them, lock the record status. After exporting, you can batch change the shipping status of the records to "Shipping In Progress"; once changed, users cannot modify the address.
 
-<img src="/assets/SjBLbWvTsoTYhjx5ek4j121LpPe.png" src-width="1280" src-height="746" align="center"/>
+<img src="/assets/O5qzbYcRfokex0xmleLjBx2DpYf.png" src-width="1280" src-height="411" align="center"/>
 
 Step 4. Upload tracking numbers
 
 Proceed with offline shipping. After shipment, obtain the tracking number and enter it into the system for the user to view.
 
-<img src="/assets/E0yGb2usAozTk1xovDLjaeyopUd.png" src-width="1280" src-height="478" align="center"/>
+<img src="/assets/Oga0b9fFOo2euFxWlMsjwcWgpTh.png" src-width="1551" src-height="598" align="center"/>
 
-<img src="/assets/PAZDb17nMoLhR6xmzfcjFzHZpSg.png" src-width="1280" src-height="752" align="center"/>
+<img src="/assets/GkllbW4MZoh0mXxokHojddZlplb.png" src-width="1562" src-height="601" align="center"/>
 
 After uploading the tracking number, the physical reward issuance workflow is complete.
 
@@ -97,7 +97,7 @@ Query all reward records issued through various channels and manually issue coup
 
 Menu path: Operations System &gt; Rights System &gt; Rewards Center &gt; Reward Issuance
 
-<img src="/assets/QInEbL37moT5WoxAXzSjrrqWpAb.png" src-width="2788" src-height="1042" align="center"/>
+<img src="/assets/HcmAb1DpJo6vyAxOopQjoHtKpJe.png" src-width="1558" src-height="368" align="center"/>
 
 This section records all issued rewards, including physical rewards, coupons, and cash; records can be filtered and exported.
 
@@ -109,17 +109,17 @@ Issuing a reward to a single user
 
 Click the "New" button in the top right to open the New Reward Issuance dialog.
 
-<img src="/assets/SOFvbjcQuoJRltxpkMmjvm8Bpaf.png" src-width="2792" src-height="310" align="center"/>
+<img src="/assets/TzGLbT9G7oi2DLxq4u4jCORPpDe.png" src-width="1800" src-height="208" align="center"/>
 
-<img src="/assets/CKbCbR5IqoJJCqxb759jKIhap2b.png" src-width="2816" src-height="1646" align="center"/>
+<img src="/assets/Qn4bborIwoD137xvGdkj8uAkpAe.png" src-width="1564" src-height="856" align="center"/>
 
 Issuing rewards to multiple users
 
 If the operation involves a large volume, click "Batch Issue Rewards" in the top right and upload a file to issue rewards to a batch of users at once.
 
-<img src="/assets/XHzIbmQIjoIXukxXiXdjJ1kzpec.png" src-width="2782" src-height="378" align="center"/>
+<img src="/assets/JxCFboSDkol5Wsx4rjfjoTMKpdf.png" src-width="1598" src-height="262" align="center"/>
 
-<img src="/assets/WQuybuBUJoaPR3x3dz3j8Fysp8f.png" src-width="2780" src-height="1600" align="center"/>
+<img src="/assets/YmCRbTInWoxGTyxdIqojGcXVphf.png" src-width="1569" src-height="857" align="center"/>
 
 First select the reward type to be issued, then download the corresponding template file from the template area below (templates differ by reward type—do not reverse the steps).
 
@@ -136,4 +136,6 @@ Menu path: Operations System &gt; Rights System &gt; Rights Center &gt; Rights O
 This module is for querying and exporting orders generated by the Market Shop for operations and finance personnel.
 
 <img src="/assets/Dyj9bS6bfob2gCxfR7UjegX7pff.png" src-width="2420" src-height="730" align="center"/>
+
+<img src="/assets/FId5b8qaFoBMejxpoFGjMdympZe.png" src-width="1594" src-height="611" align="center"/>
 

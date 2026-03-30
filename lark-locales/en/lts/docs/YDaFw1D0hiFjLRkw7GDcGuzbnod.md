@@ -23,16 +23,16 @@ The article list supports creating, editing, hiding/showing, and deleting articl
 
 <b>Action:</b> Click [Create Article] to edit the article's title, body content, external links, category, publication scenarios, and other settings.
 
-<img src="/assets/BWxfb0PO5oBffpxJf0yj4n19pkg.png" src-width="2754" src-height="1438" align="center"/>
+<img src="/assets/AQ5ibwOTJohcU4xYy5WjMlASpte.png" src-width="2470" src-height="1390" align="center"/>
 
-<img src="/assets/YGPYbjpJQoPN4TxJScSjY2uVpOh.png" src-width="2726" src-height="1436" align="center"/>
+<img src="/assets/WzjVbu8QLocNqAxQIorjvvAapXg.png" src-width="2486" src-height="1384" align="center"/>
 
 Created articles are displayed on the article list page and support actions such as [Edit], [Hide]/[Show], and [Delete]. Additionally, an article will only appear on the corresponding platform when its status is "Visible."
 
 - For articles with the "Visible" status, the [Hide] action is available.
 - For articles with the "Hidden" status, the [Show] or [Delete] actions are available.
 
-<img src="/assets/XgDTbEVZyovgaQxtChEjs5mCpfb.png" src-width="2754" src-height="1360" align="center"/>
+<img src="/assets/XT2vbwiKFo2jvIxdi3bjS2lOp8f.png" src-width="2472" src-height="1386" align="center"/>
 
 # Article Categories
 
@@ -42,7 +42,7 @@ Article categories can be created and edited.
 
 <b>Action:</b> Click [Create Category] to add a new article category; multi-level categories are supported.
 
-<img src="/assets/UkyKb9pdFoive9x7WkejnhiTpab.png" src-width="2740" src-height="1420" align="center"/>
+<img src="/assets/QJPWb5fTHoNermxwtmsjV5nVp9b.png" src-width="2484" src-height="1396" align="center"/>
 
-<img src="/assets/Y1tAb2bZro7nLCxdj5sjw2BipLc.png" src-width="2748" src-height="1066" align="center"/>
+<img src="/assets/NbAmbmmoDolcOSxUQHWjTh0Cpse.png" src-width="2480" src-height="1084" align="center"/>
 

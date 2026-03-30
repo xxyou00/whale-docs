@@ -17,9 +17,9 @@ A: A user's market data cards are bound to the User ID; changing the login phone
 
 A: The "Activity Code" and "Prize Code" fields in the template file may contain only English letters and numbers; entering Chinese characters or special symbols will cause the import to fail.
 
-<img src="/assets/KkAKbtTdMoWLJpxFyVCjyJ69prf.png" src-width="2842" src-height="1374" align="center"/>
+<img src="/assets/OvsSbzv6NospEMxRia9j0no8pJh.png" src-width="1280" src-height="305" align="center"/>
 
-<img src="/assets/LyjwbBxHoomukGxvrABjtUfbpYf.png" src-width="1314" src-height="380" align="center"/>
+<img src="/assets/BXqIbemqnoa6JDxTYdqjZbj2pjf.png" src-width="1280" src-height="138" align="center"/>
 
 # 20C Q: In the campaign system, how does the "User Region" in user segmentation filter customers?
 

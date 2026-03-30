@@ -1,333 +1,338 @@
 ---
-title: System Overview
+title: System Introduction
 slug: T15Awmt9Vi8QbCk5nJcjUpXRp9c
 sidebar_position: 1
 ---
 
 
-# System Overview
+# | 原文 | 英文翻译 |
+|---:|---|
+| 系統介紹 | System Introduction |
 
-The Activity System is the core marketing campaign management module provided by the Whale OPA operations system. It enables broker tenants to manage various marketing campaigns by offering configuration and management capabilities. The system currently supports the following activity type groups:
+# System Introduction
 
-- Standard activity types: referral activities / basic activities / team activities, etc.
-- Non-standard activity management: provides customizable activity management elements to accommodate personalized campaigns.
+The Activity System is the core marketing campaign management component provided by the Whale OPA operations system. It enables broker tenants to manage various marketing campaigns, offering configuration and management capabilities for multiple campaign elements. The system currently supports the following campaign type groups:
 
-Manage diverse campaigns using convenient marketing templates to achieve digital marketing.
+- Standard campaign types: invitation campaigns, basic campaigns, team campaigns, etc.
+- Non-standard campaign management: provides customizable campaign elements to facilitate the arrangement of bespoke campaigns.
 
-<img src="/assets/CB6Fb2eI3oQJMGxMRK1jOWSApoc.jpeg" src-width="1276" src-height="920" align="center"/>
+Manage a variety of marketing campaigns through convenient campaign templates to achieve digital marketing.
+
+<img src="/assets/KVmEbr0nzoboJbxDspxjer1spDh.jpeg" src-width="1276" src-height="920" align="center"/>
 
 ## 1. Features
 
-### 1.1 System Architecture
+### 1.1 Campaign System Architecture
 
-<img src="/assets/UMkMbaeq8oEUxLxwh6rji9MkpZf.jpeg" src-width="806" src-height="492" align="center"/>
+<img src="/assets/LOlEbPocioJV6Px4q6ZjQ9zFplr.jpeg" src-width="806" src-height="492" align="center"/>
 
-### 1.2 Achievement Task Types and Descriptions
+### 1.2 Task Types for Campaign Qualification and Descriptions
 
-### 1.3 Reward Types
+### 1.3 Campaign Reward Types
 
-When creating an activity, three reward types can be set: physical items, vouchers, and cash.
+When creating a campaign, three reward types may be configured: physical goods, vouchers, and cash.
 
-Refer to the Rights System documentation for instructions on creating physical items and vouchers.
+Refer to the Benefits System documentation for physical goods and voucher creation.
 
-### 1.4 Activity Configuration Process
+### 1.4 Campaign Configuration Workflow
 
-Applicable personnel: operations staff. The activity system involves the following parties:
+Applicable users: Operations personnel. The campaign system involves the following entities:
 
-- Activity System: Operations staff are responsible for configuring and managing online activities.
-- User Segmentation: Defines target users and obtains asset-related data during the activity.
-- Rights System: Associates relevant activity rewards.
+- Campaign System: Operations personnel are responsible for configuring and managing online campaigns.
+- User Segmentation: Defines target users and retrieves asset-related data during the campaign.
+- Benefits System: Associates relevant campaign rewards.
 
-<img src="/assets/HF46bSUtpoaVADxouffjKnwhphh.jpeg" src-width="2190" src-height="894" align="center"/>
+<img src="/assets/KGNobb5VTo588TxQ6sRjOTM8pMf.jpeg" src-width="2190" src-height="894" align="center"/>
 
-## 2. Standard Activity Management
+## 2. Standard Campaign Management
 
-Navigation: Operations System &gt; Activity System &gt; Standard Activity Management
+Navigation: Operations System &gt; Campaign System &gt; Standard Campaign Management
 
-This operation allows maintenance and management of standard activities.
+This function maintains and manages standard campaigns.
 
-- Upper level: choose an activity template to create an activity.
-- Lower level: query and manage records of created activities.
+Upper layer: choose a campaign template to create a campaign.
 
-<img src="/assets/STTobhq1foDic8xmzV4jKjRHpdh.jpeg" src-width="3766" src-height="1562" align="center"/>
+Lower layer: query and manage records of created campaigns.
 
-Activity management list field descriptions
+<img src="/assets/GEuEbUP6doZaW9x3edTj90eMpTe.jpeg" src-width="3766" src-height="1562" align="center"/>
 
-### 2.1 Referral Activities
+Campaign management list field descriptions
 
-#### 2.1.1 Referral Activity Business Logic
+### 2.1 Invitation Campaigns
 
-If any activity page has a sharing function configured, when a user shares that page and a new user registers via the share, an invitation binding is created.
+#### 2.1.1 Invitation Campaign Business Logic
 
-Referral activities issue rewards based on the binding relationship.
+If any campaign page enables the share feature, then new user registrations resulting from user sharing will bind invitation relationships.
 
-<img src="/assets/DlwsbXXHGooKv2xs1Uxjdd2cpaf.jpeg" src-width="1474" src-height="494" align="center"/>
+Invitation campaigns award based on these binding relationships.
 
-Referral activities support two reward types: fixed rewards and tiered rewards.
+<img src="/assets/QNvgbgICXoN40VxSyLsjvdqfpLU.jpeg" src-width="1474" src-height="494" align="center"/>
 
-- Fixed reward: For each invited user who completes the task, the inviter receives a fixed reward.
-- Tiered reward: Divide the number of invitees into ranges. For invite counts within a range, each invited user yields the reward corresponding to that tier. When moving to the next tier, you may configure additional rewards for the inviter. Typically, higher invite counts correspond to larger rewards.
+Invitation campaigns support two reward types: fixed rewards and tiered rewards.
 
-#### 2.1.2 Referral Activity Configuration
+Fixed reward: For each invited new user who completes the task, the inviter receives a fixed reward.
 
-Navigation: Operations System &gt; Activity System &gt; Standard Activity
+Tiered reward: Divide the number of invitees into ranges. For invite counts within a given range, the inviter receives the reward corresponding to that range for each successful invitation. Upon reaching the next range, the inviter can receive an additional bonus. Typically, the more invites, the larger the rewards.
 
-To add a new referral activity, click the "New" button under the Referral Activities module.
+#### 2.1.2 Invitation Campaign Configuration
 
-<img src="/assets/MElhb4WvpoUCj6x2mr5jFmgzpkb.jpeg" src-width="1280" src-height="199" align="center"/>
+Operations System &gt; Campaign System &gt; Standard Campaign
 
-The referral activity creation page:
+To create a new invitation campaign, click the "New" button under the Invitation Campaign module.
 
-<img src="/assets/LhHjbLECwoACpjxw30BjEyL8pCd.jpeg" src-width="2108" src-height="1941" align="center"/>
+<img src="/assets/QbwdbiotxoliMpxV4D9jSRfrpRd.jpeg" src-width="1280" src-height="199" align="center"/>
 
-Configure template fields as follows:
+The invitation campaign creation page is as follows:
+
+<img src="/assets/YN2Ubte3Lotvh9x6EZujssqCpDc.jpeg" src-width="2108" src-height="1941" align="center"/>
+
+Configure template fields according to the following rules:
 
 Reward Rules
 
-Click to add a reward rule. Required fields vary by reward type and activity attribute.
+Click "Add Reward Rule". The fields vary by reward type and campaign attribute:
 
-Fixed reward:
+Fixed Reward
 
-<img src="/assets/K5aIbbBUholk2Axk2HZjA9uopkg.jpeg" src-width="1280" src-height="980" align="center"/>
+<img src="/assets/TXPRbFcHVode9yxOWXbjriPQpdh.jpeg" src-width="1280" src-height="980" align="center"/>
 
-Tiered reward:
+Tiered Reward
 
-<img src="/assets/OgqgbKjVDoXUE3xoNCMjSV27pif.jpeg" src-width="1280" src-height="958" align="center"/>
-
-Note: Once filled, do not switch activity type or reward type arbitrarily, as this may clear configured lists.
+<img src="/assets/JTjZbCqSfoJQ5FxkEyQjwXYgpeg.jpeg" src-width="1280" src-height="958" align="center"/>
 
 Prize Settings
 
-Click to create a prize rule. This section provides configuration options to limit how many times each user may receive a given prize.
+Click "New Prize Rule" to reveal configuration items:
 
-<img src="/assets/UguBbyknOodbzPx7RYbjvdBGpIh.jpeg" src-width="2040" src-height="386" align="center"/>
+Set limits on how many times a user can receive specific prizes under the reward rules.
 
-#### 2.1.3 Referral Activity Reward Data Query
+<img src="/assets/W8HxbPV4VoMTxqxahI7jZoP5pgc.jpeg" src-width="2040" src-height="386" align="center"/>
 
-Data appears only when the activity is running and rewards are being issued.
+#### 2.1.3 Invitation Campaign Reward Data Query
 
-Click the Details button for the corresponding activity, then open the "Winners" tab to access the following page:
+Data is available only while the campaign is running and rewards are being distributed.
 
-<img src="/assets/FYqMbZ5p4oerd1xTU0ijZRYspOI.jpeg" src-width="3280" src-height="852" align="center"/>
+Click the details button for the relevant campaign, then open the "Winners" tab to access the following page:
 
-Data categories:
+<img src="/assets/Gnnwb4GYOoRPLTx1YCJjtYr4pkh.jpeg" src-width="3280" src-height="852" align="center"/>
 
-- Pending Submission: Reward records that have not had issuance requests submitted.
-- Issuing: Reward records currently being issued.
-- Issued: Reward records successfully issued.
-- Failed: Reward records that failed issuance.
-- Cancelled: Reward records for which issuance was cancelled.
-- Locked: If the activity’s achievement task has a lockup configured, this shows the number of reward records currently in lockup.
-- All: Total reward records for the activity.
+Data Status Definitions
 
-### 2.2 Basic Activities
+- Pending Submission: Reward records for which distribution requests have not yet been submitted.
+- Distributing: Reward records currently being distributed.
+- Distributed: Reward records successfully distributed.
+- Failed: Reward records where distribution failed.
+- Distribution Canceled: Reward records for which distribution has been canceled.
+- Locked: If the campaign task requires locking, this indicates reward records currently under lock.
+- All: All reward records for the campaign.
 
-#### 2.2.1 Basic Activity Business Logic
+### 2.2 Basic Campaigns
 
-<img src="/assets/Bmw9bHqZRo2XHVx3JnTjTJmkpXc.jpeg" src-width="1394" src-height="494" align="center"/>
+#### 2.2.1 Basic Campaign Business Logic
 
-#### 2.2.2 Basic Activity Configuration
+<img src="/assets/OuSLbJt9foU6XTx7yEZjbpgopPf.jpeg" src-width="1394" src-height="494" align="center"/>
 
-Navigation: Operations System &gt; Activity System &gt; Standard Activity
+#### 2.2.2 Basic Campaign Configuration
 
-Click the "New" button under the Basic Activities module.
+Operations System &gt; Campaign System &gt; Standard Campaign
 
-<img src="/assets/ZdYgbspOaogwDwx3lzFjYsVfpbm.jpeg" src-width="1280" src-height="203" align="center"/>
+Click the "New" button under the Invitation Campaign module.
+
+<img src="/assets/DsJubiStvoj7SLxRrnHjAi2Ppjb.jpeg" src-width="1280" src-height="203" align="center"/>
 
 Open the following page:
 
-<img src="/assets/TUuKbmQaToP5cRx7ZFGjQGoCpey.jpeg" src-width="2058" src-height="1480" align="center"/>
+<img src="/assets/RsKJbHGEFosEShxlqvTjPmc7p9b.jpeg" src-width="2058" src-height="1480" align="center"/>
 
-Configure template fields as follows:
+Configure template fields according to the following rules:
 
 Reward Rules
 
-<img src="/assets/K2FybqjQSoVfA7x85Hej1NTLp0n.jpeg" src-width="1280" src-height="989" align="center"/>
+<img src="/assets/CRrObFfJqoW2kKxxJxJjjJm3puI.jpeg" src-width="1280" src-height="989" align="center"/>
 
-- Reward calculation logic varies slightly depending on the reward generation timing.
+- The calculation logic for rewards varies depending on the reward generation timing rules.
+- For trading or asset-based qualification tasks, if you want multiple tiers and corresponding multiple rewards, add multiple reward rules.
 
-- For transaction or asset-based tasks, multiple tiers with multiple rewards can be configured by adding multiple reward rules.
+Example: The following shows four reward rules in the same campaign, where the net deposit task is divided into three tiers. If "Real-time Generation" is selected, each time a user meets a tier they generate a reward record.
 
-Example: The following shows one activity with four reward rules. The net deposit task is split into three tiers; selecting "Real-time Generation" creates a reward record each time a user meets a tier.
+<img src="/assets/Qoq4bYjkZohzmxxi9wzjzkIApIg.jpeg" src-width="3144" src-height="548" align="center"/>
 
-<img src="/assets/AVWkbYTWtonHY5xsALljIHmIpYg.jpeg" src-width="3144" src-height="548" align="center"/>
+#### 2.2.3 Basic Campaign Reward Data Query
 
-#### 2.2.3 Basic Activity Reward Data Query
+Reward data is available only while the campaign is running and rewards are being distributed.
 
-Reward data is available only when the activity is running and rewards are being issued.
+Click the details button for the relevant campaign, then open the "Winners" tab to access the following page:
 
-Click Details for the relevant activity and open the "Winners" tab to view:
+<img src="/assets/GQY0bAl4towBVSxvUZaj84XIpeP.jpeg" src-width="2712" src-height="1132" align="center"/>
 
-<img src="/assets/CMzgb87xEoOrYjxY6kFjYZicpAc.jpeg" src-width="2712" src-height="1132" align="center"/>
+Data Status Definitions
 
-Data categories:
+- Pending Submission: Reward records for which distribution requests have not yet been submitted.
+- Distributing: Reward records currently being distributed.
+- Distributed: Reward records successfully distributed.
+- Failed: Reward records where distribution failed.
+- Distribution Canceled: Reward records for which distribution has been canceled.
+- Locked: If the campaign task requires locking, this indicates reward records currently under lock.
+- All: All reward records for the campaign.
 
-- Pending Submission: Reward records that have not had issuance requests submitted.
-- Issuing: Reward records currently being issued.
-- Issued: Reward records successfully issued.
-- Failed: Reward records that failed issuance.
-- Cancelled: Reward records for which issuance was cancelled.
-- Locked: If the activity’s achievement task has a lockup configured, this shows the number of reward records currently in lockup.
-- All: Total reward records for the activity.
+### 2.3 Team Campaigns
 
-### 2.3 Team Activities
+#### 2.3.1 Team Campaign Business Flow
 
-#### 2.3.1 Team Activity Business Process
+<img src="/assets/ABwlbDfrFoHZLUxyek7jRKv2pHd.jpeg" src-width="2274" src-height="434" align="center"/>
 
-<img src="/assets/XRLtbFHEAoeW8oxWLVUjSncMpfb.jpeg" src-width="2274" src-height="434" align="center"/>
+#### 2.3.2 Team Campaign Configuration
 
-#### 2.3.2 Team Activity Configuration
+Operations System &gt; Campaign System &gt; Standard Campaign
 
-Navigation: Operations System &gt; Activity System &gt; Standard Activity
+Click the "New" button under the Team Campaign module.
 
-Click the "New" button under the Team Activities module.
-
-<img src="/assets/A4WDb3ls3oW1MkxyvPsjQEMZpEg.jpeg" src-width="1280" src-height="201" align="center"/>
+<img src="/assets/BXxVboksioes5ExkTTUjmjxmp0f.jpeg" src-width="1280" src-height="201" align="center"/>
 
 Open the following page:
 
-<img src="/assets/YUnXb38Y2oBOX2xYd0JjO21mpib.jpeg" src-width="1886" src-height="1648" align="center"/>
+<img src="/assets/PfH5bZiTCoJFTUxbVTpjxS3Npvb.jpeg" src-width="1886" src-height="1648" align="center"/>
 
-Note: Currently, within "Activity Attribute" only the "Assist-to-Win" activity form is available; the "Basic Team Reward" and "Team Split" forms are not yet launched.
+Configure template fields according to the following rules:
 
-<img src="/assets/FIvEbYJocoBqYMxXOfejufVQpKc.jpeg" src-width="1280" src-height="958" align="center"/>
+#### 2.3.3 Team Campaign Reward Data Query
 
-Configure template fields as follows:
+Data is available only while the campaign is running and rewards are being distributed.
 
-#### 2.3.3 Team Activity Reward Data Query
+Click the details button for the relevant campaign, then open the "Winners" tab to access the following page:
 
-Data appears only when the activity is running and rewards are being issued.
+<img src="/assets/DVrJbh8k1oJz0lxILKXjq98hpac.jpeg" src-width="2730" src-height="818" align="center"/>
 
-Click the Details button for the corresponding activity and open the "Winners" tab to access:
+Data Status Definitions
 
-<img src="/assets/FjDcbA9TMoMRq8xVbydjWOkRpGc.jpeg" src-width="2730" src-height="818" align="center"/>
-
-Data categories:
-
-- Pending Submission: Reward records that have not had issuance requests submitted.
-- Issuing: Reward records currently being issued.
-- Issued: Reward records successfully issued.
-- Failed: Reward records that failed issuance.
-- Cancelled: Reward records for which issuance was cancelled.
-- Locked: Not applicable to assist-type team activities; ignore.
-- All: Total reward records for the activity.
+- Pending Submission: Reward records for which distribution requests have not yet been submitted.
+- Distributing: Reward records currently being distributed.
+- Distributed: Reward records successfully distributed.
+- Failed: Reward records where distribution failed.
+- Distribution Canceled: Reward records for which distribution has been canceled.
+- Locked: Not applicable to the current assistance-style team campaign; ignore.
+- All: All reward records for the campaign.
 
 #### 2.3.4 Team Information Viewing
 
-For assist activities, the initiator invites assistants to form a team; team information can be viewed.
+In assistance campaigns, the initiator invites assistants to form a team; team information can therefore be viewed.
 
-Data appears only when the activity is running.
+Data is available only while the campaign is running and rewards are being distributed.
 
-Click Details for the corresponding activity and open the "Team Information" tab to access:
+Click the details button for the relevant campaign, then open the "Team Information" tab to access the following page:
 
-<img src="/assets/VnACbAnFYonrDdxXeBOj8HPap3b.jpeg" src-width="2716" src-height="838" align="center"/>
+<img src="/assets/JrhxbXekZobKdixFZiUjqDvKpZj.jpeg" src-width="2716" src-height="838" align="center"/>
 
-Team statuses:
+Data Statistics
 
-- In Progress: Teams initiated during the activity that have not yet reached the required number of assistants.
-- Team Successful: Teams that reached the required number of assistants.
-- Team Failed: Teams that did not reach the required number of assistants by activity end.
-- All: All teams initiated for the activity.
+- In Progress: Number of teams initiated and still below the preset assistant count during the campaign.
+- Team Success: Number of teams that reached the preset assistant count.
+- Team Failure: Number of teams that failed to reach the preset assistant count by campaign end.
+- All: Total number of teams initiated in the campaign.
 
-## 3. Non-Standard Activity Management
+<img src="/assets/VCpwbyFMPofDW0xSZprjPBZjpag.jpeg" src-width="1062" src-height="650" align="center"/>
 
-Intended users: Operations staff
+## 3. Non-standard Campaign Management
 
-Use case: Offline prize distribution (e.g., VIP client rewards) where there are no explicit activity rules and the goal is to simply issue rewards.
+Users: Operations
 
-Primary function: Create an activity to obtain an activity code; subsequently associate the activity code in the Rights System — Reward Center to issue rewards.
+Use case: Offline reward distribution, e.g., corporate client appreciation events with no explicit campaign rules—used solely to issue rewards to users.
 
-Navigation: Operations System &gt; Activity System &gt; Non-Standard Activity Management
+Primary function: Create a campaign to obtain a campaign code. Then, in the Benefits System &gt; Rewards Center, associate the campaign code to distribute rewards.
 
-You can query and manage created activities. (Note: standard activities are also archived in this list; thus, this list serves as a comprehensive activity repository.)
+Navigation: Operations System &gt; Campaign System &gt; Non-standard Campaign Management
 
-<img src="/assets/JxlJbogw2o8cihxxuEIj4HKIpOg.jpeg" src-width="2720" src-height="1216" align="center"/>
+You can query and manage created campaign records here (the current design archives standard campaigns into this list as well; therefore this list contains both standard campaigns and non-standard campaigns, serving as a comprehensive campaign query repository).
 
-Activity management list field descriptions
+<img src="/assets/OQAubTCgLoTS2LxkSVjj3gnvpof.jpeg" src-width="2720" src-height="1216" align="center"/>
 
-### 3.1 Non-Standard Activity Configuration
+Campaign management list field descriptions
 
-Click the New button at the top of the page to open:
+<img src="/assets/QcBsbup4coXxv3x4OdUjVtxEpyb.jpeg" src-width="944" src-height="334" align="center"/>
 
-<img src="/assets/LGo3bGyWxoQ99FxaWdojcdZvpYd.jpeg" src-width="1742" src-height="1612" align="center"/>
+### 3.1 Non-standard Campaign Configuration
 
-Because non-standard activities do not have explicit rules, creating them is mainly to obtain the activity code. Subsequent reward issuance is associated with this activity code in the Reward Center. Optional fields on the creation page may be left blank.
+Click the "New" button at the top of the page to open the following page:
 
-Important fields:
+<img src="/assets/GhA4bD37CoYjeTxGybVj6FV1p7c.jpeg" src-width="1742" src-height="1612" align="center"/>
 
-## 4. Referral Relationship Management
+Because non-standard campaigns do not have explicit rules, creating them is primarily to obtain a campaign code for later association with the Rewards Center. Therefore, optional fields on the creation page may be left blank.
+
+Below are explanations for important fields:
+
+## 4. Invitation Relationship Management
 
 [Not Support block type: Diagram/21]
 
-As shown: a user under an app generates a unique invite code for that app. When the user shares the invite code and a friend fills it in, the binding is recorded in the referral relationship list.
+As illustrated: a user will generate a unique invitation code within a given App. The user shares this code with friends who can then fill it in to bind. After binding, it is updated in the invitation relationship list.
 
-Referral relationships created via activity sharing can be queried here and may also be manually bound.
+Invitation relationships bound through invitation campaigns can be queried here, and manual bindings can also be performed.
 
-Navigation: Operations System &gt; Activity System &gt; Referral Relationship Management
+Navigation: Operations System &gt; Campaign System &gt; Invitation Relationship Management
 
-<img src="/assets/HKOxbsYmYoRSHSxHFM5jhLmqpsE.jpeg" src-width="2730" src-height="1010" align="center"/>
+<img src="/assets/RSiWbdrHJo9AQzxeTSKjE6gOpDb.jpeg" src-width="2730" src-height="1010" align="center"/>
 
 Primary functions:
 
-- Query: Use the top tabs to query registration invites, account-opening invites, and deposit invites separately.
-- Add: Manually bind referral relationships for users from the backend.
-- Details: View detailed binding information, including binding channel and binding time, and modify the binding relationship.
+- Query: By switching the top tabs, you can query registration invitations, account-opening invitations, and deposit invitations.
+- Add: Bind invitation relationships for users directly from the back office.
+- Details: View specific user information for a binding, including binding channel, binding time, and modify bindings.
 
-(For already completed actions, the corresponding inviter for that node cannot be bound; for incomplete nodes, the inviter can be bound or changed.)
+(Completed action nodes cannot have their corresponding invitee bound; for incomplete nodes, you may bind or change the inviter.)
 
-### 4.1 Add Referral Relationship
+### 4.1 Adding Invitation Relationships
 
-#### 4.1.1 Add Registration Referral
+#### 4.1.1 Add Registration Invitation
 
-Click the New button in Referral Relationship Management to open the dialog:
+Click the "New" button on the Invitation Relationship Management page to open the following dialog:
 
-<img src="/assets/ZNVZbTDH6o5xO5xerbYjmjgcpTh.jpeg" src-width="1280" src-height="183" align="center"/>
+<img src="/assets/CabybyqTYoai7axEKXkjSOH8pNg.jpeg" src-width="1280" src-height="183" align="center"/>
 
-<img src="/assets/A95nbupPCouJa1xociDj00k6pld.jpeg" src-width="936" src-height="708" align="center"/>
+<img src="/assets/W6Hebszq5oB9ujxl8k4j17vPpkc.jpeg" src-width="936" src-height="708" align="center"/>
 
-Enter the invitee and inviter customer IDs to complete the binding.
+Enter the invitee's and inviter's customer IDs to complete the binding.
 
-#### 4.1.2 Add Account-Opening or Deposit Inviter
+#### 4.1.2 Add Account-opening or Deposit Inviter
 
-First, locate the invitee user you want to bind to by searching, then click the user’s details to view:
+First, locate the invitee for whom you want to bind an inviter by filtering the list, then click the user's details to view:
 
-<img src="/assets/KRE7bMRYcoUQ5zxAKD4jqhiYpBh.jpeg" src-width="2698" src-height="392" align="center"/>
+<img src="/assets/CmUabn2i4oddJJx0mfMjFS7kplf.jpeg" src-width="2698" src-height="392" align="center"/>
 
-The details view shows the user’s registration inviter and allows binding of account-opening and deposit inviters.
+The details page displays the user's registration inviter and allows binding of account-opening and deposit inviters.
 
-<img src="/assets/ChQCbpamjo03NSx1Uyyja9kZpqc.jpeg" src-width="2712" src-height="1710" align="center"/>
+<img src="/assets/CMwsblvGso2Y4PxQYQWj4nwXppf.jpeg" src-width="2712" src-height="1710" align="center"/>
 
-In the pop-up, input the inviter’s user ID to bind the account-opening or deposit inviter for the invitee.
+In the dialog that appears, enter the inviter's user ID to complete the binding for the invitee's account-opening/deposit inviter.
 
-If the user has not completed a given node, you may change the inviter for that node using the same flow—enter the new inviter’s user ID to perform the change.
+If the user has not completed a node, you may change the bound inviter for that node using the same procedure—enter the new inviter's user ID to update the binding.
 
-## Frequently Asked Questions for Operations
+## Common Questions for Campaign Operations
 
-Q: When a user reports not receiving a reward, how should operations investigate?
+Q: A user reports not receiving a reward. How should operations investigate?
 
-Navigation: Operations System &gt; Activity System &gt; Standard Activity Management
+Navigation: Operations System &gt; Campaign System &gt; Standard Campaign Management
 
-First verify that the activity configuration is correct. Click Details for the activity and review the configured rules and rewards.
+First verify that the campaign configuration is correct. Click the details button for the relevant campaign and review the campaign rules and reward configuration to confirm accuracy.
 
-<img src="/assets/XaV0bQkdOo51Vax1ZWzjkrRYpof.jpeg" src-width="1280" src-height="595" align="center"/>
+<img src="/assets/OAhgbH8IsoWvKSxGHzajrC56pPf.jpeg" src-width="1280" src-height="595" align="center"/>
 
-<img src="/assets/GHhobcRoIoc8t6x9EkyjwUZup9r.jpeg" src-width="1280" src-height="636" align="center"/>
+<img src="/assets/DpOdbs7ApoXGPLxTIq6jgXkdpwh.jpeg" src-width="1280" src-height="636" align="center"/>
 
-If configuration is correct, verify the Winners list to see whether a reward record was generated and check the reward record status.
+If the configuration is correct, check the Winners list to confirm whether a reward record was generated and to inspect the reward record status.
 
-<img src="/assets/Lyc2bomFmoNqsqxBtojj5Gf5pUg.jpeg" src-width="1280" src-height="443" align="center"/>
+<img src="/assets/K4tdbv5IhoH2bXxlqsbjTO1Dp1b.jpeg" src-width="1280" src-height="443" align="center"/>
 
-If status is Issuing, the system is still processing issuance. If Pending Submission, operations staff must click Submit to issue the reward.
+If the status is "Distributing" the system is still processing the distribution. If the status is "Pending Submission," operations must click "Submit" to initiate distribution.
 
-Q: How to check whether a user's referral binding succeeded?
+Q: How to verify whether a user’s invitation binding succeeded?
 
-Navigation: Operations System &gt; Activity System &gt; Referral Relationship Management
+Navigation: Operations System &gt; Campaign System &gt; Invitation Relationship Management
 
-<img src="/assets/PiPBbYe65oFn9Lx8GKwjxUe7pYd.jpeg" src-width="1280" src-height="492" align="center"/>
+<img src="/assets/JLorb2hpioY1LOxNo92jq0Lyp8y.jpeg" src-width="1280" src-height="492" align="center"/>
 
-After searching, the list shows all referral bindings for the user. Click Details to view the specific bound user information.
+After searching, the list displays all invitation relationships bound for that user. Click the details button to view specific user binding information.
 
-<img src="/assets/Qhynb3sm3oVJZQxD5tdjmiyupFh.jpeg" src-width="1280" src-height="395" align="center"/>
+<img src="/assets/Oyf6b07gNoqpsGxIGpdjDO1apQe.jpeg" src-width="1280" src-height="395" align="center"/>
 
-<img src="/assets/PKYYbdOzioLuYZxl03Vjoaicpsg.jpeg" src-width="1280" src-height="632" align="center"/>
+<img src="/assets/FMwzbjQSCoHpa7x7AAtjFasgpFe.jpeg" src-width="1280" src-height="632" align="center"/>
 

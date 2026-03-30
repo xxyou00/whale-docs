@@ -23,9 +23,9 @@ Before creating articles, confirm whether the existing categories meet your requ
 
 <b>Operation:</b> Click [Create Category] to add a new article category. Multi-level category creation is supported.
 
-<img src="/assets/XCFrb8HUNo40XhxJiWUj43ahphe.png" src-width="2740" src-height="1420" align="center"/>
+<img src="/assets/QO04bexPVoOQKHxBLCKjhm1lp0f.png" src-width="2484" src-height="1396" align="center"/>
 
-<img src="/assets/XSv6brPfZoh99Txo03ajnY3Cpkh.png" src-width="2748" src-height="1066" align="center"/>
+<img src="/assets/OwgSbr9FAojyhyxPERDjRRPspSg.png" src-width="2480" src-height="1084" align="center"/>
 
 # Create an "Article"
 
@@ -35,7 +35,7 @@ The article list supports functions such as creating, editing, hiding/showing, a
 
 <b>Operation:</b> Click [Create Article] to edit the article's title, body content, external links, category, publishing scenarios, and other settings.
 
-<img src="/assets/ZAUqb5MSVoso3WxwIAqj0hYKpag.png" src-width="2754" src-height="1438" align="center"/>
+<img src="/assets/EyZ4bXnv3o1aWSxeLVijysYupYd.png" src-width="2470" src-height="1390" align="center"/>
 
-<img src="/assets/EXXObgcUGo6WvWxcLNAj74jfpmf.png" src-width="2726" src-height="1436" align="center"/>
+<img src="/assets/J6bDbXcppornzWxAEl8j94KDpJd.png" src-width="2486" src-height="1384" align="center"/>
 
