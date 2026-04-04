@@ -11,36 +11,36 @@ sidebar_position: 2
 
 ## I. System Overview
 
-The securities deposit function refers to the operation by which investors transfer funds into their securities accounts via a securities trading platform. Investors can conveniently deposit funds into their securities accounts and participate in securities trading and investment activities anytime and anywhere.
+The securities transfer-in feature enables investors to transfer securities holdings into their securities accounts through the securities trading platform. This feature allows investors to efficiently transfer securities, enabling them to participate in securities trading and investment activities anytime, anywhere.
 
-The Whale system includes features such as deposit applications, deposit details, streamlined import parameter settings, and email notifications to brokers. The workflow supports the approval requirements of different roles and effectively enhances the accuracy of securities deposits. The overall process architecture is as follows:
+The Whale system includes functions such as transfer-in application, transfer-in details, streamlined import parameter settings, and email notification to brokers. The process supports the review requirements of different roles and effectively improves the accuracy of securities transfer-in. The overall process is as follows:
 
 <img src="/assets/QeAbwYwJqhgu5gbphrFjIHg2p7e-board.jpeg"/>
 
-## II. Operating Instructions
+## II. Operation Instructions
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
 <div class='callout-emoji'>📍</div>
-<p> Menu entry: Stock Management - Broker Config</p>
+<p>Navigation: Stock Management &gt; Transfer In</p>
 </div>
 
-### Deposit Application
+### Transfer-In Application
 
-Securities deposit applications are initiated by the client and comprise four main sections: broker information, account information, security details, and remarks. WHALE users can manually assist clients with securities deposit processing and perform actions such as rejecting applications, submitting them for approval, and notifying brokers based on the client's submitted application.
+A transfer-in application is initiated by the client and consists of four components: broker information, account information, securities details, and remarks. Back office operators can create applications manually on a client's behalf, and may take the following actions on any submitted application: reject, submit for approval, or notify the delivering broker.
 
-- Manual Deposit Entry
+- Manual Transfer-in
 
-This applies when a user contacts a back-office operator to manually create a transfer-in application record. The operator must sequentially enter the client's security information, account information, and the detailed security records.
+This applies when a client contacts a back office operator to request a manual transfer-in. The operator must enter the client's security details and account information.
 
 <img src="/assets/OLmjbiLzroUchex3D9Djx3jTpSh.png" src-width="1280" src-height="570" align="center"/>
 
-- If the transferred shares are physical stock, select "Is Physical Stock" = Yes.
-- Reject (bulk operation available): If the client's securities deposit application contains errors or the user indicates the application is invalid, the operator may perform the [Reject] action.
-- Notify Broker: Because transfer-in operations require cooperation from the counterparty broker, users typically contact the broker to ensure timely handling. This function provides an email-sending capability and displays to the user whether the broker has been notified based on the email delivery results, enabling the user to proceed with subsequent business processing.
-    - Select the broker institutions to which the email should be sent; the system will automatically populate the broker's email address for the operator to verify.
-    - Select the securities deposit application details related to the target broker (applications that have already been sent will be excluded).
-    - Preview the email content and, after confirming accuracy, click Send.
-    - View the sending status on the Email Sending Records page.
+- If the shares to be transferred in are physical stock, select Yes for Whether it is a physical stock..
+- Reject (batch operation supported): If the transfer-in application submitted by a client contains an error or the back office operator deems the application invalid, the operator can click Reject.
+- Notify Broker: Since transfer-in operations require cooperation from the delivering broker, in practice, operators need to contact the delivering broker to ensure a timely transfer-in. The Notify Broker function provides an in-system email tool that allows operators to send notifications to the delivering broker. Email delivery results are displayed to operators, giving them visibility into whether the broker has been notified.
+    - Select the broker institution to which the email should be sent. The system will automatically populate the broker's email address. The operator should verify that the email address is correct.
+    - Select the securities transfer-in application details under the target broker. (Already-sent application details will be excluded.)
+    - Preview the email content, and click OK after confirming it is correct.
+    - Go to the Email Records tab to check the sending status.
     <img src="/assets/StcGbnisloXhnqxNXbcjBmx6p9k.png" src-width="1280" src-height="572" align="center"/>
     <img src="/assets/VIImb0HRMoP4xdxghzWjfcZEpRb.png" src-width="1280" src-height="567" align="center"/>
     <img src="/assets/X31jbm0siofGfPxyF8ijugQgpOc.png" src-width="3022" src-height="1310" align="center"/>

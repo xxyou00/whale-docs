@@ -9,45 +9,45 @@ sidebar_position: 1
 
 # Overview
 
-A deposit refers to the process of transferring cryptocurrency (such as Bitcoin, Ethereum, etc.) from an external address (including other trading platforms or another person's wallet) into one’s own digital wallet or trading platform account. The following are standardized operating procedures designed to ensure operational accuracy and asset security:
+Cryptocurrency deposit refers to the process of transferring cryptocurrency (such as Bitcoin, Ethereum, etc.) from one address (for example, another trading platform or another person's wallet) to one's own digital wallet or trading platform account. The following are standardized operation steps to ensure accurate operations and asset security.
 
 # Quick Start
 
-Completing wallet address verification prior to depositing is a critical prerequisite for safeguarding asset security.
+To ensure asset security, wallet address verification must be completed before a deposit is processed. This is a critical prerequisite step.
 
-# Prerequisites
+# Prerequisite
 
-You must obtain the following permissions to use the system functions properly:
+Operators must obtain the following permissions before they can use the system functions properly.
 
 # Cryptocurrency Configuration
 
-Prior to customer deposits, cryptocurrency deposit settings must be configured.
+Operators should configure cryptocurrency settings for deposits before processing client deposits.
 
 <img src="/assets/HwctbH5YqoMyVbx5ZCgjwouwp9g.png" src-width="2474" src-height="1188" align="center"/>
 
-# Customer Wallet Address
+# Client Wallet Address
 
-Completing wallet address verification prior to depositing is a critical prerequisite for safeguarding asset security.
+To ensure asset security, wallet address verification must be completed before a deposit is processed. This is a critical prerequisite step.
 
 <img src="/assets/Y13rbqBQgofYJDxzsVbjkjkopBc.png" src-width="2440" src-height="1164" align="center"/>
 
-# Summary of Deposit Operations After Verification
+# Deposit Operations After Verification
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
 <div class='callout-emoji'>📍</div>
-<p>Menu location: WBO - VA Clearing Management - Deposits &amp; Withdrawals - Deposit Application</p>
+<p>Navigation: WBO &gt; VA Clearing Management &gt; Deposit &amp; Withdrawal &gt; Deposit Application</p>
 </div>
 
-- After the client submits a deposit request, the back-end system will automatically generate a corresponding deposit record to facilitate back-office personnel in querying and tracking the entire process; if a deposit request is abnormal or otherwise problematic, back-office personnel may directly delete it within the system.
+- After a client submits a deposit request, the back office will automatically generate a corresponding deposit record, facilitating back office operators to query and track the entire process. For deposit applications with exceptions or errors, back office operators can delete them directly in the system.
 
 <img src="/assets/TQVhbVNbBoQZq5xu4CLj1z2VpXc.png" src-width="2458" src-height="646" align="center"/>
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
 <div class='callout-emoji'>📍</div>
-<p>Menu location: WBO -  VA Clearing Management - Deposits &amp; Withdrawals - Coin Deposit Records</p>
+<p>Navigation: WBO &gt; VA Clearing Management &gt; Deposit &amp; Withdrawal &gt; Coin Deposit Records</p>
 </div>
 
-- Users may view transaction status, block confirmation counts, and other details in the target wallet’s or platform’s “Deposit Records” module to track asset receipt.
+- Operators can view details, such as transaction status and the number of blockchain confirmations, and track asset receipt status in the Coin Deposit Records tab of the target wallet or platform.
 
 <img src="/assets/WWyQb5JQuoOby7xAhPyji0vfpSL.png" src-width="2446" src-height="964" align="center"/>
 

@@ -9,40 +9,40 @@ sidebar_position: 0
 
 # I. System Overview
 
-When using the "Deposit Cryptocurrency" or "Withdraw Cryptocurrency" functions, any wallet addresses you use must complete the authentication and whitelisting process.
+When clients use the Deposit Cryptocurrency and Withdraw Cryptocurrency features, the wallet addresses they use must undergo verification and whitelisting processes.
 
-The operation flow of the wallet address authentication system may vary depending on the platform and wallet type. The following provides a graphic walkthrough of the wallet address authentication process using the HashKey Exchange platform as an example:
+The wallet address verification workflow may vary depending on the platform and wallet type. The following describes the process using HashKey Exchange as an example.
 
 ### Preparations
 
-Confirm that your personal wallet supports message signing. HashKey Exchange does not, in principle, restrict wallet types; common software wallets such as MetaMask, Electrum, MyEtherWallet and hardware wallets such as Ledger Nano S and Trezor are all supported.
+Confirm that the client's personal wallet supports message signing. Generally, HashKey Exchange does not restrict wallet types. Commonly supported options include software wallets such as MetaMask, Electrum, and MyEtherWallet, as well as hardware wallets such as Ledger Nano S and Trezor.
 
-### Procedure
+### Operation steps
 
-1. <b>Trigger Address Authentication:</b> When depositing, if your deposit source address is a personal wallet address and that address has not been certified by HashKey PRO, your virtual assets will automatically trigger address authentication after receiving a certain number of block confirmations.
-2. <b>Select Authentication Method:</b> For example, using a MetaMask wallet, on the Add Deposit Whitelist page select the MetaMask authentication method and click [Connect MetaMask].
-3. <b>Connect Wallet:</b> A wallet connection interface will appear. Confirm the wallet address that needs to be authenticated, click [Next], then click [Connect].
-4. <b>Small-amount Payment Verification:</b> On the "Customer Wallet Addresses" page click the "Add Authentication" button, accurately enter the wallet address to be authenticated and the corresponding currency information, carefully verify the details, and submit. Log in to your personal cryptocurrency wallet and transfer the specified verification amount to the system-generated verification address.
-5. <b>Complete Authentication:</b> After completing the small-amount payment verification, the address will be added to the deposit whitelist. Subsequent deposits can directly select that address without requiring reauthentication.
+1. <b>Trigger Address Verification: </b>When a deposit is initiated, if the client's source address is a personal wallet that has not been verified by HashKey PRO, address verification will be triggered automatically once the client's virtual assets reach the required number of blockchain confirmations.
+2. <b>Choose Verification Method: </b>Taking the Metamask wallet as an example, on the Add Deposit Whitelist page, the client should select the MetaMask verification method and click Connect MetaMask.
+3. <b>Connect Wallet: </b>A wallet connection interface will pop up. The client should confirm the wallet address to be verified, click Next, and then click Connect<b>.</b>
+4. <b>Micropayment Verification:</b> On the Customer Wallet Address page, the client should click Add Verification, accurately fill in information such as the wallet address to be verified and the corresponding cryptocurrency, review the information, and then submit it. Next, the client should log in to their personal cryptocurrency wallet and transfer the specified Verification Amount to the system-generated Verification Address.
+5. <b>Complete Verification: </b>Once the micropayment is confirmed, the address is added to the deposit whitelist. For subsequent deposits, the client can directly select this address without verification again.
 
-# II. Operating Instructions
+# II. Operation Instructions
 
-## Permissions Preparation
+## Permission Preparations
 
-Log in to the WBO backend system and confirm that you have been granted the operational permissions related to "Cryptocurrency", "Channel Custodial Accounts", and "Customer Wallet Addresses". If you do not have the necessary permissions, please contact an administrator to request them.
+Back office operators log in to WBO and confirm that they have obtained the operation permissions for Cryptocurrency, Channel Custodial Account, and Client Wallet Address. Operators who have not been granted the required permissions should contact the administrator to request access.
 
-## Prerequisite: Cryptocurrency Data Maintenance (Primary Step for All Operations)
+## Preparation: Cryptocurrency Data Maintenance (First Step for All Operations)
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
 <div class='callout-emoji'>📍</div>
-<p>Menu path: WBO - Service Parameter - Fund Parameters - Cryptocurrency</p>
+<p>Navigation: WBO &gt; Service Parameter &gt; Fund Parameter &gt; Cryptocurrency</p>
 </div>
 
-Before conducting cryptocurrency deposit/withdrawal and wallet address authentication operations, backend operators must first complete the maintenance of cryptocurrency-related data:
+Before conducting cryptocurrency deposits/withdrawals and wallet address verification, back office operators must first complete the maintenance of relevant cryptocurrency data:
 
-1. Log in to the WBO backend system and navigate to Service Parameter - Fund Parameters - Cryptocurrency;
-2. Click "Add" or "Edit" and complete the basic information for the target cryptocurrency (such as currency code, name, authentication rules, etc.);
-3. After verifying that the information is correct, submit to take effect to ensure subsequent authentication and deposit/withdrawal operations can proceed normally.
+1. Log in to WBO and go to Service Parameter &gt; Fund Parameter &gt; Cryptocurrency.
+2. Click Add or Edit to complete the basic information of the target cryptocurrency (e.g., currency code, name, verification rules, etc.).
+3. After verifying that the information is correct, submit it to activate. This ensures subsequent verification and deposit/withdrawal operations can proceed properly.
 
 <img src="/assets/JSOCblFFQoE69ExJrpzjTEbophg.png" src-width="2452" src-height="1180" align="center"/>
 
@@ -50,25 +50,25 @@ Before conducting cryptocurrency deposit/withdrawal and wallet address authentic
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
 <div class='callout-emoji'>📍</div>
-<p> Menu path: WBO - VA Clearing Management - Deposits &amp; Withdrawals - Channel Custodial Accounts</p>
+<p> Navigation: WBO &gt; VA Clearing Management &gt; Deposit &amp; Withdrawal &gt; Channel Custodial Account</p>
 </div>
 
-1. Go to VA Clearing Management - Deposits & Withdrawals - Channel Custodial Accounts;
-2. Click "Bulk creation" and upload the reviewed channel custodial account list (must conform to the system-specified format);
-3. After import is complete, verify the account information is correct and click "Confirm". These accounts will be used for automatic allocation prior to customer authentication.
+1. Go to VA Clearing Management &gt; Deposit & Withdrawal &gt; Channel Custodial Account.
+2. Click Bulk creation and upload the reviewed channel custodial account list (must conform to the system-specified format).
+3. After the import is completed, verify that the account information is correct and click Confirm. These accounts are used for automatic assignment before client verification.
 
 <img src="/assets/IVxXb8zUToFpzaxNPC3jLfIcpMh.png" src-width="2480" src-height="1298" align="center"/>
 
-## Authentication Record Monitoring
+## Verification Record Monitoring
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
 <div class='callout-emoji'>📍</div>
-<p> Menu path: WBO - Virtual Asset Management - Deposits &amp; Withdrawals - Customer Wallet Addresses</p>
+<p> Navigation: WBO &gt; VA Clearing Management &gt; Deposit &amp; Withdrawal &gt; Client Wallet Address</p>
 </div>
 
-1. Access the "Customer Wallet Addresses" backend management page to view all customer authentication application records;
-2. Support filtering by "Authentication Status", "Creation Time", "Customer ID", and other criteria. Click a single record to view details (including the allocated custodial account, payment information, verification results, etc.);
-3. For "Unauthenticated" records, assist customers in troubleshooting (for example, verify whether the transfer has been received or whether the addresses match).
+1. Enter the Client Wallet Address page to view verification application records for all clients.
+2. Supports filtering and searching by criteria such as Verification Status, Created Time, and Client ID. Click on a record to view details (including the assigned custodial account, payment information, verification results, etc.).
+3. For records in the Unauthenticated status, operators can assist clients in troubleshooting (for example, verify whether the transfer has been received or whether the addresses match).
 
 <img src="/assets/X7dNb8Z3VoinIixejMpj2wfapve.png" src-width="2446" src-height="1160" align="center"/>
 
@@ -76,20 +76,20 @@ Before conducting cryptocurrency deposit/withdrawal and wallet address authentic
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
 <div class='callout-emoji'>📍</div>
-<p> Menu path: WBO - VA Clearing Management - Deposits &amp; Withdrawals - Client Wallet Address</p>
+<p> Navigation: WBO &gt; VA Clearing Management &gt; Deposit &amp; Withdrawal &gt; Client Wallet Address</p>
 </div>
 
-1. After a customer address successfully completes authentication, the system will automatically include the address in the whitelist; the backend can view the list of whitelisted addresses;
-2. Support status management for whitelisted addresses (such as deletion) to mitigate abnormal risks;
-3. Periodically export authentication and whitelist records to complete compliance filing and data archiving.
+1. After a client's address is verified, the system automatically adds it to the whitelist. Operators can view all whitelisted addresses in the back office.
+2. Operators may manage whitelisted address statuses as needed — for example, removing addresses to mitigate exception risks.
+3. Operators should regularly export verification and whitelisting records for compliance filing and data archiving.
 
 <img src="/assets/XWJ1bmawzoJ9nExJ2lqj96ekpWb.png" src-width="2464" src-height="1172" align="center"/>
 
-## Notes
+## Precautions
 
-1. The wallet address submitted for authentication must be owned by the customer. Do not submit another person's address for authentication, as this may affect the receipt of funds.
-2. Funds used for the small-amount payment verification are solely for ownership verification; no fees are charged, and there is no need to withdraw them separately after authentication.
-3. Keep records of operations and transfer receipts generated during the authentication process to facilitate subsequent troubleshooting.
-4. If system anomalies occur (for example, the page cannot be opened or submission fails), please refresh the page or switch browsers; if the problem persists, contact the technical support team.
-5. Strictly comply with cryptocurrency-related laws and platform rules. Fraudulent authentication will result in account restrictions and may lead to service termination in severe cases.
+1. Clients must submit their own wallet address for verification. Using another person's address may result in funds not being credited correctly.
+2. The funds used for micropayment verification are solely for identity verification purposes. No fees are charged, and there is no need to withdraw these funds separately after verification is complete.
+3. Operators should properly keep operation records and transfer receipts generated during the verification process to facilitate future troubleshooting.
+4. If a system error occurs — such as a page failing to load or a submission error — refresh the page or try a different browser. If the issue persists, contact the technical support team.
+5. Operators shall strictly comply with relevant cryptocurrency business regulations and platform rules. Falsified verifications will result in account restrictions; serious violations may result in termination of services.
 

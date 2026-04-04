@@ -9,15 +9,15 @@ sidebar_position: 1
 
 # Overview
 
-WHALE’s funds management system provides deposit capabilities for multiple scenarios. Users may submit clients’ deposit applications, approve deposits, track exception records during the deposit process, and query all historical records within the system.
+Whale's funds management system provides deposit capabilities for multiple scenarios. Operators may submit clients' deposit applications, approve deposits, track exception records during the deposit process, and query all historical records within the system.
 
 # Quick Start
 
-Deposit functionality has been implemented in accordance with actual business requirements and is divided into two posting criteria: posting based on deposit applications and posting based on bank statement information.
+Based on actual business requirements, the deposit function includes two types: application-based deposit or bank statement-based deposit.
 
 # Prerequisites
 
-You must obtain the following authorizations in order to use the system features normally.
+Operators should obtain the following system permissions to access and use deposit-related functions.
 
 <table header_row="1">
 <colgroup>
@@ -28,7 +28,7 @@ You must obtain the following authorizations in order to use the system features
 <tr><th><p>Permission Name</p></th><th><p>Permission Description</p></th></tr>
 </thead>
 <tbody>
-<tr><td><p>Permission to manage fund parameters, bank statements, and deposits</p></td><td><p>Permission to manage bank statements; deposit and withdrawal records/methods; bank cards; foreign exchange operations; funding guidelines; and permission to manage fund parameters.</p></td></tr>
+<tr><td><p>Permission to manage fund parameters, bank statements, and deposits</p></td><td><p>Permission to manage bank statements; deposit and withdrawal records/methods; bank cards; foreign exchange operations; funding guidelines; and fund parameter configuration</p></td></tr>
 </tbody>
 </table>
 
@@ -36,27 +36,27 @@ You must obtain the following authorizations in order to use the system features
 
 # Fund Parameter Configuration
 
-## 1. Corporate Bank Accounts
+## 1. Company Bank Account
 
-Before a client deposit can be accepted, the corresponding corporate bank account must be added in the backend and the available deposit methods under that corporate account must be configured.
+Before a client can deposit funds, the corresponding company bank account must be added in the back office, and the deposit methods supported under that company bank account need to be configured.
 
 <img src="/assets/Lgaqb4w6So4HpGxcDqgjeb6Qpbc.png" src-width="3772" src-height="1392" align="center"/>
 
 <img src="/assets/OibdbZ9Zgoiescx87QLjzwj2pzW.png" src-width="2584" src-height="2372" align="center"/>
 
-## 2. Currencies
+## 2. Currency
 
-Before a client deposit can be accepted, deposit currencies must be configured.
+Deposit currencies must be configured in the system before clients can initiate deposits.
 
 <img src="/assets/IkWQbiV4poXDFnxuVjNjMaOcpRh.png" src-width="3834" src-height="1317" align="center"/>
 
-# Client Bank Cards
+# Client Bank Card
 
-Clients’ bank card information must be configured with the broker. Cards may be added either by the client via the client App or by backend staff.
+Clients must configure their bank card information with the broker.Bank cards can be added either by the clients via the client app or by back office operators.
 
 <img src="/assets/XFAmbhrDjovTE0xVDNSjFNQNpyb.png" src-width="3816" src-height="974" align="center"/>
 
-Single entry
+Add a single card
 
 <img src="/assets/XKUubsOoNoaYDExGTkyjxMFJp0c.png" src-width="3252" src-height="2832" align="center"/>
 
@@ -66,25 +66,25 @@ Bulk addition
 
 # Bank–Securities Account Opening
 
-If a client intends to deposit via bank–securities transfer, a bank–securities account opening is required. If the client has submitted a bank–securities account opening request, the corresponding record will be visible in the backend.
+If a client intends to deposit via bank–securities transfer, a bank–securities account opening is required. If the client has submitted a bank–securities account opening request, the corresponding record can be viewed in the back office.
 
 <img src="/assets/VBLQbVpj4ovY5Qxy43CjlLW7p5d.png" src-width="3284" src-height="1078" align="center"/>
 
 # eDDA Authorization
 
-If a client intends to deposit via eDDA, eDDA authorization is required. Once the client completes eDDA authorization, the corresponding record will be visible in the backend.
+If a client intends to deposit via eDDA, eDDA authorization is required. Once the client completes eDDA authorization, the corresponding record can be viewed in the back office.
 
 <img src="/assets/Jzhjb7tg7o8HB1xSnfaje3Yepff.png" src-width="3292" src-height="1268" align="center"/>
 
 # Bank-Related Information Configuration
 
-The commonly used bank enumerations, country/region enumerations, and bank region list enumerations required when configuring client or corporate bank account information can all be configured in the backend.
+The enumeration values used when setting up client or company bank account information—including common banks, countries/regions, and bank regions—can all be configured through the back office.
 
-## 1. Issuing Bank
+## 1. Card-Issuing Bank
 
 <img src="/assets/QcKgbW46YoRpkHx2ikZjV5h6p5e.png" src-width="3292" src-height="1254" align="center"/>
 
-## 2. User Card Binding – Country/Region
+## 2. Client Card Binding – Country/Region
 
 <img src="/assets/XH5jb43AGoH7m7xcq7pjU7MypYc.png" src-width="3288" src-height="1086" align="center"/>
 
@@ -96,60 +96,60 @@ The commonly used bank enumerations, country/region enumerations, and bank regio
 
 # Deposit Process for Clients with Opened Accounts
 
-## 1. Posting Based on Deposit Application
+## 1. Application-Based Deposit
 
-## 1.1 Create Application
+## 1.1 Create a Deposit Application
 
-A deposit application is a prerequisite for client deposits. It primarily records client information, the client’s bank card, the receiving bank, deposit amount, deposit currency, and supporting vouchers. Applications may originate in two ways: submitted by the client via the client interface, or created in the backend by operations staff according to the client’s instructions.
+A deposit application is a prerequisite for processing a client deposit. It records client information, client bank card, receiving bank, deposit amount, deposit currency, and supporting document. Applications can be created in one of two ways: submitted directly by the client through the client app, or created by a back office operator based on the client's instructions.
 
-1. Client-submitted deposit application, backend query
+1. Querying client-submitted deposit applications
 
 <img src="/assets/BHjsbsmfZoZvJHx8OwSjrVw0pfe.png" src-width="3810" src-height="1238" align="center"/>
 
-1. Backend manual “New”
+1. Manual creation by back office operators
 
-Backend operations staff create deposit applications manually according to the client’s instructions.
+Back office operators create deposit applications manually according to the client's instructions.
 
-Select the client and enter information such as the bank, deposit method, deposit amount, deposit currency, vouchers, and remarks.
+Select the client and enter information such as the bank, deposit method, deposit amount, deposit currency, supporting document, and remarks.
 
 <img src="/assets/PWrebiVInoZua5x8W90jFuSXpyd.gif" src-width="2086" src-height="994" align="center"/>
 
-## 1.2 Posting Operations
+## 1.2 Process the Deposit
 
-After receiving a deposit application, backend posting may be performed in one of two ways: “Direct Posting” and “Voucher Association.”
+After receiving a deposit application, Back office operators can process the deposit using one of the two methods: Direct Deposit or Voucher Association.
 
-1. Direct Posting
+1. Direct Deposit
 
-The backend operator locates the corresponding application within the deposit application page, verifies the information, and may submit the posting directly.
+The back office operator locates the corresponding application within the deposit application page, verifies the information, and initiates funding directly.
 
-Select the “Direct Posting” action in the operations bar, and confirm the following items in the pop-up dialog:
+Click Credit directly in the action column, and in the pop-up window, confirm the following:
 
-- Whether the submitted application information contains any errors
-- Add the bank statement corresponding to this application (if the bank statement is not yet available, approval may be submitted first and statement information supplemented later)
+- That all application details are correct.
+- Bank statement information corresponding to the application. If the statement is not yet available, the application can still be submitted for approval, and the statement details can be supplemented later.
 
 <img src="/assets/Xyk0bjCzFoINt0xngEdjmuYbp8c.png" src-width="3814" src-height="1770" align="center"/>
 
-- When the deposit method is a cheque, the operator may choose to freeze the funds based on actual business requirements. If freezing is selected, the operator may manually adjust the expected unfreeze date.
+- When the deposit method is cheque, the operator may choose to freeze the funds based on actual business requirements. If the operator selects Yes under Do check deposits need to be frozen, the operator can manually specify the Estimate thawing time.
 
 <img src="/assets/I1ruboUtxoXTkBxmq7mjDmBbpoH.png" src-width="3334" src-height="1770" align="center"/>
 
 1. Voucher Association
 
-- If multiple applications are to be posted, the operator may enter the voucher association page to perform batch posting.
+- When multiple applications need to be processed at once, the operator can go to the Vouchers associated page for batch funding.
 
 <img src="/assets/GQhObxAOdoPRuPx1B6NjR09FpZf.png" src-width="3316" src-height="1212" align="center"/>
 
-- On the voucher association page, all applications awaiting posting are filtered and displayed for operator selection; after verification, submit to post.
+- On the Vouchers associated page, all applications pending deposit will be displayed automatically. The operator can review, select, and submit applications for funding.
 
 <img src="/assets/Jp96bpjedoZHmPxhYWIjUsYtpYd.png" src-width="2404" src-height="1134" align="center"/>
 
-- When the deposit method is a cheque, the operator may choose to freeze the funds based on actual business requirements. If freezing is selected, the operator may manually adjust the expected unfreeze date.
+- When the deposit method is cheque, the operator may choose to freeze the funds based on actual business requirements. If the operator selects Yes under Do check deposits need to be frozen, the operator can manually specify the Estimate thawing time.
 
 <img src="/assets/CqkBboHyFoabEIxVT1oj4fGzprc.png" src-width="2454" src-height="1352" align="center"/>
 
-## 1.3 Deposit Approval
+## 1.3 Deposit Review
 
-Enter the Deposit Approval tab, locate the corresponding record, and select “Approve” to generate a work order; once approved, the deposit will be posted.
+Enter the Deposit Review tab, locate the relevant record, and click Audit to trigger the work order. The deposit will be credited after approval.
 
 <img src="/assets/D018bCNMmoIHhCx5rryjOGdvpgc.png" src-width="3280" src-height="754" align="center"/>
 
@@ -157,29 +157,29 @@ Enter the Deposit Approval tab, locate the corresponding record, and select “A
 
 <img src="/assets/ZwEabxUNbo1iymxk5GMjNI5ZpBh.png" src-width="3264" src-height="954" align="center"/>
 
-- If there are multiple work orders requiring approval, select the corresponding records to perform batch approval.
+- If multiple records require approval, they can be selected and approved in batch.
 
 <img src="/assets/QMQZbcGrbocGj6xmFmxjqP50pGf.png" src-width="3398" src-height="1836" align="center"/>
 
-- During deposit approval, when the deposit method is a cheque, information regarding whether the cheque is frozen will be displayed.
+- During deposit review, when the deposit method is cheque, information on whether the deposit needs to be frozen will be displayed.
 
 <img src="/assets/Grx5bKTaCowKFExtU0njruVtpbP.png" src-width="3300" src-height="1738" align="center"/>
 
-## 2. Posting Based on Bank Statement
+## 2. Bank Statement-Based Deposit
 
-Post based on the funds actually received.
+This workflow processes deposits based on funds actually received by the bank.
 
-## 2.1 Obtain Arrival Information
+## 2.1 Obtain Receipt Information
 
-Arrival information is categorized into two methods: deposit statements and bank instant messages.
+Receipt information is available in two forms: deposit statements and bank instant messages.
 
 1. Deposit statements
 
-After bank funds have arrived, the system can obtain bank transaction records directly via the bank API.
+After funds are received, the system can directly obtain the bank statement via the bank API.
 
 <img src="/assets/KndmbcUoUo6yO8xybSTjqH2TpBe.png" src-width="3778" src-height="738" align="center"/>
 
-If a bank API integration is not in place, statements may be imported manually in the backend using the online banking template.
+If a bank API integration is not in place, statements may be imported manually in the back office using the online banking template.
 
 <img src="/assets/MCDIbLwTBodeHkxy8t9j585tpRf.png" src-width="3290" src-height="842" align="center"/>
 
@@ -191,62 +191,62 @@ If a bank API integration is not in place, statements may be imported manually i
 
 1. Bank instant messages
 
-For bank–securities transfers and eDDA, after posting is successful, the bank sends an instant posting message via API. The system automatically receives and matches the user for automatic posting without manual intervention.
+For bank-securities transfers and eDDA deposits, the bank sends an instant funding notification via API upon successful receipt. The system captures this automatically, matches the relevant client, and processes the deposit without any manual intervention.
 
 ## 2.2 Manual Association
 
-For bank statements imported manually, manual association is required. Two association scenarios are distinguished: associating to a deposit application and associating to a bank card.
+For bank statements imported manually, manual association is required. This includes two scenarios: associating with a deposit application and associating with a bank card.
 
-1. Associate to deposit application
+1. Associate with a deposit application
 
-- Applicable to two types of clients: clients who already have an account and have submitted a deposit application, and account-opening deposits authenticated by transfer verification.
+- This applies to clients who already have an account and have submitted a deposit application, and account-opening deposits where the verification type is set to transfer verification.
 
-Step one: select the bank transaction record and click Associate to enter the secondary page.
+Step 1: Select the bank statement record and click Link to enter the secondary page.
 
 <img src="/assets/RGIob9fcXoIaZZxSOWZj7BFJpSh.png" src-width="3282" src-height="1100" align="center"/>
 
-Step two: on the secondary page, associate the selected bank transaction record to the corresponding deposit application. After confirming the reconciliation results on the page, click “Associate” and the record will flow to the approval node.
+Step 2: On the secondary page, link the selected bank statement record to the corresponding deposit application. After confirming the reconciliation results on the page, click Link. The record will then be routed to the approval stage.
 
 <img src="/assets/MHnDbcbkvodBMLxIgb3jNcnHpge.png" src-width="3288" src-height="1748" align="center"/>
 
-- When the deposit method is a cheque, the operator may choose to freeze the funds based on actual business requirements. If freezing is selected, the operator may manually adjust the expected unfreeze date.
+- When the deposit method is acheque, the operator may choose to freeze the funds based on actual business requirements. If the operator selects Yes under Do check deposits need to be frozen, the operator can manually specify the Estimate thawing time.
 
 <img src="/assets/OA17buBjgoKBjkxty0SjzEsEpDe.png" src-width="3276" src-height="2528" align="center"/>
 
-1. Associate to bank card
+1. Associate with a bank card
 
-If the client did not submit a deposit application and the backend operator did not create one, the bank transaction may be directly associated with the client’s bank card for posting.
+If the client did not submit a deposit application and the back office operator did not create one, the bank statement entry can be associated directly with the client's bank card for funding
 
 <img src="/assets/KmFlbOYvKoKNVqx2NhFjzR9Upof.png" src-width="3302" src-height="2376" align="center"/>
 
-1. Directly associate to securities account
+1. Directly associate with a securities account
 
-- Applicable to two types of clients: clients who have an open account but did not submit a deposit application, and account-opening deposits authenticated by cheque verification.
+This applies to clients who already have an account and have not submitted a deposit application, and account-opening deposits where the verification type is set to cheque verification.
 
-Bank transactions may be directly associated to the securities account for posting.
+Bank statement entries can be directly associated with the securities account for funding.
 
 <img src="/assets/Y4Jsb2Hc3oUVWlx7Kzyj3mF9pQg.png" src-width="3212" src-height="1766" align="center"/>
 
-## 2.3 Deposit Approval
+## 2.3 Deposit Review
 
-For specific operations, refer to “1.3 Deposit Approval.”
+For specific operations, see "1.3 Deposit Review".
 
-# Deposit Process for Clients in Account Opening
+# Deposit Process for Clients During Account Opening
 
-- If the client selects transfer verification as the authentication type, posting must be performed via a deposit application. For details, see “1. Posting Based on Deposit Application.”
-- If the client selects cheque verification as the authentication type, because the client has not submitted a deposit application via the client interface, posting must be performed based on bank statements. For details, see “2. Posting Based on Bank Statement.”
+- If the client has selected transfer verification as the verification type, the deposit must be processed through a deposit application. For details, see "1. Application-Based Deposit".
+- If the client has selected cheque verification and did not submit deposit application from the client app, the deposit must be processed based on the bank statement. For details, see "2. Bank Statement-Based Deposit".
 
-Although backend operations staff may have completed the deposit process, if the client’s account has not yet been activated, this scenario requires separate handling.
+In cases where the deposit has already been approved but the client's account opening is still in progress, the following steps apply:
 
-Step one: enter the “Deposits During Account Opening” tab page (deposits on this page have already been approved and are awaiting account activation).
+Step 1: Enter the Account Opening Deposit tab. This tab displays deposits that have been approved and are pending account opening completion.
 
 <img src="/assets/Dc6ubL713odrTAxscyIjV8Dip7b.png" src-width="3246" src-height="1094" align="center"/>
 
-Step two: review the account opening status and the fund-credit status in the list. If the client’s account ultimately fails to open, the account opening status will be shown as “Not Approved,” and you should proceed to step three.
+Step 2: Monitor the Account Opening Status and Deposit Status columns. If a client's account opening ultimately fails, the Account Opening Status will show Approval Failed.
 
 <img src="/assets/LgWhbGggfo48vWxwZ7pj1W5Npqd.png" src-width="3276" src-height="1226" align="center"/>
 
-Step three: select the deposit record for the client whose account opening failed and click “Reject.” The deposit process must then be restarted from the beginning.
+Step 3: Select the deposit record for the client whose account opening failed and click Reject. The deposit process must then be restarted from the beginning.
 
 <img src="/assets/GQ2wbsCn0ovROIxrpl6jeQ1dpY9.png" src-width="3276" src-height="1226" align="center"/>
 

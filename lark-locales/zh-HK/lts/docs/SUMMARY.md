@@ -316,3 +316,4 @@
       - [2026-02 What's New（RC）](CKUFwA7Uji21fWkXsAxjJ4uqptf.md)
       - [2026-03 What's New（RC）](Fp3PwXehNijZfCk0sXkjb71ypyc.md)
       - [2026-Q1 What's New](OHfgwhwIpilLnykNalpjdnBapAb.md)
+      - [2026-04 What's New（RC）](VUaGwILK5iJLlMk0B6ljk4oyplb.md)

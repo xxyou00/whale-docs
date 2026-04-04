@@ -9,9 +9,9 @@ sidebar_position: 0
 
 # Overview
 
-When customers use the "Deposit Cryptocurrency" or "Withdraw Cryptocurrency" functions, the wallet addresses they use must complete the verification and whitelisting process. The specific rules are as follows:
+When clients use the Cryptocurrency Deposit and Cryptocurrency Withdrawal features, the wallet addresses they use must undergo verification and whitelisting processes. The specific rules are as follows:
 
-1. Verification method: Currently, only "small payment verification" is supported — customers must complete a small cryptocurrency payment to a specified address to verify the ownership of the wallet address. Only after verification can the address enter the whitelisting process.
+1. Verification method: Currently, only micropayment verification is supported. Clients must complete a small cryptocurrency payment to a specified address to verify the ownership of the wallet address. Only once verification is complete can the address proceed to the whitelisting process.
 2. Whitelisting process: Customers must first submit a wallet address verification application. After passing system validation, the address will be added to the whitelist and become an authorized address for cryptocurrency deposits and withdrawals.
 3. Back-end management: All customer wallet addresses that have completed whitelisting will be centrally maintained in the back-end system (including address information, verification time, status, etc.), supporting real-time querying and management to ensure the compliance and security of deposit and withdrawal operations. Through the above process, the authenticity and ownership of wallet addresses can be effectively verified, thereby safeguarding the financial security of customers' cryptocurrency deposits and withdrawals.
 

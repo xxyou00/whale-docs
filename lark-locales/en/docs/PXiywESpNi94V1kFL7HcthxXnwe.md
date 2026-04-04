@@ -5,12 +5,14 @@ sidebar_position: 2
 ---
 
 
+# FAQs
+
 # Frequently Asked Questions
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
 <div class='callout-emoji'>📍</div>
-<p> Q: Why am I unable to select the bank card I wish to add when creating a new one?</p>
+<p> Q: When adding a bank card, why can&#39;t I find the one I want to add?</p>
 </div>
 
-A: First, navigate to Payments Management → APP Management → Card‑Issuing Bank & User Card Binding → Country/Region tab to verify whether the card attribute information has been correctly maintained. If the information is correctly maintained but the card still does not appear, it may be due to regulatory restrictions and cards from that country may not be supported.
+A: First, go to Cash Management &gt; App Config &gt; Supported Bank Setups and Cash Management &gt; App Config &gt; Bank Card - Country/Region to check whether the card's attribute information is correctly maintained. If it is correctly maintained but still not found, it might be because the bank card from that country is not supported due to policy and regulatory restrictions.
 

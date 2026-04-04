@@ -54,7 +54,7 @@ sidebar_position: 5
         <img src="/assets/VE56bjkijol06yxt9w2jEAl2pof.png" src-width="3274" src-height="882" align="center"/>
     - 針對大額帳戶，可依實際需求分別配置提示頭寸與攔截頭寸：
         - 若已配置提示頭寸，當渠道可用餘額 ＜ 提示頭寸時，系統將依訊息訂閱設定自動發送告警通知。
-            <img src="/assets/Ly2VbXlProjmRZx6aNlj0T8Ephd.png" src-width="3300" src-height="1316" align="center"/>
+                        <img src="/assets/Ly2VbXlProjmRZx6aNlj0T8Ephd.png" src-width="3300" src-height="1316" align="center"/>
         - 若已配置攔截頭寸，當渠道可用餘額 ＜ 攔截頭寸時，系統將依訊息訂閱設定發送告警通知；若該帳戶用於出幣本金攔截或出幣手續費攔截場景，系統將在「虛擬資產管理 - 出幣 - 出幣申請」模組執行業務攔截，規則如下：
             1. 若出幣手續費帳戶頭寸不足，出幣申請工單無法審核通過，系統攔截並提示：「渠道帳戶該幣種手續費不足，請先進行資金調撥。」
             2. 若出幣本金帳戶頭寸不足，出幣申請工單無法審核通過，系統攔截並提示：「渠道帳戶該幣種本金不足，請先進行資金調撥。」

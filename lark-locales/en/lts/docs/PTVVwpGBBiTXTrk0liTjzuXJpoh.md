@@ -13,7 +13,7 @@ sidebar_position: 2
 
 Risk control management is primarily used to handle functions related to margin configuration, limit management, and Margin Call within securities business. The main modules involved are as follows:
 
-<img src="/assets/Ac2ubnhVEoIolYxwn51jSEWTplg.png" src-width="2342" src-height="1556" align="center"/>
+<img src="/assets/BH0zbYJxxow8nxx9VwrjQDmUpah.png" src-width="1470" src-height="1280" align="center"/>
 
 # Business Operations Management
 
@@ -21,15 +21,13 @@ Risk control management is primarily used to handle functions related to margin 
 
 The system currently provides two types of limits: financing limits and trading limits. Trading limits are granted to well‑cooperating institutional clients or cash accounts and may be used to trade when buying power is insufficient. Financing limits apply to margin accounts and are granted to users after a comprehensive assessment of the client's asset information; clients may utilize funds within the granted limit.
 
-## Financing Credit
+## Financing Limit
 
 About automatic credit granting:
 
 If a client opens a margin account and subsequently performs a transfer of positions or a deposit, the system will automatically grant the client a certain credit limit to enable margin trading. The system supports an automatic credit mechanism (transfer settlement / deposit settlement). The consolidated automatic credit flow is as follows:
 
-<img src="/assets/RIO1bnu99o3biGxtRx8jpCRtpvf.png" src-width="953" src-height="733" align="center"/>
-
-### Client Limits
+### Credit Limit
 
 Menu description: This menu is mainly used to query the credit limits of all credited clients; it also supports manually granting or adjusting credit limits upon client request.
 
@@ -39,29 +37,29 @@ Adjusting client limits
 
 1. The list displays all financing credit clients. Opening the adjustment modal from the list page allows adjustment of limits for already credited clients.
 
-<img src="/assets/UgVlbpSHBoqvBMxAqhjjbhTapbh.png" src-width="3272" src-height="1394" align="center"/>
+<img src="/assets/Xs8Bb7es4oW7PgxznBwjCjTQpph.png" src-width="2402" src-height="1380" align="center"/>
 
-<img src="/assets/UPUJbOfXmoqb1kxEuilj7GArpId.png" src-width="3250" src-height="1754" align="center"/>
+<img src="/assets/AXPbbMNfBoL6QgxHLeTjFGaSpdd.png" src-width="2486" src-height="1362" align="center"/>
 
 Adjustment page
 
 - Field descriptions:
 
-1. Confirm the "Adjusted Limit". Submission will create a corresponding record in the limit approval page for approval; see "Limit Approval (link missing)".
+1. Confirm the "Adjusted Limit". Submission will create a corresponding record on the limit approval page for approval; see "Limit Approval ".
 
 Creating a new credited client
 
 1. If a client has no assets credited, an uncredited client may be granted a limit individually via the list page's "Create Credited Client" action.
 
-<img src="/assets/XhDsbYf4WoM4hFxPP5ljpnJRpih.png" src-width="3250" src-height="1396" align="center"/>
+<img src="/assets/JUWobtnMCoVNpsx0kn7jcBgEpIf.png" src-width="2488" src-height="1392" align="center"/>
 
 1. Complete the required fields in the modal (if the client already exists in the credit list, the system will prompt during submission; client limits can be viewed in the main list).
 
-<img src="/assets/IoH2bxydoomKu5xqttDjQYHipge.png" src-width="3252" src-height="1398" align="center"/>
+<img src="/assets/VXMgbTxMHotlvTxx9ErjEiEnpac.png" src-width="2490" src-height="1394" align="center"/>
 
-1. To grant credit to multiple clients at once, use the "Bulk Add" operation at the top right of the list.
+1. To grant credit to multiple clients at once, use the "Bulk New" operation at the top right of the list.
 
-<img src="/assets/AhXyb579goL6BpxpdGljiTi1p9e.png" src-width="3262" src-height="1764" align="center"/>
+<img src="/assets/OHvub45v3oip78xvIRujIIgWpdf.png" src-width="2598" src-height="1466" align="center"/>
 
 1. Whether added individually or in bulk, submissions must be approved in the work order system. Only after approval can the client limits take effect.
 
@@ -81,27 +79,27 @@ Setting company limits
 
 1. Based on the consolidated client limits, if it is necessary to synchronously adjust company limits for overall control, access "Set Company Limits" from the top area of the page list to perform the operation.
 
-<img src="/assets/H94ebrax8onPrxxkKpZjTP3JpOc.png" src-width="3256" src-height="1390" align="center"/>
+<img src="/assets/ChuObUWcoowLcqxgIWLjVmBFpjf.png" src-width="2444" src-height="1374" align="center"/>
 
 1. Company limit settings: When a tenant goes live, the system initializes default limits. Tenants may later customize these limits according to business requirements; modify each dimension via the page "Edit" operation. Changes must be approved through the work order process to take effect.
 
-<img src="/assets/T3WZbxRQLoei35xcJfcjNyompke.png" src-width="3276" src-height="1730" align="center"/>
+<img src="/assets/TfBlb57rRoBEMLxgIGqjDof0pGf.png" src-width="2468" src-height="1356" align="center"/>
 
 Company limit settings page
 
 - Field descriptions
 
-### Limit Approval
+### Credit Limit Revision
 
 Menu description: This menu is primarily used to approve credit limit requests, including adjustments initiated by the backend or by clients.
 
-1. On the list page, use the "Submit for Approval" action to open the approval modal.
+1. On the list page, use the "Submit for Review" action to open the approval modal.
 
-<img src="/assets/FUldbypnhoKEj7xE0vtjWOYvppg.png" src-width="3276" src-height="1216" align="center"/>
+<img src="/assets/OEUzbHF2poonJrxRK7PjhoiBp7c.png" src-width="2488" src-height="1256" align="center"/>
 
 1. In the approval modal confirm the limit and add annotations. If the reviewer decides to reject the request, they may select "Reject" directly without submitting a work order.
 
-<img src="/assets/KwjwboJN0oxOvHxQjW0j2ZAQpLg.png" src-width="3328" src-height="1688" align="center"/>
+<img src="/assets/VNnZbpHhyoZQZzxB4u9jboMrphb.png" src-width="2488" src-height="1392" align="center"/>
 
 Limit approval confirmation page
 
@@ -121,11 +119,11 @@ Configuring FPS rules
 
 1. Click "Rule Configuration" on the page to open the rules page.
 
-<img src="/assets/IpuabsyVSo00MLx272GjMS4ipnd.png" src-width="3288" src-height="796" align="center"/>
+<img src="/assets/EALsbK42Bo1RiAx1zwKjC9zMpkh.png" src-width="2470" src-height="572" align="center"/>
 
 1. Rule configuration: Set threshold values across client dimensions to increase or decrease the FPS value; once confirmed, the rule takes effect.
 
-<img src="/assets/LdsFbKVqFoHNTkxS9Mnj7BM8pUh.png" src-width="3302" src-height="1620" align="center"/>
+<img src="/assets/TQyjb32IooQ0E2xizjEjgcgrpth.png" src-width="2610" src-height="1482" align="center"/>
 
 ### Credit Groups
 
@@ -135,39 +133,39 @@ Main list page description
 
 The list page allows viewing all credit groups and the total approved credit; each group's usage is also displayed. As follows:
 
-1. Total approved credit: the sum of all group limits for existing credit groups.
+1. Total financing limit : the sum of all group limits for existing credit groups.
 2. Credit group details: supports editing group information and adding new accounts to the group; the group limit and usage are displayed, and if usage exceeds the group limit, the progress bar will show a red alert.
 3. Group account details: displays each group account's financing limit and usage; supports adjusting account limits within the group and removing accounts from the group.
 
-<img src="/assets/AbxhbvqaWolxp5xnrzVjkN7Wpqc.png" src-width="3814" src-height="1614" align="center"/>
+<img src="/assets/HKm1b2P0eogMHZxoEOqj9R5rpxb.png" src-width="3008" src-height="1386" align="center"/>
 
 Creating a credit group
 
 1. Create a new credit group via the illustrated operation.
 
-<img src="/assets/FS7bbStBDoJVrTxXsV6je3Zbp0b.png" src-width="3296" src-height="634" align="center"/>
+<img src="/assets/BCjTbAaTBoro0LxlbjljdGScpte.png" src-width="2466" src-height="736" align="center"/>
 
-1. Fill in the credit group information. Accounts are not required at creation time and can be added later via "Add Group Account." Submit to create the group.
+1. Fill in the credit group information. Accounts are not required at creation time and can be added later via "Add Account." Submit to create the group.
 
-<img src="/assets/MEnibrLNOoRZdVxfrYHjOq7tpLh.png" src-width="3252" src-height="1410" align="center"/>
+<img src="/assets/AfXnblBUioY35KxneQfjm5bipph.png" src-width="2390" src-height="1388" align="center"/>
 
 1. If added group accounts already have limits, those limits will be automatically imported and may be adjusted.
 
-<img src="/assets/RHE4bXg8jo3MM3xzy2XjKqytpBb.png" src-width="3276" src-height="1424" align="center"/>
+<img src="/assets/HxWfbIKTYo5lS0xAn5mjwrRApuh.png" src-width="2408" src-height="1426" align="center"/>
 
 1. After creation, group information may be edited, accounts may be added/removed, and account limits within the group may be adjusted.
 
-<img src="/assets/TgV7bFAX6oq0tFxdUGDjyjaJpac.png" src-width="3110" src-height="554" align="center"/>
+<img src="/assets/PVlvbBfmVoysbbxnID4jc7wJpcd.png" src-width="2362" src-height="552" align="center"/>
 
 ### Credit Snapshots
 
 Menu description: This menu is used to query each historical credit record for all clients. It is useful for precisely locating specific limit change events.
 
-<img src="/assets/UMy5bi2GfoaoElxZ4B1jykirpUf.png" src-width="3246" src-height="1664" align="center"/>
+<img src="/assets/Nlhrb4KLxoMB7Ax9ZgBjiMbspHe.png" src-width="2456" src-height="1376" align="center"/>
 
 Credit snapshot query page
 
-### Bulk Changes
+### Bulk Update Limit
 
 Menu description: This menu is used to perform bulk adjustments to clients' margin financing limits, primarily for periodic limit inspections by risk control. Clients targeted for bulk changes must be existing credited clients listed on the "Credit Limits" page.
 
@@ -175,66 +173,66 @@ Operation flow:
 
 1. Use "Import Credit" at the top right to initiate an import.
 
-<img src="/assets/SN4EbDJCYo08lGxeVXMjom6SpPd.png" src-width="3234" src-height="1062" align="center"/>
+<img src="/assets/XFAQbQOJeoeXmvxk8kvjv2RXpQh.png" src-width="2460" src-height="1242" align="center"/>
 
 Bulk change page
 
 1. Import operation: complete the downloaded template according to its field requirements and upload the file; after confirming, a "Pending Confirmation" task will be created in the list page.
 
-<img src="/assets/PN0vbH2QSoHhcBxkIGBjqxnJpyb.png" src-width="3218" src-height="1172" align="center"/>
+<img src="/assets/XWr7bXyX3oWGDaxHsSbjLBMLpSe.png" src-width="2466" src-height="1250" align="center"/>
 
 1. For the list task, open "Details" to enter the secondary confirmation page for bulk client limit changes.
 
-<img src="/assets/Hn0rb6WICohw0rxyXF1jtvnapOf.png" src-width="3282" src-height="522" align="center"/>
+<img src="/assets/OlFgb7IPao9qc1xq4AjjDWkSpyc.png" src-width="2458" src-height="428" align="center"/>
 
 1. The "Details" list displays all submitted credit records for confirmation. Individual client limits can be edited via "Edit" or removed via "Delete" if changes are not required.
 
-<img src="/assets/PMS8b3zU0oo9fPxgpBljxV9lpTd.png" src-width="3246" src-height="758" align="center"/>
+<img src="/assets/EEgXbU84vovLPSx42bajdPI2p1f.png" src-width="2480" src-height="732" align="center"/>
 
 1. After verification, click "Bulk Adjust" at the top right to complete the batch adjustment.
 
-<img src="/assets/BNmFb97Reo7fZ8xvtwNjrPuTp3b.png" src-width="3352" src-height="774" align="center"/>
+<img src="/assets/Pxzcboj1ooRowdxTpPijj81Rpoe.png" src-width="2480" src-height="598" align="center"/>
 
 Bulk change batch detail page
 
 ## Client Financing
 
-### Usage Details
+### Financing Usage Details
 
 Menu description: This menu displays all clients' financing details by currency for query purposes.
 
-<img src="/assets/QIbVbWmDuoBLpBxbrjmjqGp1ped.png" src-width="3174" src-height="1136" align="center"/>
+<img src="/assets/Sf8ObEiaioPORTxKpwTjdEQupph.png" src-width="2482" src-height="790" align="center"/>
 
 Financing usage details page
 
-### Overlimit Details
+### Exceed Credit Limit Details
 
 Menu description: This menu displays details for all clients who have exceeded financing limits for query purposes.
 
-<img src="/assets/GvywbhuaOoRRHQxz0vijtBhQpgT.png" src-width="3174" src-height="1256" align="center"/>
+<img src="/assets/EXBrbd6AkoO6VIx5M8pj6P8mpEg.png" src-width="2482" src-height="896" align="center"/>
 
 Overlimit financing page
 
-## Trading Limits
+## Trading Limit
 
-### Client Trading Limits
+### Client Trading Limit
 
 Menu description: This menu is used to query all clients who have been granted trading limits and supports creating, modifying, and activating/deactivating limits. Trading limits are included in clients' buying power and will automatically expire upon reaching their end date.
 
 Operation flow:
 
-1. Use "Settings" to configure whether trading limits should automatically expire at Margin Call; automatic expiration is enabled by default and can be modified. Changes require work order approval to take effect.
+1. Use "Trading Limit Setting" to configure whether trading limits should automatically expire at Margin Call; automatic expiration is enabled by default and can be modified. Changes require work order approval to take effect.
 
-<img src="/assets/Wx8BbMdmMo0KnaxTpotjOOPap2f.png" src-width="3296" src-height="1104" align="center"/>
+<img src="/assets/NsHObZLiZoaBX9xnUO9jaAZGpOd.png" src-width="2504" src-height="1180" align="center"/>
 
 1. Use "New" or "Bulk Create" to add trading limits for clients.
 
-<img src="/assets/KRb3bZuJCojT61xIOpdjd5nJpNd.png" src-width="3346" src-height="694" align="center"/>
+<img src="/assets/TpHtb4q2AohHDOx39pTjWLCJpHg.png" src-width="2466" src-height="632" align="center"/>
 
 1. Configure the client trading limit, submit for approval per page requirements; submission records can be viewed in "Change Records". After work order approval, the record will be displayed in the "Client Trading Limits" list.
 Note: 1. A client may have only one trading limit type. 2. If a client already has the same type of trading limit, the system will default to overwrite with the newly added limit.
 
-<img src="/assets/LCLbbLIYqoexzKx2dpwjC1rZpxU.png" src-width="3346" src-height="1724" align="center"/>
+<img src="/assets/ESC5bJV4hotQmMxFlqyjFS6cpcb.png" src-width="2488" src-height="1366" align="center"/>
 
 1. Bulk create trading limits by downloading the template and completing it according to the template instructions, then uploading. The page will display the file parsing results. After work order approval, the records will be displayed in the "Client Trading Limits" list.
 
@@ -242,50 +240,50 @@ Note: 1. A client may have only one trading limit type. 2. If a client already h
 
 1. Use "Edit" from the list page to modify a client's trading limit. The operation is the same as "New".
 
-<img src="/assets/TWnfbgNHoo59fGxtSMfjeCSPpJc.png" src-width="3254" src-height="1624" align="center"/>
+<img src="/assets/HEqTbGIBJo5KWoxt3h9jLxUBpqd.png" src-width="2492" src-height="1362" align="center"/>
 
-1. For clients whose status is expired, modify the expiration date via "Edit" to reactivate the trading limit; to deactivate an active client's limit, use "Set to Expired" from the list.
+1. For clients whose status is expired, modify the expiration date via "Edit" to reactivate the trading limit; to deactivate an active client's limit, use "Set as Invalid" from the list.
 
-<img src="/assets/NpfGbqr7doaKQTx1iX1jmIuypJg.png" src-width="3268" src-height="305" align="center"/>
+<img src="/assets/ErzIbWua7ool19xHCjjj1MHUpdg.png" src-width="2406" src-height="276" align="center"/>
 
-### Change Records
+### Update Records
 
 Menu description: This menu allows users to view all change records for client trading limits.
 
 Operation flow:
 
-1. After creating or editing a "Client Trading Limit", the record will appear in the "Change Records" page; use "Work Order Details" to view the approval details for a given trading limit record.
+1. After creating or editing a "Client Trading Limit", the record will appear on the "Update Records" page; use "Details" to view the approval details for a given trading limit record.
 
-<img src="/assets/HSJabeZh9olCnAxvj6VjxJRYpSh.png" src-width="3254" src-height="608" align="center"/>
+<img src="/assets/KIFSbzS5io8PScxdp1Sj84X0pbd.png" src-width="2470" src-height="644" align="center"/>
 
-## Currency Borrowing Reminder
+## Debit Notification
 
 Brokerage client accounts commonly use an aggregated buying power conversion mechanism to facilitate trading in non‑local currencies (for example, using HKD to trade USD‑denominated stocks). After a client executes such trades, the client's account may involve a currency borrowing position (the brokerage temporarily provides foreign currency to a foreign broker for trading). Subsequently the client needs to perform currency exchange operations. Therefore, preconfigured currency borrowing/exchange reminders can be incorporated into risk control management to notify clients to complete exchange tasks.
 
 Business flow:
 
-<img src="/assets/D1fYb6gUyomFnExecRCjvfUBpJq.png" src-width="2182" src-height="474" align="center"/>
+<img src="/assets/Qr2ibvLcwo4uD4xRjJsjAYudpje.png" src-width="1024" src-height="222" align="center"/>
 
-### Reminder Query
+### Client Notification
 
 Menu description: This menu can query all clients requiring reminders, supports configuration of borrowing reminder rules, and supports manual currency exchanges.
 
 Operation flow:
 
-1. Click "Exchange Rules" at the top right of the list to configure borrowing reminder rules.
+1. Click "Conversion Rule" at the top right of the list to configure borrowing reminder rules.
 
-<img src="/assets/JUvEbMblpoXH8Ox2BS0jQ3DrpKl.png" src-width="3296" src-height="1076" align="center"/>
+<img src="/assets/HO41bBMczocFNbxbWwHjEDIkpQc.png" src-width="2474" src-height="1128" align="center"/>
 
-1. Rule configuration: Single‑currency rules are optional; other fields are mandatory. Rules only execute when enabled.
+1. Conversion Rule: Single‑currency rules are optional; other fields are mandatory. Rules only execute when enabled.
     1. Mandatory fields for outstanding amounts and other currencies' withdrawable amounts default to the base currency; all currencies are converted to the base currency for calculation.
     2. A reminder triggers if either the single‑currency rule or the mandatory field rule is satisfied.
     3. Single‑currency rules may set different rules per currency; add and remove as needed.
 
-<img src="/assets/HctZbkMJpopjOQxCtR6jmhNFpTe.png" src-width="3312" src-height="1716" align="center"/>
+<img src="/assets/NE1ibl7hjoQhznxpvHIj0iTJpQb.png" src-width="2484" src-height="1372" align="center"/>
 
 1. After configuring rules, enable and submit for work order review. Once approved, the system will execute the rule, retrieve clients matching the rule, and display results in the "Reminder Query" list. Additionally, the rule executes regularly on trading days and sends currency borrowing reminder messages to matching clients to prompt proactive exchanges. The page action "Fetch Exchange Users" refreshes the list and filters out clients that no longer meet the rule.
 
-<img src="/assets/IOoNbloL7osjp8x61AzjROXup2f.png" src-width="3286" src-height="970" align="center"/>
+<img src="/assets/KrgRbiNEDoD2lvxnv8PjQRY4pCg.png" src-width="2450" src-height="1012" align="center"/>
 
 1. After enabling the rule, clients can also view an "Auto Repayment" function in the mobile app and opt in. If a client enables Auto Repayment and triggers the rule, the system will perform automatic exchanges or background manual conversion operations as configured.
 

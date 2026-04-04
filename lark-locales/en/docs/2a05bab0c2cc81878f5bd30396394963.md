@@ -11,34 +11,34 @@ sidebar_position: 1
 
 # Overview
 
-All customer wallet addresses that have been whitelisted are centrally maintained in the backend system (including address information, verification time, status, etc.), supporting real-time query and management to ensure the compliance and security of deposit and withdrawal operations.
+All whitelisted client wallet addresses are uniformly maintained in the back office system (including address information, verification time, status, etc.), and can be queried and managed in real time to ensure the compliance and security of deposit and withdrawal operations.
 
 # Quick Start
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
 <div class='callout-emoji'>📍</div>
-<p> Menu path: WBO - Service Parameter - Funds Parameter - Cryptocurrency</p>
+<p> Navigation: WBO &gt; Service Parameter &gt; Fund Parameter &gt; Cryptocurrency</p>
 </div>
 
-- Prerequisite: Maintenance of cryptocurrency information (the primary step for all operations)
+- Preparation: Cryptocurrency data maintenance (the first step for all operations)
 
 <img src="/assets/MvNObrJDTooCxkxu6rHjgeJPpyc.png" src-width="2460" src-height="1178" align="center"/>
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
 <div class='callout-emoji'>📍</div>
-<p>Menu path: WBO - VA Clearing Management - Deposit and Withdrawal - Channel Custodial Account</p>
+<p>Navigation: WBO &gt; VA Clearing Management &gt; Deposit &amp; Withdrawal &gt; Channel Custodial Account</p>
 </div>
 
-- Before a customer initiates wallet address verification, the system will automatically assign the corresponding account to the customer based on the manually imported "Channel Custody Account." The assignment will serve as the foundational association information for subsequent verification and deposit/withdrawal operations, ensuring traceability of fund flows.
+- Before a client initiates wallet address verification, the system automatically assigns an account to the client based on the manually imported list of Channel Custodial Account. The assignment results serve as the foundational associated information for subsequent verification and deposit/withdrawal operations, ensuring the traceability of fund flows.
 
 <img src="/assets/AufQbZNoJos1lBxEao1jJHlUpWf.png" src-width="2968" src-height="1248" align="center"/>
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
 <div class='callout-emoji'>📍</div>
-<p> Menu path: WBO - VA Clearing Management - Deposit and Withdrawal - Client Wallet Address</p>
+<p> Navigation: WBO &gt; VA Clearing Management &gt; Deposit &amp; Withdrawal &gt; Client Wallet Address</p>
 </div>
 
-- After a customer submits a wallet address that has passed verification, the system will include it in the "whitelist." All whitelisted addresses are centrally maintained in the backend, including address information, the allocated custody account, verification time, status, etc., supporting real-time query and management to ensure operational compliance and fund security.
+- After the client submits the wallet address that has been verified, the system will include it in the whitelist. All whitelisted client wallet addresses are uniformly maintained in the back office (including the address information, assigned custodial account, verification time, status, etc.) and can be queried and managed in real time, ensuring operational compliance and fund security.
 
 <img src="/assets/M9gJbwYlDoTEtuxPcPPjF9uSpne.png" src-width="2992" src-height="1220" align="center"/>
 

@@ -5,17 +5,15 @@ sidebar_position: 0
 ---
 
 
-# Deposit Funds
-
 # Deposit
 
 # 1. System Overview
 
-A deposit is the process by which an investor transfers funds into their securities account. This process involves multiple steps to ensure that funds are securely and accurately credited to the investor’s account.
+Deposit refers to the process by which an investor transfers funds into their securities account. This process involves multiple steps to ensure that funds are securely and accurately credited to the investor’s account.
 
-The Whale system includes functions for handling deposit applications, matching bank transaction records, deposit review, separate processing of deposits during account opening, reconciliation, and deposit record queries. To satisfy supervisory and risk-control requirements, the system’s design features multi-role, workflow-driven capabilities that balance high deposit efficiency with low financial risk.
+The Whale system includes functions for handling deposit applications, matching bank statement, deposit review, separate processing of deposits during account opening, reconciliation, and deposit record queries. To satisfy compliance and risk-control requirements, the system's design features multi-role, workflow-driven capabilities that balance high deposit efficiency with low financial risk.
 
-Because different brokerage firms have varying requirements for deposits—some require rapid crediting while others require precise matching of bank transaction records before crediting—the system supports two deposit workflows, as shown below:
+As different brokerage firms have varying requirements for deposits—some require fast deposits, while others require precise matching of bank statements before deposit—the system supports two deposit workflows, as shown below:
 
 <img src="/assets/ByiswEVTjhpYAabuAI2j1WaRpEd-board.jpeg"/>
 
@@ -23,35 +21,35 @@ Because different brokerage firms have varying requirements for deposits—some 
 
 None
 
-# 2. Operating Instructions
+# 2. Operation Instructions
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
 <div class='callout-emoji'>📍</div>
-<p>Menu path: Funds Management - Deposit</p>
+<p>Navigation: Cash Management &gt; Deposit</p>
 </div>
 
 ## Deposit Application
 
-Deposit applications are initiated by the user and generally include four primary items: currency, requested amount, recipient bank card, and remarks. WHALE users can manually assist clients with securities fund-in operations and may reject or submit applications for approval based on the information provided by clients.
+A deposit application is initiated by the client. The application usually includes four main parts: currency, application amount, recipient bank card, and remarks. Whale operators can manually assist clients with deposit submissions and may reject an application or submit it for approval based on the the information provided by clients.
 
 - Create (Deposit Application)
 
-Applicable when a user contacts a back-office operator to perform a manual deposit. The operator must select the client in sequence and enter the deposit currency, method, receiving bank, amount, remarks, and any supporting documents (if applicable).
+This function can be used when a client contacts a back-office operator to perform a manual deposit. The operator needs to select the client, deposit currency, deposit method, and beneficiary bank, enter deposit amount and remarks, and upload supporting documents (if any).
 
 <img src="/assets/PkDobdc5YochnLxp1LFj3jJTpAc.gif" src-width="2086" src-height="994" align="center"/>
 
-- Reject: If the client’s submitted deposit application contains errors or the user indicates that the application is invalid, the operator may perform the [Reject] action.
-- Delete: If the client’s submitted deposit application contains errors or the user indicates that the application is invalid, the operator may also remove the target record using the [Delete] button.
-- Edit: If a problem with a deposit application is discovered before submission, the operator may correct it using the [Edit] button after confirming details with the client. Edits require a work-order approval; changes take effect only after approval.
-    - Editable fields: currency, deposit method, receiving bank, amount, deposit fee, remarks, and supporting documents (re-upload)
+- Reject: If the deposit application submitted by a client contains an error or the back office operator deems the application invalid, the operator can click Reject.
+- Delete: If the deposit application submitted by a client contains an error or the back office operator deems the application invalid, the operator can click Delete to remove the target record.
+- Edit: If an issue is found with a client's deposit application before submission for approval, the operator can click Audit to correct it after confirming with the client. Edits require a work-order approval; changes take effect only after approval.
+    - Editable fields: Deposit Currency, Deposit Method, Beneficiary Bank, Deposit Amount, Deposit Fee, Remarks, and Supporting Document
         <img src="/assets/D9Lvb6QTOoUjM4xW5mbjjiI1p8e.gif" src-width="2086" src-height="994" align="center"/>
 
-- Submit (supports batch operations): After initial review by the operator confirms no issues, applications may be submitted to the next operator in the workflow for review — withdrawal processing.
-- Direct Credit: Because different brokerage users have differing timeliness requirements for deposits, Direct Credit enables users to process deposits quickly. After receiving a client’s deposit application, the user only needs to supplement the bank transaction information to complete the credit. Direct Credit is configured to require approval by default; contact operations personnel if approval is not required.
-    - Requires approval: In the Direct Credit dialog, after confirming the information is correct, click [Submit for Approval]; the record will flow to the Deposit Review page, and the deposit will be credited upon approval.
-    - No approval required: In the Direct Credit dialog, after confirming the information is correct, click [Confirm Credit] to post the deposit immediately.
+- Submit (batch submission supported): Once the operator has completed a preliminary review and confirmed that all information is accurate, the application can be submitted to the next-stage operator for review and processing.
+- Direct Deposit: For brokerages with time-sensitive deposit requirements, the Direct Deposit function streamlines the funding process. Upon receiving a client's deposit application, the operator only needs to supplement the bank statement details to complete the deposit. By default, Direct Deposit requires approval. To disable the approval requirement, contact the operations and maintenance team to adjust the configuration.
+- Approval required: On the Credit directly page, verify that all information is correct, and then click Submit approval. The application will be routed to the deposit review page and processed upon approval.
+- No approval required: On the Credit directly page, verify that all information is correct, and then click Deposit directly to complete the transaction immediately.
 
-Requires approval
+Approval required
 
 <img src="/assets/CDEfb47FBoqUJ8xuqrWjen3QpOh.png" src-width="1700" src-height="1436" align="center"/>
 
@@ -59,9 +57,9 @@ No approval required
 
 <img src="/assets/Fyg1bAhnXojjoWxEzaZjcSvPpCe.png" src-width="1698" src-height="1352" align="center"/>
 
-## Deposit Matching
+## Deposit Match
 
-The data on this page are derived from bank deposit statements. If a broker’s business rules require matching bank transactions with deposit records before crediting, once the bank transaction information has been synchronized to the system, operators may manually process items on the Deposit Matching page. Processing is divided into two categories: linking for crediting and returning funds to the client.
+The data on this page are derived from bank deposit statements. If a brokerage's business rules require bank statement entries to be matched with deposit records before funding, this can be handled manually on the Deposit Match page after confirming the bank statement information is synchronized with the system. The handling methods include linking for deposit and refund to clients.
 
 <table header_row="1">
 <colgroup>
@@ -72,14 +70,14 @@ The data on this page are derived from bank deposit statements. If a broker’s 
 <tr><th><p>Processing Method</p></th><th><p>Definition</p></th></tr>
 </thead>
 <tbody>
-<tr><td><p>Linking</p></td><td><p>Refers to automatically associating bank statement fields such as payer bank account number, payer name, currency, and amount with deposit records to perform linked crediting.</p></td></tr>
-<tr><td><p>Deposit Return</p></td><td><p>Refers to the process of returning funds to the client’s bank card when the client has not properly opened an account or the client’s account poses a risk and funds cannot be credited to the securities account.</p></td></tr>
-<tr><td><p>Withdrawal Return</p></td><td><p>Refers to when a client’s withdrawal is rejected by the beneficiary’s receiving bank; the funds returned by the receiving bank should be matched to the client’s account. (Because such bank flow appears as an inflow, it is placed on the Deposit Matching page to distinguish it from normal deposits.)</p></td></tr>
+<tr><td><p>Linking</p></td><td><p>Automatically matching bank statement fields, such as the remitter&#39;s name, bank account number, currency, and amount, with existing deposit records for funding.</p></td></tr>
+<tr><td><p>Deposit Refund</p></td><td><p>This method is used when an deposit cannot be accepted due to uncompleted account opening, account flagged for risks, or other reasons, and funds need to be returned to the client&#39;s account.</p></td></tr>
+<tr><td><p>Withdrawal Refund</p></td><td><p>This method is used when a client&#39;s withdrawal is rejected by the beneficiary bank, and the funds are returned by the bank to the account, recorded as a bank inflow. This function allow the returned funds to be matched with the original account. (Since these returned funds appear as an inflow on the bank statement, they are managed on the Deposit Match page to ensure they are distinguished from regular deposits.)</p></td></tr>
 </tbody>
 </table>
 
-- Linking: Only those deposit bank statement records that the system cannot auto-match require manual operation. On this page, operators can confirm according to system prompts and proceed with subsequent crediting or other actions.
-    - The Linking page will automatically compare fields by matching names (as shown); once confirmed, click [Link].
+- Link Checking: This page displays only those bank statement deposit entries that the system could not match automatically and therefore require manual review. Operators can follow the on-screen prompts to review each entry and proceed with subsequent deposit or other actions.
+    - The Link Checking page will automatically compare fields based on name matching (as shown in the figure). If the result is correct, click Link.
     <div class="flex gap-3 columns-2" column-size="2">
     <div class="w-[41%]" width-ratio="41">
         <img src="/assets/RiI5bDRr0oNCfMxxX0Lj9wDdpCh.png" src-width="2484" src-height="1946" align="center"/>
@@ -88,7 +86,7 @@ The data on this page are derived from bank deposit statements. If a broker’s 
         <img src="/assets/J0WKbaHClovxVfxSuIWjy9i5pHf.png" src-width="2574" src-height="1434" align="center"/>
         </div>
     </div>
-    - If the user matched by the system default is incorrect, you may manually associate the customer corresponding to this bank transaction via [Custom]. Association methods: Deposit Application and Securities Account.
+    - If the system's suggested match is incorrect, click Customize to manually link the entry to the correct client. Manual linking can be performed using either a deposit application or a securities account.
     <div class="flex gap-3 columns-2" column-size="2">
     <div class="w-[50%]" width-ratio="50">
         <img src="/assets/IJtwbU0OFoVjOKxhwgVj0kUwpoh.png" src-width="3100" src-height="1756" align="center"/>
@@ -98,47 +96,47 @@ The data on this page are derived from bank deposit statements. If a broker’s 
         </div>
     </div>
 
-Deposit Return: If a deposit cannot be credited to the client’s securities account for any reason and must be refunded, use this function. The user must enter the client’s bank card information; after confirming the details, click [Confirm] to route the record to the Deposit Review page for auditing.
+Deposit Refund: This function is used when a deposit fails to reach the client's securities account for any reason and a refund must be issued. The operator should enter the client's bank account details, confirm the details, and click OK. The record will then be routed to the deposit review page for approval.
 
 <img src="/assets/R07abr1wno5d46xCGzfjz0BfpKD.png" src-width="3392" src-height="1871" align="center"/>
 
-Withdrawal Return: Since the Deposit Matching page shows bank inflows, if a client’s withdrawal was rejected by the receiving bank, it will appear as an inflow in the bank statement. The user must associate the withdrawal business transaction number and handle such records via the [Withdrawal Return] function.
+Withdrawal Refund: The data on the Deposit Match page comes from inflows on bank statements, and a client withdrawal that has been rejected by the bank will appear as an inflow in the statement. The operator needs to link the withdrawal ID and process the entry using the Withdrawal Refund function.
 
 <img src="/assets/LKVvbBFfEoMWbhxrUyDjUXpFpPg.png" src-width="3298" src-height="1760" align="center"/>
 
 ## Deposit Review
 
-After operators process items on the Deposit Matching page using bank inflow information, downstream reviewers will audit the processed results; deposits may be posted only after approval. For normally linked deposits where the securities account remained under the client’s control at the time of deposit, the back office will subject these records to separate approval.
+After operators process inflows on bank statements on the Deposit Match page, the results are sent to downstream reviewers for approval. Funds are only deposited after approval. For normally linked deposits, there are cases where the client's securities account is still in the opening process at the time of deposit. The system will separately approve such records.
 
-- Account Opening in Progress: Select the target record and click [Approve] to enter the details page to re-verify the information; after confirmation, initiate a work-order approval.
+- Opening: Select the target record, click Approve to enter the details page, recheck the information, and initiate a work order approval after confirmation.
 
 <img src="/assets/NLDsbfvbWouBZ8xuzTRjfS5Hpge.png" src-width="3310" src-height="1748" align="center"/>
 
-- Account Opened: Select the target record and click [Approve] to review the details; after verification, approve the record.
+- Opened: Select the target record, click Approve to enter the details page, recheck the information, and approve directly after confirmation.
 
 <img src="/assets/Amkkb1mWYo9ca9xxt0Dj1mvepLg.png" src-width="3310" src-height="1748" align="center"/>
 
-- Deposit Return: Select the target record and click [Approve] to trigger the approval work-order; after confirming the information, approve.
+- Deposit refund: Select the target record and click Approve to trigger the approval work order. Confirm the details and approve.
 
 <img src="/assets/P5LYbmCKQo0HHyxMvIujnZ4BpHb.png" src-width="3320" src-height="1762" align="center"/>
 
-- Withdrawal Return: Select the target record and click [Approve]; after confirming the information, pass it directly—no work-order approval is required.
+- Withdrawal refund: Select the target record, click Approve, and approve directly upon confirmation. No work order approval is required.
 
 <img src="/assets/Km9YbtdHZonXdXxGOsmjTLLVpWq.png" src-width="3401" src-height="1852" align="center"/>
 
 ## Deposits During Account Opening
 
-Because the deposit and account opening workflows can be initiated in parallel, there are cases in which the deposit workflow has been approved while the account opening workflow is still in progress. For such deposit records, users can track the corresponding account-opening status on this page.
+Since the deposit and account opening workflows can be initiated in parallel, there are cases in which the deposit workflow has been approved while the account opening workflow is still in progress. This page allows operators to monitor the account opening status corresponding to each approved deposit record.
 
-Users can view the real-time status under "Account Opening Status"; if the client’s account opening process fails, you may [Reject] it (supports batch operations).
+Operators can view the status of each record in the Account Opening Status column. If a client's account opening fails, click Reject to reject the associated deposit record (batch operations supported).
 
 <img src="/assets/Rw3OblWgzoktvixY9Lcj25j8pxe.png" src-width="3288" src-height="1122" align="center"/>
 
 ## Deposit Reconciliation
 
-To ensure the accuracy of fund flows, business operations require comparing bank transactions with system deposit records to improve deposit accuracy. Bank transaction data can be sourced in two ways: (1) API integration (automatic), and (2) manual import.
+To ensure the accuracy of fund flows, business operations require comparing bank statement entries with system deposit records to improve deposit accuracy. There are two sources of bank statements: (1) API integration (automatic), and (2) manual import.
 
-- Reconciliation: Users can select bank transactions for the target period and refresh; the system will automatically match bank transactions with system deposit records. Upon completion, monitor the "Reconciliation Result" column; any discrepancies require further investigation.
+- Reconciliation: Operators can select the bank statement for the target period to refresh. The system will automatically match the bank statement entries with the system's deposit records. After reconciliation is complete, operators can check the results in the Reconciliation Results column. If inconsistencies are found, further investigation and handling are required.
 
 <img src="/assets/ATF2bW9nAoFdLIxo5ecjNMcDp7f.png" src-width="3282" src-height="1496" align="center"/>
 
@@ -146,9 +144,9 @@ To ensure the accuracy of fund flows, business operations require comparing bank
 
 ## Deposit Records
 
-The Deposit Records page logs the entire deposit lifecycle; users may query, export, and import records at any time.
+The Deposit Records page tracks the full process of deposits. Operators can query, export, and import records on this page at any time.
 
-- If a user performed a Direct Credit deposit without entering bank transaction information, they may bulk import bank transactions on this page using [Import Bank Transactions].
+- If operators did not enter bank statement information when using the Direct Deposit function, they can click Import bank statements to supplement bank statement information in batches on this page.
 
 <img src="/assets/LHlvbv9IyoosAqxgknCjoAISp9g.png" src-width="3784" src-height="1458" align="center"/>
 
@@ -156,7 +154,7 @@ The Deposit Records page logs the entire deposit lifecycle; users may query, exp
 
 Q: What are the deposit methods and channels?
 
-A: Common deposit methods include: online bank transfer, wire transfer, bank-to-broker transfer, sub-account, eDDA, FPS (Faster Payment System), check, ATM/counter, and PAYNOW.
+A: Common deposit methods include: online banking transfer, wire transfer, bank-securities transfer, sub-account transfer, eDDA, Faster Payment System (FPS), cheque, ATM/bank counter, and PayNow.
 
 Q:
 

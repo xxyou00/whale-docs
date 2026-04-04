@@ -9,40 +9,40 @@ sidebar_position: 3
 
 # Work Orders
 
-The Whale system supports the creation and approval of system work orders. When a user logs in, they can conveniently view the number of new work order notifications on the approval icon at the top right of the system; clicking the icon displays the list of pending work orders.
+The Whale system supports creating and approving system work orders. After an operator logs in, the number of new work order notifications is displayed above the approval icon in the upper-right corner of the interface. The operator can click the icon to view the list of pending work orders.
 
 <img src="/assets/XAQVboRq3oU9DJxpphAjKTI4pPJ.png" src-width="896" src-height="80" align="center"/>
 
-## To-Do Tab and Related Views
+## Waiting Tab and Related Views
 
-The left pane displays pending work orders; selecting an item shows the work order details in the adjacent right pane, where it can be approved as required.
+The left pane displays all pending work orders. The operator can select a work order to view its details in the adjacent right pane, where it can be approved as required.
 
 The work order list is presented in a sidebar layout for easy viewing and inspection.
 
 <img src="/assets/AIsHbKm7LoVwP6xfDv7jAGs2pGP.png" src-width="1330" src-height="1918" align="center"/>
 
-New filter criteria and a new list export function have been added to facilitate filtering and processing of work orders.
+Filter criteria and a list export function have been added to facilitate filtering and processing of work orders.
 
 <img src="/assets/DdLdbfIRGo6IijxsmXmjq1Wap5f.png" src-width="1314" src-height="322" align="center"/>
 
-Completed Tab:
+<em>Done</em> tab:
 
-Users can view the history list of completed (approved) work orders associated with their role.
+Operators can view the history of completed (approved) work orders associated with their roles.
 
-Submitted Tab:
+<em>Initiate</em> tab:
 
-Users can view the list of work orders they have initiated for their role.
+Operators can view the list of work orders they have initiated for their roles.
 
-CC to Me Tab:
+<em>CC</em> tab:
 
-Users can view the list of work orders that have been copied to their role.
+Operators can view the list of work orders that have been copied to their roles.
 
 <img src="/assets/LAnZbqO7RoNHajxpW4ojHHCKpWd.png" src-width="1316" src-height="1652" align="center"/>
 
 # Work Order Approval Details
 
-1. Supports transferring a work order to another reviewer during the approval process.
-2. Supports copying the work order to other users during the approval process.
+1. An operator can reassign a work order to another reviewer during the approval process.
+2. An operator can copy the work order to other operators during the approval process.
 
 <img src="/assets/Je1ybdFH7ovnZpx9cQ6jxMzLpLb.png" src-width="1320" src-height="1908" align="center"/>
 

@@ -9,81 +9,81 @@ sidebar_position: 1
 
 # Overview
 
-The Securities Deposit feature in the WHALE Securities Management System supports users in creating new client securities deposit requests and conducts reviews in accordance with business rules to ensure that clients’ securities deposit activities are compliant and efficient.
+The securities transfer-in function in the Whale securities management system allows operators to create securities transfer-in applications for clients and review applications according to business rules, ensuring compliant and efficient client securities transfer-in operations.
 
 # Quick Start
 
-## Prerequisites
+## Prerequisite
 
 ### Broker information initialization must be completed
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
 <div class='callout-emoji'>📍</div>
-<p>Menu path: Stock Management - Broker Config</p>
+<p>Navigation: Stock Management &gt; Broker Config</p>
 </div>
 
-Click the "Add" button, and in the modal that appears, enter the information under each tab as appropriate.
+Click Add. In the pop-up window, fill in the information according to the tabs at the top.
 
 <img src="/assets/CkwpbD7YcoTMv2xrM7Hj5M72pTb.png" src-width="2968" src-height="1324" align="center"/>
 
-If an existing broker information record needs to be edited, deactivated, or activated, these actions can be performed in the operations column of the target record.
+To modify, deactivate, or reactivate an existing broker record, click the corresponding action button in the Action column of the target record.
 
 <img src="/assets/JfQcba6rDoagrPxhWSojchNQp6b.png" src-width="2438" src-height="790" align="center"/>
 
-Definitions
+Terminology
 
 ### Manual Deposit
 
-Back-office operators submit securities transfer-in requests according to the client's instructions.
+The back office operator submits a securities transfer-in application following the client's instructions.
 
-Step 1: Select the client and confirm the market to which the deposited securities belong for this transaction, the transfer-out broker, the account name, account number, and other related information.
+Step 1: Select the client. Confirm the market, delivering broker, account holder name, account number, and other details for the securities to be transferred in.
 
 <img src="/assets/UcnsbyOXBoEB1VxdgiEjM0zJpvg.png" src-width="2994" src-height="1322" align="center"/>
 
-Step 2: Enter the deposited security’s code, confirm whether it is a physical stock, specify the custodian, enter the quantity of shares being transferred in, and provide any necessary remarks based on the actual situation.
+Step 2: Enter the security code of the shares to be transferred in, confirm whether they are physical stocks, specify the custodian, enter the number of shares to be transferred in, and add remarks if needed.
 
-If the shares being transferred in are physical stock, select "Yes" for the "Is Physical Stock" option.
+If the shares to be transferred in are physical stock, select Yes for Whether it is a physical stock.
 
 <img src="/assets/GIoDbP8OpoiknHxnSGYjaD0WpBg.png" src-width="2974" src-height="1326" align="center"/>
 
-### Notify Broker
+### Notify the Broker
 
-If the client has not confirmed this transfer with the counterparty broker, back-office operators can use this function to notify the counterparty broker of the details of the client’s transfer in order to proceed with the standard transfer process.
+If the client has not confirmed the transfer details with the delivering broker, back office operators can use this function to notify the delivering broker of the transfer details and initiate the standard transfer process.
 
-Step 1: Select the broker to which the email should be sent.
+Step 1: Select the broker to whom the email should be sent.
 
 <img src="/assets/FUo8bQHKionASGx2SUSjXYRApDe.png" src-width="2992" src-height="1338" align="center"/>
 
-Step 2: Select the target application number.
+Step 2: Select the corresponding application number.
 
 <img src="/assets/TllxbSoaRoEhJ8x6dBejy9jbpyb.png" src-width="2990" src-height="1326" align="center"/>
 
-### Processing Securities Deposit Applications
+### Processing Securities Transfer-In Applications
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
 <div class='callout-emoji'>📍</div>
-<p>Transfer In &gt; Transfer In</p>
+<p>Navigation: Transfer In &gt; Transfer In</p>
 </div>
 
-After selecting the target record, click the "Submit" button.
+Select the target application record and click Submit.
 
 <img src="/assets/HHMUbkqB7owvYYxOC7qj5jwXpfb.png" src-width="2992" src-height="1346" align="center"/>
 
-If the client has already notified the counterparty broker, the "Notify Broker" status can be checked within the modal.
+If the client has already notified the delivering broker, check Informed in the pop-up window.
 
 <img src="/assets/Ab9gb6ez3oymHexL3ZIjzO33pVe.png" src-width="2946" src-height="1384" align="center"/>
 
-### Processing Securities Deposit Details
+### Processing Securities Transfer-In Details
 
-After selecting the target record, click "Process" and confirm whether the result is "Successful" or "Failed."
+Select the target record and click Handle. In the pop-up window, select Submit as Successful or Submit as Failed.
 
 <img src="/assets/X4FubP1Tboy0pJxX0aMjnvSFpVb.png" src-width="2962" src-height="1034" align="center"/>
 
-If the securities deposit is for physical stock, when submitting a successful processing result you must choose whether to freeze the securities; if freeze is selected, you must also specify the unfreeze time.
+If the transfer involves physical stocks and Submit as Successful is selected, the operator should decide whether to freeze the shares. If Yes is selected under Do physical stocks need to be frozen, the operator also needs to specify the unfreezing time.
 
 <img src="/assets/CLiAbAhInosT8CxfKMYjFma8ptd.png" src-width="2406" src-height="1206" align="center"/>
 
-After submission, the request must undergo an additional approval. Click to generate the approval work order, and once confirmed to be correct, the securities will be deposited into the system.
+After submission, a secondary approval is required. Click Audit to generate a work order. Once confirmed, the securities will be transferred in.
 
 <img src="/assets/Ofz4bRD6NoS74Jx3MxljevkVpPe.png" src-width="2450" src-height="1024" align="center"/>
 
@@ -91,11 +91,11 @@ After submission, the request must undergo an additional approval. Click to gene
 
 <img src="/assets/TQfNbY79yoE3RLx2WOnjeYFRp9d.png" src-width="2440" src-height="1144" align="center"/>
 
-If the securities deposit is for physical stock and freezing was selected at the time of posting, the system will subsequently allow unfreezing either automatically at the "Estimated Unfreeze Time" or manually.
+If the operator chooses to freeze the physical stocks upon transfer-in, they can manually unfreeze the frozen stocks later, or the system will automatically unfreeze these stocks at the Estimated Release Time.
 
 <img src="/assets/EESxbPzJaoSBh9xuFYYjApd5pre.png" src-width="2430" src-height="1236" align="center"/>
 
-After submission, the request must undergo an additional approval. Click to generate the approval work order, and once confirmed to be correct, the unfreeze will be completed.
+After submission, a secondary approval is required. Click Audit to generate a work order. Once confirmed, the stocks will be unfrozen.
 
 <img src="/assets/CYzUb6gHFo0BhLxKY27jUsRWpAg.png" src-width="2506" src-height="1302" align="center"/>
 

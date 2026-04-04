@@ -9,24 +9,24 @@ sidebar_position: 2
 
 # I. System Overview
 
-This guide details the full back-office operational workflow for cryptocurrency deposit services, covering record generation, query and tracking, exception handling, cancellation operations, and refund processes, to ensure standardized operations by back-office personnel and to safeguard regulatory compliance and fund security.
+This guide outlines the comprehensive back office operational workflow for cryptocurrency deposit services, encompassing record generation, query and tracking, exception handling, cancellation, and the refund process. It is intended to ensure standardized operations by back office operators and to maintain business compliance and fund security.
 
 # Prerequisites
 
-- Back-office operators must log in to the WBO back-office system using their assigned account credentials and navigate to the "Virtual Asset Management - Deposit/Withdrawal - Deposit" module.
-- Confirm that the account has the required permissions for "Deposit Application", "Deposit Records", "Cancel", and "Refund". If permissions are lacking, contact an administrator to request access.
+- The back office operator has logged in to WBO using dedicated credentials and navigated to VA Clearing Management &gt; Deposit & Withdrawal &gt; Deposit.
+- The account holds the necessary permissions for operations such as deposit application, deposit records, cancellation, and refund. Operators who have not been granted the required permissions should contact the administrator to request access.
 
-# II. Operational Instructions
+# II. Operation Instructions
 
 ## Cryptocurrency Configuration
 
-Prior to customer deposits, configure the supported deposit cryptocurrencies.
+Operators should configure cryptocurrency settings for deposits before processing client deposits.
 
 <img src="/assets/Qs63bldUWoUhdqxC9LpjVuKFpsd.png" src-width="1280" src-height="614" align="center"/>
 
-## Customer Wallet Address
+## Client Wallet Address
 
-Completing wallet address verification before deposits is a critical prerequisite to ensure asset security.
+To ensure asset security, wallet address verification must be completed before a deposit is processed. This is a critical prerequisite step.
 
 <img src="/assets/Hgj7bqIK6oFrMVxqUYJj85BCpgd.png" src-width="1280" src-height="610" align="center"/>
 
@@ -36,11 +36,11 @@ Completing wallet address verification before deposits is a critical prerequisit
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
 <div class='callout-emoji'>📍</div>
-<p>Menu path: WBO - VA Clearing Management - Deposits &amp; Withdrawals - Deposit Application</p>
+<p>Navigation: WBO &gt; VA Clearing Management &gt; Deposit &amp; Withdrawal &gt; Deposit Application</p>
 </div>
 
 - After the client submits a deposit request, the system automatically receives the request information and generates a unique deposit record (including record number, client securities account, deposit currency, amount, destination address, transaction hash (TXID), request time, status, and other core information).
-- If an abnormal or problematic deposit application is encountered, back-office operators may delete it directly within the system.
+- For deposit applications with exceptions or errors, back office operators can delete them directly in the system.
 
 <img src="/assets/LUNXbD0T4om70DxLiR9jAo4rplW.png" src-width="1280" src-height="336" align="center"/>
 
@@ -48,33 +48,33 @@ Completing wallet address verification before deposits is a critical prerequisit
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
 <div class='callout-emoji'>📍</div>
-<p>Menu path: WBO - Virtual Asset Management - Deposit/Withdrawal - Deposit Records</p>
+<p>Navigation: WBO &gt; VA Clearing Management &gt; Deposit &amp; Withdrawal &gt; Coin Deposit Records</p>
 </div>
 
-- <b>Multi-condition search</b>: Supports filtering by record number, customer number, creation time, status, and other criteria to quickly locate target records.
-- <b>Detail tracking</b>: Click a single record to view details, including address verification and the block confirmation progress corresponding to the transaction hash, enabling real-time tracking of the entire deposit process.
+- <b>Multi-condition Query: </b>Records can be filtered by criteria such as record ID, client ID, creation time, and status, allowing operators to quickly locate the target record.
+- <b>Progress Tracking: </b>The full deposit process can be monitored in real time. Operators can click a record to view its details, including address verification status and blockchain confirmation progress associated with the transaction hash.
 
 <img src="/assets/PAYtbvktAoeU9Tx9QudjsDgSpef.png" src-width="2446" src-height="964" align="center"/>
 
-<b>Cancellation of Non-Deposited Records</b>
+<b>Cancellation of Unprocessed Deposit Records</b>
 
-- <b>Prerequisite</b>: Applicable only to records with the status "Wallet Address Under Verification" (i.e., deposit requests for which the blockchain network has not begun confirmations and the assets have not been transferred). Records in other statuses cannot be cancelled.
-- <b>Steps</b>:
-    1. In the deposit records list, locate the target record to be cancelled and click the "Cancel" button;
-    2. A confirmation dialog will appear; enter operation remarks (e.g., "Duplicate user request", "Incorrect address"), then confirm the cancellation again;
-    3. Upon successful cancellation, the record status will be updated to "Cancelled", and the system will automatically retain a cancellation operation log (including operator, operation time, and remarks) to support subsequent traceability.
+- <b>Prerequisite</b>: This operation applies only to records in the Wallet Auth Pending status (i.e., deposit requests for which blockchain network confirmation has not started and assets have not been transferred out). Records in other statuses cannot be canceled.
+- <b>Operation steps:</b>:
+    1. In the deposit records list, locate the target record and click Cancel.
+    2. In the confirmation pop-up window, enter an operation note (e.g., "Duplicate application" or "Incorrect address provided") and confirm the cancellation.;
+    3. Upon successful cancellation, the record status will be updated to Canceled. The system automatically retains a cancellation operation log (including operator, operation time, and note) for future tracing.
 
 <img src="/assets/MMKDbz6nQoboX4xMiwCjWYoJpjb.png" src-width="2480" src-height="696" align="center"/>
 
-<b>Refund Process After Successful Deposit</b>
+<b>Refund After Successful Deposit</b>
 
-- <b>Prerequisite</b>: Applicable only to records with the status "Credited" (i.e., assets have been successfully credited to the platform and the user requests a refund or the system requires a forced refund). Verify the user's identity and the legitimacy of the refund request.
-- <b>Steps</b>:
-    1. Navigate to the "Deposit" module, search for the target credited record, and click the "Request Refund" button;
-    2. Complete the refund information: enter the user's specified refund address (must match the user's identity verification information), select the corresponding network (consistent with the deposit network), and verify the refund amount (defaulted to the deposit amount; adjustments are allowed but must state the reason for adjustment);
-    3. Execute the refund: the back office clicks "Execute Refund", the system generates a refund transaction hash and broadcasts it to the blockchain network;
-    4. Track the refund status: monitor the block confirmation progress of the refund record in real time; upon confirmation completion, update the deposit record status to "Refunded" and retain a full refund process log;
-    5. Notify the user: once the refund succeeds, notify the customer offline.
+- <b>Prerequisite</b>: This operation applies only to records in the Success status (i.e., assets have been successfully credited to the platform, and the client applies for a refund or the system requires a forced refund). Operators shall verify the client's identity and the reason for the refund..
+- <b>Operation steps:</b>:
+    1. Enter the Deposit page, find the target deposit record, and click Withdraw coins.
+    2. Fill in Refund Information: Enter the client-specified refund address (must match the client's identity verification information), select the corresponding network (must match the deposit network), and verify the refund amount (defaults to the deposit amount; can be adjusted with a reason noted for the adjustment).
+    3. Execute Refund Operation: Click Execute Refund. The system generates a refund transaction hash and synchronizes it to the blockchain network.
+    4. Track Refund Status: Monitor the blockchain confirmation progress of the refund record in real-time. Upon completion, update the deposit record status to refund and keep the full-process log of the refund.
+    5. Notify Client: Upon successful refund, notify the client through offline channels.
 
 <img src="/assets/BJjcbxXoRocUVRxxSqjjdw2upig.png" src-width="2452" src-height="732" align="center"/>
 

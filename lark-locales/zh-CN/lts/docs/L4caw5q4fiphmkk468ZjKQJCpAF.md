@@ -54,7 +54,7 @@ sidebar_position: 5
         <img src="/assets/VE56bjkijol06yxt9w2jEAl2pof.png" src-width="3274" src-height="882" align="center"/>
     - 针对大额帐户，可依实际需求分别配置提示头寸与拦截头寸：
         - 若已配置提示头寸，当渠道可用余额 ＜ 提示头寸时，系统将依讯息订阅设定自动发送告警通知。
-            <img src="/assets/Ly2VbXlProjmRZx6aNlj0T8Ephd.png" src-width="3300" src-height="1316" align="center"/>
+                        <img src="/assets/Ly2VbXlProjmRZx6aNlj0T8Ephd.png" src-width="3300" src-height="1316" align="center"/>
         - 若已配置拦截头寸，当渠道可用余额 ＜ 拦截头寸时，系统将依讯息订阅设定发送告警通知；若该帐户用于出币本金拦截或出币手续费拦截场景，系统将在「虚拟资产管理 - 出币 - 出币申请」模组执行业务拦截，规则如下：
             1. 若出币手续费帐户头寸不足，出币申请工单无法审核通过，系统拦截并提示：「渠道帐户该币种手续费不足，请先进行资金调拨。」
             2. 若出币本金帐户头寸不足，出币申请工单无法审核通过，系统拦截并提示：「渠道帐户该币种本金不足，请先进行资金调拨。」

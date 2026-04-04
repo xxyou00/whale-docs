@@ -7,66 +7,68 @@ sidebar_position: 3
 
 # Frequently Asked Questions
 
-<div class="callout callout-bg-5 callout-border-5 callout-color-1">
-<div class='callout-emoji'>📍</div>
-<p>Q: Why does the system indicate &quot;Insufficient Balance&quot; when I submit a withdrawal request even though my account shows sufficient funds?</p>
-</div>
-
-A: You must distinguish between the "available balance" and the "frozen balance." If assets are subject to a "T+1 lockup period" (for example, newly purchased tokens not held for 24 hours), are invested in financial products that have not been redeemed, or there are pending trade orders, they will be shown as frozen; only the available balance can be used for withdrawals. In addition, the withdrawal amount must include the network fee. If you enter the full available balance, the transaction may fail after the fee is deducted. We recommend leaving a small balance to cover the network fee.
+# FAQs
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
 <div class='callout-emoji'>📍</div>
-<p>Q: Why can&#39;t a newly registered account initiate withdrawals?</p>
+<p>Q: The client receives an &quot;insufficient balance&quot; error when submitting a withdrawal application, even though the account appears to have enough funds. Why?</p>
 </div>
 
-A: Regulated platforms typically impose a "risk control observation period" for new accounts (usually 7–10 calendar days), during which purchased cryptocurrency cannot be withdrawn and you must wait until the observation period ends. In addition, accounts that have not completed advanced KYC verification may be restricted from withdrawing; completing identity verification (for example, uploading a passport and proof of address) will unlock withdrawal functionality.
+A: There is a difference between the available balance and the frozen balance. If assets are in a T+1 lock-up period (e.g., cryptocurrency purchased within the last 24 hours), involved in unredeemed financial products, or tied to open trade orders, they will show as frozen. Only the available balance can be used for withdrawal. Additionally, the applicable service fee should be considered. If a client enters a withdrawal amount equal to their full available balance, the transaction may fail because there are insufficient funds to cover the service fee after deduction. Clients are advised to leave a small reserve to cover the service fee.
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
 <div class='callout-emoji'>📍</div>
-<p>Q: What happens if I omit or incorrectly enter the Memo/Tag when withdrawing? How should I handle it?</p>
+<p>Q: Why is a newly registered account unable to initiate a cryptocurrency withdrawal?</p>
 </div>
 
-A: Coins such as XRP, XLM, and EOS require a Memo/Tag to be credited correctly; omitting or entering an incorrect Memo/Tag may cause the assets to be held in temporary custody by the receiving platform (they will not be lost). To resolve this, contact the recipient’s customer support and provide the transaction hash (TXID), the withdrawal address, and the correct Memo/Tag information to request manual crediting. It is recommended to copy the address and the Memo/Tag together and verify them twice to avoid errors.
+A: For regulatory compliance, platforms typically impose a risk control observation period for new accounts, usually lasting 7 to 10 calendar days. Cryptocurrency purchased during this period cannot be withdrawn until the observation period has ended. In addition, accounts that have not completed advanced KYC verification may have withdrawal function restricted. Clients can unlock this feature by completing identity verification (for example, by submitting a passport and proof of address).
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
 <div class='callout-emoji'>📍</div>
-<p>Q: After I click &quot;Confirm Withdrawal&quot; the page freezes and no TXID is generated. Should I resubmit?</p>
+<p>Q: What happens if the client omits or incorrectly enters the Memo/Tag when withdrawing? What steps should they take?</p>
 </div>
 
-A: Do not resubmit! A frozen page may be caused by network latency or a temporary system fault, and the request may already be in a "Pending Submission" state. Log in and check Withdrawals → Withdrawal Requests: if the status shows "Pending Submission," please wait. If no status appears for an extended period, log out and log back in, or clear your browser cache and then check again to confirm the request was not submitted before attempting again.
+A: For cryptocurrencies like XRP, XLM, and EOS, a Memo/Tag needs to be entered for funds to be correctly credited. If the client omitted the Memo/Tag or provided an incorrect one, the assets will be held temporarily by the platform (will not be lost). The client should contact the recipient platform's customer service, provide the transaction hash (TXID), withdrawal address, and correct Memo/Tag, and request a manual deposit. Remind the client to copy both the address and Memo/Tag and double-check to avoid errors.
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
 <div class='callout-emoji'>📍</div>
-<p>Q: The withdrawal status shows &quot;Completed,&quot; but the recipient has not received the funds. How should I investigate this?</p>
+<p>Q: After the client clicks Confirm Withdrawal, the page freezes, and no transaction hash (TXID) is generated. Should the client resubmit the application?</p>
 </div>
 
-A: Follow these three steps: 1) Use the TXID to query the relevant blockchain explorer and confirm the transaction has been confirmed on-chain (for example, BTC typically requires 6 confirmations); 2) If the blockchain shows "Success," contact the recipient platform’s customer support and provide the TXID and the receiving address to determine whether a synchronization delay on the recipient’s system is the cause; 3) If the asset was returned (the chain shows "Failed"), the funds will be automatically returned to the original withdrawal account—please allow 1–3 hours for the refund to appear.
+A: Do not resubmit. An unresponsive page is most likely caused by a network delay or a temporary system issue, and the application may already have been received with a status of Pending Submission. The client can go to Withdrawal &gt; Withdrawal Application to check the status. If the status is Pending Submission, the client should wait for processing. If no status is displayed after an extended period, the client should log out and back in, or clear the browser cache, and check again. Only if the client can confirm that the request was not submitted at all should they resubmit the application.
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
 <div class='callout-emoji'>📍</div>
-<p>Q: The withdrawal amount differs significantly from the amount the recipient received. Was the platform deducting the difference?</p>
+<p>Q: The withdrawal status shows Completed, but the recipient has not received the funds. How should I resolve this?</p>
 </div>
 
-A: Discrepancies generally arise from two sources: 1) Network fees (miner fees), which are collected by the blockchain network and automatically deducted from the withdrawal amount; these fees fluctuate with network congestion. 2) The recipient platform’s deposit threshold—if the withdrawal amount is below the recipient’s minimum deposit (for example, BTC may require ≥ 0.001 BTC), the deposit may be rejected and returned; when returned, an additional fee may be charged, increasing the discrepancy. Before withdrawing, confirm the recipient’s fee policy and minimum deposit requirements.
+A: Handle this issue in three steps: ① Use the transaction hash (TXID) to check on the corresponding blockchain explorer to confirm that it has received the required number of on-chain confirmations (e.g., BTC requires 6 confirmations). ② If the blockchain shows the transaction is successful, contact the receiving platform's customer service, provide the TXID and receiving address, and check whether the delay is due to a synchronization issue on their system. ③ If the assets have been returned (i.e., the blockchain shows the transaction as "Failed"), the funds will be automatically credited back to the original withdrawal account. In this case, the client should allow 1 to 3 hours for the funds to be returned.
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
 <div class='callout-emoji'>📍</div>
-<p>Q: Can assets be recovered if I mistakenly sent ETH to a BTC address, or sent USDT on the ERC-20 network to a TRC-20 address?</p>
+<p>Q: The amount received is significantly less than the amount withdrawn. Was the difference deducted by the platform?</p>
 </div>
 
-A: Such cross-chain or cross-token transfers are incompatible due to address format differences; the assets will become permanently "unavailable" and cannot be automatically returned. You can attempt one of the following: 1) Contact the recipient platform’s customer support, provide the TXID and transfer proof, explain the mistake, and inquire whether a manual return is possible (success rates are very low). 2) If the funds were sent to an incorrect personal address and you control that address’s private key, import the private key into a wallet on the corresponding network to retrieve the assets. Before transferring, scan the address QR code and verify the first five and last five characters of the address.
+A: The shortfall is typically attributable to two factors: ① Network service fee (e.g., miner fee), charged by the blockchain network and automatically deducted from the withdrawal amount. The fee rate fluctuates with network congestion at the time of the transaction. ② The receiving platform's deposit threshold. If the withdrawal amount falls below the receiving platform's minimum deposit requirement (e.g., ≥ 0.001 BTC), the transaction may be rejected and returned, incurring an additional service fee. Clients are advised to review the fee structure and minimum deposit requirements of the receiving platform before initiating a withdrawal.
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
 <div class='callout-emoji'>📍</div>
-<p>Q: A WBO ticket shows &quot;Approved,&quot; but no on-chain transaction was triggered. What could be the reason?</p>
+<p>Q: The client accidentally sent ETH to a BTC address, or sent USDT on the ERC-20 network to a TRC-20 address. Can the assets be recovered?</p>
 </div>
 
-A: This may be due to insufficient funds in the platform’s withdrawal hot wallet; the system may be transferring funds from the cold wallet to the hot wallet, which typically takes 15–30 minutes. In addition, if the relevant blockchain network is experiencing extreme volatility (for example, a surge in gas fees), the system may pause transaction sending and wait for the network to stabilize before proceeding. You can check the hot wallet balance on the platform’s "Wallet Status" page or contact customer support to inquire about transaction queuing.
+A: Such cross-chain or cross-token transfers are incompatible due to differences in address formats. In most cases, the assets will become permanently inaccessible and cannot be recovered automatically. However, the client may attempt the following: ① Contact the receiving platform’s customer service, provide the transaction hash (TXID) and transfer proof, explain the error, and inquire whether a manual return is possible. Note that the likelihood of recovery through this route is generally low. ② If the funds were sent to an incorrect personal address and the client holds the private key for that address, they may be able to import the private key into a compatible wallet on the corresponding network to retrieve the assets. To prevent such errors from occurring, clients are advised to use QR code scanning rather than manually entering addresses, and to verify at least the first and last five characters of the address before confirming any transfer.
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
 <div class='callout-emoji'>📍</div>
-<p>Q: Can the withdrawal fee be adjusted manually, and why are fees sometimes exceptionally high?</p>
+<p>Q: The WBO work order shows Approved, but no on-chain transaction was triggered. What could be the reason?</p>
 </div>
 
-A: Some platforms support manual fee adjustment (for example, Coinbase Pro’s "Advanced" option); higher fees increase miner/validator priority. Fee spikes are usually caused by blockchain network congestion (for example, ETH gas fees exceeding 150 Gwei). Platforms dynamically adjust default fees to ensure transaction success. To reduce costs, avoid peak network times (typically daytime in UTC) or use Layer-2 networks (for example, Arbitrum) where supported.
+A: This may be due to insufficient balance in the platform’s withdrawal hot wallet. In this case, the system will initiate a transfer from the cold wallet to the hot wallet, which typically takes 15 to 30 minutes to complete. In addition, if the relevant blockchain network is experiencing extreme volatility (for example, a sudden spike in gas fees), the system will temporarily pause transaction broadcasting and wait for network conditions to stabilize before automatically resuming execution. The client can check the hot wallet balance on the platform's Wallet Status page or contact customer service to inquire about the transaction queue status.
+
+<div class="callout callout-bg-5 callout-border-5 callout-color-1">
+<div class='callout-emoji'>📍</div>
+<p>Q:Can the withdrawal service fee be adjusted manually? Why is the service fee sometimes exceptionally high?</p>
+</div>
+
+A: Some platforms support manual adjustment (e.g., the Advanced options on Coinbase Pro). Setting a higher service fee gives the transaction greater priority for inclusion by miners, which can result in faster processing. A sudden sharp increase in fees is usually caused by blockchain network congestion (e.g., ETH gas fees exceeding 150 Gwei). Under these conditions, the platform dynamically raises the default fee to improve the likelihood of successful transactions. To minimize fees, clients are advised to avoid initiating withdrawals during peak network hours (typically UTC daytime) or switch to a Layer 2 network such as Arbitrum.
 

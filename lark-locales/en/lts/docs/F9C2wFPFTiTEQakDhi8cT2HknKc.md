@@ -7,30 +7,32 @@ sidebar_position: 3
 
 # Frequently Asked Questions
 
+# FAQs
+
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
 <div class='callout-emoji'>📍</div>
-<p>Question: If I want to restrict certain stocks from being transferred in, can this be configured?</p>
+<p>Q: Can I restrict certain securities from being transferred in?</p>
 </div>
 
-Answer: Yes. Enter the target security's code to complete the configuration.
+A: Yes. To add a transfer-in restriction for securities, go to Transfer In &gt; Restricted Stock and click Add.
 
-Path: Transfer In &gt; Restricted Stock &gt; [Add]
+Enter the code of the securities you wish to restrict, and the restriction will be applied.
 
 <img src="/assets/FIdObCvLTo5Zhfxyxr8jb0e4p9c.png" src-width="2996" src-height="1326" align="center"/>
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
 <div class='callout-emoji'>📍</div>
-<p>Question: Why can&#39;t I find the application record on the Notify Broker page?</p>
+<p>Q: I can&#39;t find the application record on the Notify Broker page. Why?</p>
 </div>
 
-Answer: The Notify Broker function requires selecting a specific broker first; the system will automatically populate the email address. Then select the application number. The page only displays application records that have not yet been notified to the customer.
+A: On the Notify Broker page, you need to select a broker first. The system will automatically populate the broker's email address. Then, select the application number. Note that this page only displays applications for which the delivering broker has not yet been notified.
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
 <div class='callout-emoji'>📍</div>
-<p>Question: After using the Notify Broker function, where can I check whether the sent emails were successful?</p>
+<p>Q: After sending a notification via the Notify Broker function, how can I verify whether the email was delivered successfully?</p>
 </div>
 
-Answer: Path: Transfer In &gt; Email  Records
+A: Go to Transfer In &gt; Email Records to view the delivery status.
 
 <img src="/assets/LPRybxFMGoCXSTxeQ19j3Pq8pkd.png" src-width="2942" src-height="1294" align="center"/>
 

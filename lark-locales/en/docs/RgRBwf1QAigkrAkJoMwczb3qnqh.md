@@ -9,75 +9,75 @@ sidebar_position: 1
 
 # Overview
 
-The securities withdrawal function within the WHALE Securities Management System supports users in creating new client securities withdrawal requests and reviews them in accordance with business rules to ensure that clients' securities withdrawal activities are compliant and efficient.
+The securities transfer-out function in the Whale securities management system allows operators to create securities transfer-out applications for clients and review applications according to business rules, ensuring compliant and efficient client securities transfer-in operations.
 
 # Quick Start
 
-## Prerequisites
+## Prerequisite
 
-### Broker Information Initialization Must Be Completed
+### Broker information initialization must be completed
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
 <div class='callout-emoji'>📍</div>
-<p>Menu path: Stock Management- Broker Config</p>
+<p>Navigation: Stock Management &gt; Broker Config</p>
 </div>
 
-Click [Add], and in the pop-up modal that appears, fill in the information in the tabs above as appropriate.
+Click Add. In the pop-up window, fill in the information according to the tabs at the top.
 
 <img src="/assets/GV57bkG91oPbJTxLSJCjKnHlpEg.png" src-width="2952" src-height="1328" align="center"/>
 
-If existing broker information needs to be edited, deactivated, or activated, these actions can be performed in the operations column of the target record.
+To modify, deactivate, or reactivate an existing broker record, click the corresponding action button in the Action column of the target record.
 
 <img src="/assets/QoZkbIYSWo6qp4xMRR4jUDzHp1g.png" src-width="2996" src-height="1304" align="center"/>
 
 Terminology
 
-### Manual Withdrawal Processing
+### Manual Transfer-Out
 
-Back-office operators submit securities withdrawal requests in accordance with the client's instructions.
+The back office operator submits a securities transfer-out application following the client's instructions.
 
-Step 1: Select the client and confirm information such as the market to which the securities deposited this time belong, the transfer-out broker, account holder name, and account number.
+Step 1: Select the client. Confirm the market, delivering broker, account holder name, account number, and other details for the securities to be transferred in.
 
 <img src="/assets/GVg9bkJOpohizWxJqurjYtPwpUb.png" src-width="2958" src-height="1302" align="center"/>
 
-Step 2: Based on the selected client from Step 1, the system automatically displays all held securities positions. Locate the target position and fill in the specific security details, quantity, and remarks.
+Step 2: For the client selected in Step 1, the system automatically displays all securities holdings. Locate the target securities and fill in the specific securities details, quantity, and remarks.
 
 <img src="/assets/WJxUbWbfRoWrHxxCtGyjdqwLpB3.png" src-width="2952" src-height="1304" align="center"/>
 
-### Notify Broker
+### Notify the Broker
 
-If the client has not confirmed this transfer with the counterparty broker, back-office personnel can use this function to notify the counterparty broker of the details of the current transfer so that the normal transfer process can proceed.
+If the client has not confirmed the transfer details with the delivering broker, back office operators can use this function to notify the delivering broker of the transfer details and initiate the standard transfer process.
 
-Step 1: Select the broker to which the email should be sent.
+Step 1: Select the broker to whom the email should be sent.
 
 <img src="/assets/XUFwb2EEboc6H6xNQIDjedL4poc.png" src-width="2988" src-height="1406" align="center"/>
 
-Step 2: Select the target application number.
+Step 2: Select the corresponding application number.
 
 <img src="/assets/FzQdbjhw4oqjWmx5w7djZDRKpcf.png" src-width="2980" src-height="1314" align="center"/>
 
-### Process Securities Deposit Applications
+### Processing Securities Transfer-In Applications
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
 <div class='callout-emoji'>📍</div>
-<p>Transfer Out &gt;Transfer-out Request</p>
+<p>Navigation: Transfer Out &gt; Transfer Out</p>
 </div>
 
-After selecting the target record, click the [Submit] button.
+Select the target application record and click Submit.
 
 <img src="/assets/NIkGbuX27oHsMnxHdBXj0mT4pu1.png" src-width="2982" src-height="1306" align="center"/>
 
-If the client has already notified the counterparty broker, you can check the "Notify Broker" status in the pop-up modal.
+If the client has already notified the delivering broker, check Informed in the pop-up window.
 
 <img src="/assets/KKVvbrIbVoQ3cTxIwicj6CP4pkb.png" src-width="2974" src-height="1320" align="center"/>
 
-### Process Securities Withdrawal Details
+### Processing Securities Transfer-Out Details
 
-After selecting the target record, click [Submit] to confirm as "Successful" or "Failed."
+Select the target record and click Handle. In the pop-up window, select Submit as Successful or Submit as Failed.
 
 <img src="/assets/MDesbGpKToFNt0xtvnkjMMeBpGd.png" src-width="3020" src-height="1342" align="center"/>
 
-After submission, a second approval is required. Click to approve and generate a work order; once confirmed, the securities can be released from the account.
+After submission, a secondary approval is required. Click Audit to generate a work order. Once confirmed, the securities will be transferred out.
 
 <img src="/assets/PX71bOdExoYuDgxVQA5j9sY6pJi.png" src-width="2976" src-height="1290" align="center"/>
 

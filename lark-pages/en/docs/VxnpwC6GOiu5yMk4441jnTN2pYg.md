@@ -26,21 +26,20 @@ Below are the core modules with their permission names, corresponding operation 
 
 - Log in to the WBO backend system and navigate to the "Virtual Asset Management - Position Management" module. Executing inquiries requires the permission identifier: `assets.position_anagement_inquiry_query`.
     - After entering the module, filter query conditions as needed (e.g., update time, currency, channel account type). Enter the corresponding parameters and click the "Query" button.
-        <img src="/assets/Px4ybzQBIobzdyxwc4aj7SbDpZe.png" src-width="3304" src-height="908" align="center"/>
+        <img src="/assets/TQCpbU4dIog36zx3tUYjTPhspFf.png" src-width="3768" src-height="1508" align="center"/>
 
 - To perform subsequent operations within this module, request the additional operation permission: `assets.position_anagement_inquiry_operation`.
     - The system polls position information automatically every five minutes. To retrieve the current balances for each channel account and currency, click the "Refresh" button to update manually.
 
-        <img src="/assets/MkV7b66aqoHqDMxJsHojR3YJpgh.png" src-width="3274" src-height="882" align="center"/>
+        <img src="/assets/E9j6bqNDfoE6Bgx9M3kj3Y5dpXb.png" src-width="3790" src-height="1488" align="center"/>
     - For large accounts, configure both alert thresholds and blocking thresholds as needed:
         - If an alert threshold is configured and the channel's available balance &lt; alert threshold, the system will automatically send an alert notification according to the message subscription settings.
-
-            <img src="/assets/REbNbh1pboCyjoxvIKjjgBVNpJb.png" src-width="3300" src-height="1316" align="center"/>
+            <img src="/assets/DfwubbDOuoNKLXxBgKoj3GEDp8W.png" src-width="3752" src-height="1458" align="center"/>
         - If a blocking threshold is configured and the channel's available balance &lt; blocking threshold, the system will send an alert notification according to the message subscription settings; if the account is used for intercepting principal or fees for withdrawals, the system will enforce business interception in the "Virtual Asset Management - Withdrawals - Withdrawal Application" module. The rules are as follows:
             1. If the withdrawal fee account balance is insufficient, the withdrawal application cannot be approved. The system will block the operation and display: "The channel account's fee balance for this currency is insufficient. Please perform a fund allocation first."
             2. If the withdrawal principal account balance is insufficient, the withdrawal application cannot be approved. The system will block the operation and display: "The channel account's principal balance for this currency is insufficient. Please perform a fund allocation first."
             3. If both principal and fee accounts are insufficient, the withdrawal application cannot be approved. The system will block the operation and display: "The channel account's principal and fee balances for this currency are insufficient. Please perform a fund allocation first."
-                <img src="/assets/Li24bumbho9RP3xv9dejFaTipR9.png" src-width="3330" src-height="1204" align="center"/>
+                <img src="/assets/QtUkbuIyao5jr3xRuNPjw1Ijpeb.png" src-width="3780" src-height="1464" align="center"/>
 
 ### Settlement Channel Account Configuration
 
@@ -48,25 +47,14 @@ Below are the core modules with their permission names, corresponding operation 
 - Log in to the WBO backend system and navigate to "Business Parameter Settings - Funds Parameters - Settlement Channel Account". Performing configuration operations requires the permission identifier: `atm.settle_chnl_bank_acct_operation`.
     - On the configuration page, you may perform "Create" and "Edit" operations. Procedures:
         - Create account information: Click the "Create" button and accurately fill in the settlement channel information (including settlement channel, currency type, and currency) and the main account information (including main account number and business scenario). Verify all parameters and submit to save; the configuration takes effect immediately.
-
-
-
-            <img src="/assets/Ve1ybFqmQoMiqZxi4WQjBoDEp6d.png" src-width="3266" src-height="702" align="center"/>
-            
-
-
-
-            <img src="/assets/HBydbzBNqoCQdFxhhgpjfUIZprc.png" src-width="3198" src-height="1742" align="center"/>
-            
-
-
+            <img src="/assets/RxGtb9JomoIojlxr7cdjETM2pGg.png" src-width="3812" src-height="1340" align="center"/>
+            <img src="/assets/NcWybDY5NoS4p7x6mxEjK8Jjpbh.png" src-width="3470" src-height="1528" align="center"/>
         - Edit account information: Select the account configuration record to modify, click the "Edit" button, adjust parameters as required, and submit to overwrite the existing configuration. Pay special attention to potential impacts of configuration changes on ongoing and upcoming allocation operations to avoid business anomalies.
-
-            <img src="/assets/OksdbxM4LoviHbx2O3ijTwS4pce.png" src-width="3272" src-height="1738" align="center"/>
+            <img src="/assets/CEpqbQhVjogbRKxXXFbjXdyhphe.png" src-width="3404" src-height="1504" align="center"/>
 
 - After configuration, users with the `atm.settle_chnl_bank_acct_inquiry` query permission may access the module to review all configured account information and verify parameter accuracy to ensure that configurations meet actual business requirements.
 
-    <img src="/assets/YdNTbMVrJon89axOG8Oj6xGepRe.png" src-width="3252" src-height="1744" align="center"/>
+    <img src="/assets/WOVGbUux3oX7wVxcTm8jq9N5pSh.png" src-width="3808" src-height="1150" align="center"/>
 
 ### Allocation Rule Configuration
 
@@ -74,28 +62,18 @@ Below are the core modules with their permission names, corresponding operation 
 - Log in to the WBO backend system and navigate to "Business Parameter Settings - Funds Parameters - Funds Allocation Configuration". Performing rule configuration requires the permission identifier: `atm.funds_alloc_config_operation`.
     - On the configuration page, you may perform "Create Rule", "Edit Rule", and "Copy Rule" operations. Procedures:
         - Create Rule: Click the "Create" button, set the allocation type to "Transfer between settlement accounts", select the outgoing channel as "settlement_hashkey_hk", and configure automatic transfer rules according to different business scenarios. Verify parameters and submit to save.
-
-
-
-            <img src="/assets/DePxbT4Tno4ouzxFIXTjjHR3paf.png" src-width="3320" src-height="1564" align="center"/>
-            
-
-
-
-            <img src="/assets/Po94bxK4zob9QWxbh7Ej2kJ9pld.png" src-width="3248" src-height="3560" align="center"/>
-            
-
-
+            <img src="/assets/HYdYbccwGoNvCYxdsjRjoiYApFi.png" src-width="3802" src-height="1102" align="center"/>
+            <img src="/assets/UnW4bU1NqoIpRWxLTwnjq134pGf.png" src-width="2976" src-height="3542" align="center"/>
         - Edit Rule: Select the rule to modify, click "Edit", adjust parameters according to business requirements, and submit to overwrite the existing rule. Pay special attention to impacts on currently executing and future automatic allocation tasks to prevent business anomalies.
 
-            <img src="/assets/X8Bhbl89IoMaD7x1do7jL0f5pqd.png" src-width="3298" src-height="734" align="center"/>
+            <img src="/assets/U1smbAuZToGY7hxcOw3jDlCqpIb.png" src-width="3812" src-height="1062" align="center"/>
         - Copy Rule: Select an existing configured rule and click "Copy" to modify parameters based on the original rule, simplifying the creation of new rules and improving configuration efficiency.
 
-            <img src="/assets/WJmvb4OqkobmWIxZ6BbjkGKgppd.png" src-width="3298" src-height="734" align="center"/>
+            <img src="/assets/Vh5zbAVGyocaM8xK091jT7O5pyf.png" src-width="3760" src-height="1056" align="center"/>
 
 - After rule configuration, users with the `atm.funds_alloc_config_inquiry` query permission may review all configured allocation rules and verify parameter accuracy to ensure rules meet automatic allocation requirements.
 
-    <img src="/assets/MsYwb0J5GoHlrSx6KNyjSTiOpmy.png" src-width="3320" src-height="1564" align="center"/>
+    <img src="/assets/LTd4bIfXWoFheAxnpfFjEWGApWe.png" src-width="3812" src-height="1118" align="center"/>
 
 ### Automatic Allocation Operations
 
@@ -111,11 +89,11 @@ Below are the core modules with their permission names, corresponding operation 
 
 - Operators may use the "Funds Management - Bank Statements - Company Fund Allocation" module (requires the `atm.company_fund_allocation_inquiry` query permission) to view automatic allocation execution records, including allocation time, amount, currency, source account, destination account, business order number, and other core information for traceability and auditing.
 
-    <img src="/assets/RzOpbXNWsoIrZjxgluxjlWXXp5b.png" src-width="3294" src-height="670" align="center"/>
+    <img src="/assets/Wjm3bQe7iofhbjxQnTnjJWgdp1c.png" src-width="3784" src-height="1062" align="center"/>
 
 - If automatic allocation fails, the system will clearly indicate the failure reason (e.g., insufficient account balance). Operators must promptly investigate, adjust the relevant rules or replenish funds, and may manually trigger a retry (requires the corresponding operation permission in "Funds Management - Bank Statements - Company Fund Allocation") to ensure successful fund allocation.
 
-    <img src="/assets/Gg3sbJiQ8oWNJoxmoZpjwoKqp8b.png" src-width="3304" src-height="852" align="center"/>
+    <img src="/assets/BgqEbVaFnoflagxCekqjuG7OpTd.png" src-width="3786" src-height="1262" align="center"/>
 
 ### Manual Allocation Operations
 
@@ -123,25 +101,17 @@ Below are the core modules with their permission names, corresponding operation 
     - Click the "Create" button and accurately complete the allocation information, including initiating account, receiving account, allocation currency, allocation amount, and allocation remarks (clearly state the allocation reason to facilitate subsequent traceability and auditing). Verify all information and submit.
 
 
-
-        <img src="/assets/LvupbPLXVos6gHx75vhjlBqEprc.png" src-width="3296" src-height="694" align="center"/>
-        
-
-
-
-        <img src="/assets/PvaJbPBttoRDt5xilmgjDIsWpCe.png" src-width="2856" src-height="3348" align="center"/>
-        
-
-
+        <img src="/assets/PlW0blVApo4tQQxAPmJjh6qcpEg.png" src-width="3766" src-height="1200" align="center"/>
+        <img src="/assets/ZzPObbgySoLuCRxmnT7jL0vRpOc.png" src-width="2792" src-height="2738" align="center"/>
 
 - Manual allocation applications submitted via the "Create" button, or allocation applications whose audit strategy in "Business Parameter Settings - Funds Parameters - Funds Allocation Configuration" is "work order approval", will enter the approval workflow automatically and must be reviewed by personnel with the permission identifier `atm.company_fund_allocation_approval`:
     - After approval, the system will automatically execute the allocation.
     - If rejected, the allocation application fails; if the allocation remains necessary, a new manual allocation application must be submitted.
-        <img src="/assets/BDc9b7Dnso0mayx4Rt8jYg6rpne.png" src-width="3286" src-height="686" align="center"/>
+        <img src="/assets/B9rybOhS0oBu1yxam1Tj0mZNpng.png" src-width="3740" src-height="1042" align="center"/>
 
 - After allocation completion, operators with the `atm.company_fund_allocation_inquiry` query permission may view the execution status and detailed records of manual allocations to verify all related data and ensure allocation compliance and accuracy.
 
-    <img src="/assets/B4jxb0klMorOO6xBTt0jPkRspmg.png" src-width="3284" src-height="1166" align="center"/>
+    <img src="/assets/ArA8bfs9ko5QtQxtJxEjTTtwpic.png" src-width="3756" src-height="804" align="center"/>
 
 ## Notes
 

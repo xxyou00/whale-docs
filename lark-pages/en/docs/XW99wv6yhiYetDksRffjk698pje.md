@@ -9,46 +9,46 @@ sidebar_position: 1
 
 ## Permission Policy Model
 
-Whale WBO permission requests adopt a functional permission policy at the primary business module level (no longer based on the secondary menu operational perspective), divided into:
+The Whale Back Office (WBO) permission request system is organized around functional permission policies at the primary business module level — replacing the previous approach based on secondary menu operations. Permissions are categorized into three main policy types:
 
-<b>Full-Function Permissions (policy), Read-Only Permissions (policy),</b> and <b>Other Specified Permissions (policy)</b>
+<b>Full-Function Permissions (Policy), Read-Only Permissions (Policy), and Other Specified Permissions (Policy)</b>
 
 <img src="/assets/VaBbbssR0oyIFaxgHmcjeKElp1c.png" src-width="1756" src-height="1810" align="center"/>
 
-Whale users can configure new permission requests according to the new permission policies. The system also supports setting an application period for certain temporary permission policies (default: left blank), which can be entered as a reference for approval as needed.
+Whale operators can submit new permission requests according to the new permission policies. For certain temporary permission policies, Whale operators can set the <em>Expires time</em> (left blank by default). This time serves as a reference for the approval process.
 
 <img src="/assets/W6UHbU0ovo6Qm5xvAvNjVdwqpOe.png" src-width="1826" src-height="148" align="center"/>
 
-The new permission policy configuration mode uses "Automatic Policy Updates": when any rule of a policy is changed (whether adding or removing permissions), WBO users do not need to reapply; the changes take effect immediately.
+The new permission policy configuration model uses "Automatic Policy Updates": When a policy is modified (permissions added or removed), the changes take effect immediately, and WBO operators do not need to reapply the policy.
 
-Additionally, if a user selects a menu for which they lack the relevant permissions, the system will first display a prompt; by selecting this prompt the user can proceed directly to the permission request page.
+Additionally, if an operator attempt to access a menu or feature for which they lack permissions, the system will display a prompt. Clicking this prompt will take the operator directly to the permission request page.
 
 <img src="/assets/NjO9bM2mcoR4wUx9TM8j3twzp6c.png" src-width="3232" src-height="518" align="center"/>
 
 ## Role Management Details
 
-This optimization of the Whale WBO permission policy model also updates identity management so that when adding roles to permissions, the new permission policy model is applied.
+The updated WBO permission policy model also improves role management. When operators assign permissions to roles, the new policy model will be applied.
 
 <img src="/assets/R5m1bXJoRos10OxnoIfjRcp5psb.png" src-width="3280" src-height="1690" align="center"/>
 
-When adding a new system role, click [Add Role] at the top right and select permission policies to include executable tasks.
+To create a system role, click Add Role in the top-right corner and select the permission policies that define what tasks the role can perform.
 
 <img src="/assets/NnHDb1AOAoqKwrxBf8ajGVzRpJe.png" src-width="3262" src-height="1818" align="center"/>
 
 ## User Management Details
 
-Whale provides a display of permission policies within User Management.
+Whale displays permission policies on the <em>Users</em> page.
 
-In the Personal Permissions Tab, view all private permissions that a user holds.
+The <em>Personal Permissions</em> tab displays all private permissions assigned to a user. From here, an operator can:
 
-- Details allow viewing which permissions the policy contains.
-- Supports removing a specific policy or permission from a user.
-- Supports assigning a policy or permission to a user.
+- Click <em>Details</em> to see the permissions contained in a policy.
+- Remove a specific policy or permission from a user.
+- Assign a policy or permission to a user.
 
-In the Roles List Tab, view all roles assigned to the user.
+The Roles List tab displays all roles assigned to a user. From here, an operator can:
 
-- Supports removing a role from the user.
-- Supports assigning new roles to the user.
+- Remove a role from a user.
+- Assign a new role to a user.
 
 <img src="/assets/JlhJbbqOcoJTdJxpz5Zj35tipFg.png" src-width="3264" src-height="1806" align="center"/>
 

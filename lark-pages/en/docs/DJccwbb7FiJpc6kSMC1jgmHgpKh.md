@@ -7,52 +7,54 @@ sidebar_position: 2
 
 # Frequently Asked Questions
 
-<div class="callout callout-bg-5 callout-border-5 callout-color-1">
-<div class='callout-emoji'>📍</div>
-<p> Q: Must wallet address verification be completed before depositing?</p>
-</div>
-
-A: Yes. Before depositing any cryptocurrency, the wallet address used by the customer must be verified. Unverified addresses cannot properly receive the corresponding tokens.
+# FAQs
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
 <div class='callout-emoji'>📍</div>
-<p> Q: What wallet address verification method is currently supported?</p>
+<p> Q: Is wallet address verification mandatory before depositing cryptocurrency?</p>
 </div>
 
-A: Currently, only "small-amount payment verification" is supported, which requires making a small cryptocurrency payment to a designated address to verify ownership of the address.
+A: Yes. Before any cryptocurrency deposit, the wallet address used by the client must first be verified. Unverified addresses cannot receive cryptocurrencies.
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
 <div class='callout-emoji'>📍</div>
-<p>Q: After completing wallet address verification, does it apply to deposits for all currencies?</p>
+<p> Q: What verification methods are currently supported for wallet addresses?</p>
 </div>
 
-A: Most currencies can use a verified address, but certain special currencies require separate verification. Please follow the system prompts for specifics.
+A: Currently, only micropayment verification is supported. The client must complete a small cryptocurrency payment to a designated address to confirm ownership of the wallet.
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
 <div class='callout-emoji'>📍</div>
-<p>Q: If my wallet address is verified, why do some cryptocurrencies still require a small-amount verification for deposits?</p>
+<p>Q: Once a wallet address is verified, can it be used for deposits of all cryptocurrencies?</p>
 </div>
 
-A: Because those currencies have unique characteristics, each deposit may require a repeated small-amount wallet address verification to safeguard funds.
+A: In most cases, a verified address can be used across all supported cryptocurrencies. However, certain cryptocurrencies require separate verification. Please follow the on-screen prompts for guidance specific to the cryptocurrency in question.
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
 <div class='callout-emoji'>📍</div>
-<p>Q: What should I do if the verification process shows &quot;Payment Failed&quot;?</p>
+<p>Q: A client&#39;s wallet address is already verified, but micropayment verification is still being triggered for deposits of a particular cryptocurrency. Why?</p>
 </div>
 
-A: Please check whether the payment address is correct, whether your account balance is sufficient, and whether your network connection is stable. If the issue persists, contact customer support for assistance.
+A: Due to the specific nature of that cryptocurrency, each deposit requires a new micropayment verification to ensure fund security.
+
+<div class="callout callout-bg-5 callout-border-5 callout-color-1">
+<div class='callout-emoji'>📍</div>
+<p>Q: What should the client do if a &quot;Payment Failed&quot; error appears during the verification process?</p>
+</div>
+
+A: Check the following: confirm that the payment address is correct, that the account has sufficient balance, and that the network connection is stable. If the issue persists, contact customer service for assistance.
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
 <div class='callout-emoji'>📍</div>
 <p>Q: How can I check the verification status of a wallet address?</p>
 </div>
 
-A: Log in to WBO, go to the "Client Wallet Address" module, and enter the address to view its verification status (Not Verified / Verified / Verifiying).
+A: Log in to WBO, navigate to the Client Wallet Address page, and search for the address to view its verification status (Not Verified/Verified/Verification in Progress).
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
 <div class='callout-emoji'>📍</div>
-<p>Q: If verification fails, how long must I wait before reapplying?</p>
+<p>Q: Is there a waiting period before reapplying after a failed verification?</p>
 </div>
 
-A: There is no time restriction after a failed verification. After correcting the issue (for example, providing the correct address), you may immediately resubmit the verification request.
+A: No. There is no waiting period. The client can resubmit the verification application immediately after correcting the issue, such as providing the correct wallet address.
 

@@ -7,66 +7,68 @@ sidebar_position: 3
 
 # Frequently Asked Questions
 
-<div class="callout callout-bg-5 callout-border-5 callout-color-1">
-<div class='callout-emoji'>📍</div>
-<p>Q: The customer says the transfer was successful; why can&#39;t the backend find the corresponding deposit record?</p>
-</div>
-
-A: First check the system data synchronization status; there may be a 5–10 minute delay—refresh the page and check again. If there is still no record, verify whether the customer's deposit address has completed authentication and whitelisting; failure to do so can prevent the record from being recognized. Finally, use the TXID provided by the customer to verify the transaction on a blockchain explorer.
+# FAQs
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
 <div class='callout-emoji'>📍</div>
-<p>Q: A deposit record is marked &quot;Abnormal.&quot; What are the common causes and how should it be handled?</p>
+<p>Q: The client says the transfer was successful, but I cannot find the corresponding deposit record in the back office. Why?</p>
 </div>
 
-A: Common causes include: (1) invalid address format (for example, a Bitcoin address entered as an Ethereum address); (2) the transaction hash (TXID) does not exist, which may indicate a fraudulent transaction; (3) the deposit amount is below the platform's minimum deposit threshold. Handling: for invalid addresses, notify the customer to provide the correct address; for fraudulent transactions, delete the record; for insufficient amounts, inform the customer to resend the difference or explain why the deposit cannot be credited.
+A: First, check the system data synchronization status; there might be a 5-10 minute delay. Refresh the page and check again. If the record is still missing, verify whether the client's deposit address has been verified and whitelisted, as the system cannot recognize deposits from addresses that are not on the whitelist. If the issue persists, use the transaction hash (TXID) provided by the client to look up the transaction on a blockchain explorer.
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
 <div class='callout-emoji'>📍</div>
-<p>Q: I want to cancel a pending deposit record, but clicking the &quot;Revoke&quot; button does nothing—why?</p>
+<p>Q: A deposit record is marked as Abnormal. What are the common causes? How should I handle it?</p>
 </div>
 
-A: Only records with the status "Wallet Address Pending Verification" can be canceled.
+A: Common causes include: ① invalid address format (for example, a Bitcoin address filled in an Ethereum address field); ② non-existent transaction hash (TXID) — this may indicate a fraudulent transaction; ③ deposit amount below the platform's minimum threshold. Handle each case as follows: For an invalid address, ask the client to provide a correct address. For a fraudulent transaction, delete the record directly. For an insufficient deposit amount, ask the client to make an additional transfer, or explain to the client why the deposit could not be processed.
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
 <div class='callout-emoji'>📍</div>
-<p>Q: The customer requests a refund after a successful deposit, but the operation fails—how should this be investigated?</p>
+<p>Q:I clicked Cancel on an unprocessed deposit record, but the system did not respond. Why?</p>
 </div>
 
-A: Investigate step by step: (1) verify whether the refund address provided by the customer has completed authentication; unverified addresses cannot receive refunds; (2) confirm that the refund network matches the deposit network (for example, if the deposit used ERC-20, the refund cannot be sent via TRC-20).
+A: Only records in the Wallet Auth Pending status can be canceled.
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
 <div class='callout-emoji'>📍</div>
-<p>Q: I accidentally copied the wrong address during deposit and the assets were sent to someone else—what should I do?</p>
+<p>Q: A client requested a refund after a successful deposit, but the operation failed. How should I troubleshoot this?</p>
 </div>
 
-A: Because blockchain transactions are immutable, mistakenly sent cryptocurrency transfers generally cannot be reversed. Contact platform customer support immediately and provide the sender address, the mistakenly sent recipient address, the transaction hash (TXID), and the transfer time to attempt to contact the recipient. For future transfers, prefer scanning the address via QR code to avoid manual entry.
+A:Work through the following checks in order: ① Confirm that the refund address provided by the client has completed verification. Unverified addresses cannot receive refunds. ② Confirm that the refund network matches the original deposit network. (For example, if the deposit was made via ERC-20, the refund cannot be sent via TRC-20.)
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
 <div class='callout-emoji'>📍</div>
-<p>Q: I clearly selected the correct token, so why hasn&#39;t the transfer been credited?</p>
+<p>Q: During a deposit, the client copied the wrong address and the assets were sent to someone else. What should the client do?</p>
 </div>
 
-A: First verify that the sender's network and the target platform's network are consistent (for example, if USDT was sent on ERC-20, the target address must correspond to the ERC-20 network); network mismatch can prevent the assets from being credited. Then use the TXID to check the transaction status in the appropriate network's blockchain explorer; if the transaction is confirmed but not credited, contact the target platform's customer support for assistance.
+A: Cryptocurrency transactions are typically irreversible due to the immutable nature of the blockchain. The client should immediately contact the platform's customer service and provide the following information: the sender address, the incorrect recipient address, the transaction hash (TXID), and the time of the transfer. Customer service can then attempt to contact the recipient on the client's behalf. To prevent this from happening again, clients are advised to use QR code scanning instead of manually entering addresses.
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
 <div class='callout-emoji'>📍</div>
-<p> Q: After deposit, it shows &quot;Confirming&quot; for a long time—has it stalled?</p>
+<p>Q: The client selected the correct cryptocurrency, but the transfer did not arrive. Why?</p>
 </div>
 
-A: This is most likely due to blockchain network congestion, or because the fee set at the time of sending was too low, causing miners not to prioritize the transaction. Use the TXID in a block explorer to check the number of confirmations; if the confirmations have not reached the platform's requirement (for example, ERC-20 requires 12 confirmations), please wait. If the fee was too low, contact the sender to confirm whether they support accelerating the transaction.
+A: First, check if the network used by the sending platform/wallet matches the network of the target platform/wallet (e.g., if USDT was sent via the ERC-20 network, the destination address must also be an ERC-20 address). A network mismatch will prevent the assets from being credited. Next, use the transaction hash (TXID) to check the transaction status on the relevant blockchain explorer. If the transaction shows as confirmed but the funds have still not been credited, contact the target platform's customer service for further assistance.
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
 <div class='callout-emoji'>📍</div>
-<p>Q: If the Tag is omitted when sending XRP and the assets do not arrive, how should this be handled?</p>
+<p> Q: A deposit has been in the Confirming status for a long time. Is there a problem?</p>
 </div>
 
-A: Currencies such as XRP and XLM require a Tag to be filled in for proper crediting; omission may cause the assets to be held in platform custody. In this case, log in to the target platform, locate the corresponding deposit record, contact customer support and provide the TXID and the omitted Tag information to request manual crediting. For future transactions, remember to copy the Tag in sync to avoid omission.
+A: This is most likely caused by blockchain network congestion or a service fee set too low, causing miners to deprioritize the transaction. The client can use the transaction hash (TXID) to check the current number of confirmations on a blockchain explorer. If the number has not reached the platform's requirement (e.g., 12 confirmations for ERC-20), the client will need to wait. If the service fee is too low, the client should contact the sending platform to check whether transaction acceleration is available.
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
 <div class='callout-emoji'>📍</div>
-<p>Q: The transferred amount and the received amount are different—why is part of it missing?</p>
+<p>Q:A client forgot to fill in the Tag when transferring XRP, and the assets did not arrive. How should this be handled?</p>
 </div>
 
-A: The missing portion is usually the blockchain network fee, which is automatically deducted from the sent amount and is normal. If the discrepancy is large, check whether the amount is below the platform's minimum deposit threshold; amounts below the threshold may not be credited. Contact customer support to confirm whether the difference can be resent and credited together.
+A: For cryptocurrencies like XRP and XLM, a Tag needs to be entered for funds to be correctly credited. If the client omitted the Tag, the assets will be held temporarily by the platform. In this case, the client should log in to the target platform, find the corresponding deposit record, contact customer service, and provide the transaction hash (TXID) and the missing Tag to request a manual deposit. Remind the client to always copy both the address and the Tag when making future transfers.
+
+<div class="callout callout-bg-5 callout-border-5 callout-color-1">
+<div class='callout-emoji'>📍</div>
+<p>Q: Why did the client receive less than the amount sent?</p>
+</div>
+
+A: This is an expected result. The difference is due to the blockchain network service fee, which is automatically deducted from the sent amount. If the difference seems unusually large, check whether the sent amount falls below the platform's minimum deposit threshold. Amounts below the threshold may not be credited. In this case, clients can contact customer service to inquire about the possibility of making an additional transfer and whether the two transactions can be combined and deposited together.
 

@@ -9,19 +9,19 @@ sidebar_position: 1
 
 # Overview
 
-WHALE’s funds management system provides multi-currency, multi-channel, and multi-strategy currency exchange functionality. Users can configure currency pairs, enter amounts, and complete exchanges within the system according to actual exchange requirements.
+WHALE's fund management system provides multi-currency, multi-channel, and multi-strategy currency exchange features. Operators can set currency pairs, input amounts, and complete exchanges in the system as needed.
 
 # Quick Start
 
-## Customer Exchange
+## Client Currency Exchange
 
-Based on the customer’s requested exchange, a manual exchange request can be added on the page. If the user has already submitted a request through the mobile app, the record will be displayed on this page automatically.
+Based on the client's exchange request, operators can add a manual exchange application on the page. If the client has submitted an application in the app, the record will be automatically displayed on this page.
 
 ### Manual Exchange
 
-Step 1: Select the customer and confirm the currency to exchange from and the currency to exchange to
+Step 1: Select the client and confirm source and target currencies
 
-Click [Manual Exchange], then in the appearing modal select the customer and enter the currency pair. The system will automatically display the withdrawable balance for each currency based on the selected customer.
+Click Manual exchange. In the pop-up window, select the client and enter the currency pair. (The system will automatically display the withdrawable balance for each currency based on the selected client.)
 
 <img src="/assets/L2jjbphXVodPTYx7T4Pj1O2jpbh.png" src-width="2970" src-height="1330" align="center"/>
 

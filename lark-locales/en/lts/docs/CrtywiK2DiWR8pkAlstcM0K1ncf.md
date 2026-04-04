@@ -5,21 +5,21 @@ sidebar_position: 0
 ---
 
 
-# Business Introduction
+# Business Overview
 
 # Overview
 
-In the securities system backend, the client bank card function plays a crucial role. The primary functions are as follows:
+In the back office of the securities system, the Bank Card Management feature plays a crucial role. The following are its main functions:
 
-<b>Funds Deposits and Withdrawals:</b> Clients can perform funds deposit and withdrawal operations via a bound bank card, enabling transfers between their securities account and bank account. This provides clients with a convenient way to manage funds, allowing them to easily transfer funds into their securities account for investment or return funds to their bank account when needed.
+<b>Fund Deposits and Withdrawals: </b>Clients can use their bound bank cards to deposit or withdraw funds, enabling transfers between their securities accounts and bank accounts. This provides clients with an efficient way to manage their funds, allowing them to easily transfer funds into their securities accounts for investment or transfer funds back to their bank accounts when needed.
 
-<b>Identity Verification:</b> When binding a bank card, clients are typically required to undergo identity verification to ensure the authenticity and reliability of their identity. This helps preserve the fairness, integrity, and transparency of the securities market and prevents illicit trading and money laundering.
+<b>Real-name Authentication: </b>When binding a bank card, clients are typically required to undergo real-name authentication to verify the authenticity and reliability of their identity. This helps maintain fairness, integrity, and transparency in the securities market, preventing illegal transactions and money laundering.
 
-<b>Transaction Security:</b> Fund transfers conducted via bank card employ advanced encryption technologies and security measures to ensure the safety of funds during the transaction process. This helps protect clients’ interests and prevents the misappropriation or loss of funds.
+<b>Transaction Security:</b> Fund transfers conducted through bank cards employ advanced encryption technologies and security measures to ensure the safety of funds during transactions. This helps protect clients' interests and prevents the misappropriation or loss of funds.
 
-<b>Transaction History Inquiry:</b> Clients can query bank card transaction records through the securities system backend, including transfers in, transfers out, deposits, and withdrawals. This helps clients understand their fund flows and facilitates financial management and decision-making.
+<b>Transaction Record Query: </b>Clients can query their bank card transaction records through the back office of the securities system, including fund transfers in and out, deposits, withdrawals, and more. This helps clients understand their fund flows, facilitating financial management and decision-making.
 
-<b>Enhanced Transaction Efficiency:</b> By automating bank card transactions and reducing manual intervention, transaction efficiency is improved. Clients can complete fund transfers quickly, saving time and effort, and better seizing investment opportunities.
+<b>Enhanced Transaction Efficiency:</b> Automated bank card transactions reduce the need for manual intervention, improving transaction efficiency. Clients can complete fund transfers quickly, save time and effort, and better seize investment opportunities.
 
-In summary, the client bank card function plays an important role in the securities system backend by providing clients with a convenient, secure, and efficient method of fund management, thereby promoting the healthy development of the securities market.
+In short, the Bank Card Management feature plays an important role in the back office of the securities system, providing customers with a convenient, secure, and efficient way to manage their funds, thereby promoting the healthy development of the securities market.
 

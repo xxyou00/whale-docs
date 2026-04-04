@@ -9,51 +9,51 @@ sidebar_position: 1
 
 # Overview
 
-Coin withdrawal generally refers to the process of transferring cryptocurrencies (such as BTC, ETH, USDT, etc.) from a personal digital wallet or a trading platform account to another address (including other wallets or other trading platform accounts). If conversion to fiat currency is required, one must first complete a sell operation on the trading platform and then withdraw the corresponding fiat to a bank account. This guide focuses on direct cryptocurrency transfer scenarios.
+Cryptocurrency withdrawal refers to the process of transferring cryptocurrency (such as BTC, ETH, USDT, etc.) from a personal digital wallet or trading platform account to another address (including other wallets or other trading platform accounts). If conversion to fiat currency is required, the client must first complete a sell transaction on a trading platform before withdrawing the corresponding fiat amount to a bank account. This guide focuses on the direct cryptocurrency transfer scenario.
 
-<b>Operation logic</b>: Using the App platform's withdrawal function, enter the recipient address and the transfer amount; after platform review (including WBO work order approval) and blockchain network confirmation, the asset transfer is completed.
+<b>Operation process: </b>The client initiates a withdrawal through the app by entering the recipient address and transfer amount. Once the request has passed platform review (including WBO work order approval) and received the required number of blockchain confirmations, the asset transfer is complete.
 
 # Quick Start
 
-## Prerequisites
+## Prerequisite
 
-You must obtain the following authorizations to use the system functions normally:
+Operators must obtain the following permissions before they can use the system functions properly.
 
-## HashKey Cryptocurrency Fee Reserve Instructions
+## Cryptocurrency Service Fee Reserve on HashKey
 
-When initiating a cryptocurrency withdrawal on the HashKey platform, special attention must be paid to the rules for fee deduction and the account balance reserve requirements. The specifics are as follows:
+When initiating a cryptocurrency withdrawal operation on the HashKey platform, operators must be aware of the service fee deduction rules and account fund reserve requirements, as detailed below:
 
-1. <b>Difference in Fee Deduction Accounts</b>
+1. <b>Service fee deduction accounts</b>
 
-Blockchain network fees incurred during a cryptocurrency withdrawal (such as miner fees) are deducted from the <b>main account</b> balance; the principal amount of a normal withdrawal is debited from the tenant's corresponding <b>sub-account</b> balance. The two fee-deduction accounts are independent. If the sub-account has sufficient principal but the main account lacks fee balance, the withdrawal request will fail.
+The blockchain network service fee (e.g., miner fee) incurred during a cryptocurrency withdrawal is deducted from the main account, while the withdrawal principal is deducted from the tenant's sub-account. These two deductions are independent of each other. If the sub-account holds sufficient principal but the main account has no available balance to cover the service fee, the withdrawal will fail.
 
-1. <b>Main Account Reserve Requirements</b>
+1. <b>Main account fund reserve requirements</b>
 
-To ensure the withdrawal process completes successfully, tenants must reserve a certain amount of the corresponding cryptocurrency in the <b>main account</b> before initiating an outbound crypto transfer (for example, reserve a small amount of BTC when withdrawing BTC, or a small amount of USDT when withdrawing USDT). The reserved amount must cover the estimated fee for this withdrawal (the platform’s即时 estimate of the fee amount is available on the withdrawal page).
+To ensure that withdrawals are processed successfully, the tenant must maintain a reserve of the relevant cryptocurrency in the main account before initiating a withdrawal (for example, a small amount of BTC for a BTC withdrawal, or USDT for a USDT withdrawal). The reserve must be sufficient to cover the estimated service fee for the transaction, which can be viewed on the withdrawal page in real time.
 
-1. <b>Common Issues</b>
+1. <b>Common issues</b>
 
-If the withdrawal process displays "Insufficient main account fees," you may replenish the corresponding cryptocurrency via the "Main Account Top-up" function, or transfer a small amount from the sub-account to the main account as a fee reserve. After replenishing, you can resubmit the withdrawal request.
+If a "Main account service fee insufficient" error appears during a withdrawal, the client should either deposit the relevant cryptocurrency into the main account, or transfer a small amount from the sub-account to the main account as a service fee reserve. The withdrawal application can then be resubmitted.
 
 <img src="/assets/TyC0wfeVwhvjqMbX1YojKi5Vpoe-board.jpeg"/>
 
 ## Cryptocurrency Configuration
 
-Before a customer initiates a withdrawal, cryptocurrency withdrawal settings must be configured.
+Operators should configure cryptocurrency settings for withdrawals before processing client withdrawals.
 
 <img src="/assets/XCWZbBM2ioDNPTxN9DVjQSXLpQh.png" src-width="2474" src-height="1188" align="center"/>
 
-# Customer Wallet Address
+# Client Wallet Address
 
-Completing wallet address verification prior to withdrawal is a key prerequisite for safeguarding assets.
+To ensure asset security, wallet address verification must be completed before a withdrawal is processed. This is a critical prerequisite step.
 
 <img src="/assets/MsepbKsJKo7Dsjx9Fhbjvs0dpLr.png" src-width="2440" src-height="1164" align="center"/>
 
-## Processing Withdrawal Requests
+## Processing Withdrawal Applications
 
-If a user has already submitted a withdrawal request in the App, the record will be displayed automatically on this page.
+If the client has submitted a withdrawal application in the app, the record will be automatically displayed on this page.
 
-Customer-submitted withdrawal requests are automatically routed to a WBO work order (work order identifier: atm.va.coin_withdraw_apply). The system will carry out approval in accordance with the preset approval configuration flow.
+Withdrawal applications submitted by clients are automatically linked to the WBO work order system (work order ID: atm.va.coin_withdraw_apply). The system will conduct the approval process based on the pre-configured approval workflow.
 
 <img src="/assets/NmyObhgk1ohCjPx8oH5jCTlUpcb.png" src-width="2468" src-height="602" align="center"/>
 
