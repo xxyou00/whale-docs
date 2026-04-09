@@ -1,7 +1,7 @@
 ---
 title: 2025-09-01 Release Notes
 slug: 2625bab0c2cc804f81bfdc65dcf2fff2
-sidebar_position: 9
+sidebar_position: 10
 ---
 
 

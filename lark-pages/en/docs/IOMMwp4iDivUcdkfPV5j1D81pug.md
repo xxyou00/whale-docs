@@ -1,7 +1,7 @@
 ---
 title: 2025-10-28 Release Notes
 slug: IOMMwp4iDivUcdkfPV5j1D81pug
-sidebar_position: 5
+sidebar_position: 6
 version: stable
 ---
 

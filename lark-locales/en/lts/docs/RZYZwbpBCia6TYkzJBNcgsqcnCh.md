@@ -1,25 +1,30 @@
 ---
-title: 2024-11-19 Release Notes
+title: 2026-04-08 Release Notes
 slug: RZYZwbpBCia6TYkzJBNcgsqcnCh
-sidebar_position: 4
+sidebar_position: 0
 ---
 
 
-# 2024-11-19 Release Notes
+# 2026-04-08 Release Notes
 
 # 🪀 Optimization and Bugfix
 
-- Added Company Actual Controller Information for Corporate Accounts
-    <img src="/assets/FLPUbZQ67oDdBbxXkuqj4qDqpag.png" src-width="2722" src-height="1302" align="center"/>
-    - On the offline account opening and KYC review pages, the company structure module now includes new fields for the company's actual controller.
-        - When the "Entity Type" is set to "CRS101 = Passive Non-Financial Entity with – one or more controlling person that is a Reportable Person", the "Company Actual Controller" field becomes mandatory.
-    - Supports adding/editing/deleting multiple actual controller entries.
-    - Path: "KYC" -&gt; "Account Opening Review" -&gt; "Account Opening List"
+- eDDA Multi-Currency Expansion (Added CNH Support)
+    - eDDA originally only supported HKD authorization and deposit. This upgrade adds CNH currency configuration.After CNH configuration is completed in the backend, customers can use HKD / CNH for authorization and deposit simultaneously.
+    - Path: Cash Management - Deposit/Withdrawal Methods - eDDA
+    <img src="/assets/GnCrbcgwQoluDwxyLk2jhVLQp4c.png" src-width="3304" src-height="1128" align="center"/>
 
-- Easily Modify BCAN Validity Status
-    - In the back office, the validity status of BCAN for HKIDR and North Trading can now be manually modified in bulk, setting it to either "Active" or "Inactive".
-    - Path: "Account Management" -&gt; "BCAN Code"
-    - Permission: account.update_bcan_validity_status
-
-<img src="/assets/H0g4btWPho3YD8xxfghjj9Y3ppb.png" src-width="2726" src-height="1282" align="center"/>
-
+- Added API raw data and interaction optimization for bank statements
+    - Integrated the original menu entries "Deposit Bill Settings" and "Auto Tagging Rules" into the "Bill Rules" menu in the form of tabs.
+    - Path: WBO - Cash Management - Bank Statement - Bill Rules
+    - For banks connected via API channels, the complete bill data and deposit messages synchronously obtained by the system can be queried in the backend. Manual triggering is supported to re-push API bills that were not automatically pushed by the system. The automatic crediting status of deposit messages can also be viewed in the backend for manual verification and intervention.
+    - Path: WBO - Cash Management - Bank Statement - API Raw Data
+    - Permission：
+        - API Deposit Message Inquiry atm.api_deposit_message_inquiry
+        - API Billing Inquiry atm.api_billing_inquiry
+        - API Billing Audit atm.api_billing_audit
+        - API Billing Operation atm.api_billing_operation
+    <img src="/assets/BepJb0Ip5ovoHxxOLATj5umLp7d.png" src-width="3806" src-height="858" align="center"/>
+    <img src="/assets/MPkbbXy7IokJL5xGs73jhPlopzf.png" src-width="3810" src-height="928" align="center"/>
+    <img src="/assets/FCUUbx46EonM2kxt6zKj6D8Gptf.png" src-width="3320" src-height="1106" align="center"/>
+    

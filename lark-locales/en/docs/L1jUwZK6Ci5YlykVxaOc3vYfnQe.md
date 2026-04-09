@@ -1,7 +1,7 @@
 ---
 title: 2024-06-11 Release Notes
 slug: L1jUwZK6Ci5YlykVxaOc3vYfnQe
-sidebar_position: 21
+sidebar_position: 22
 ---
 
 

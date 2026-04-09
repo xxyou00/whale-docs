@@ -1,7 +1,7 @@
 ---
 title: 2025-06-23 Release Notes
 slug: LwRrwjWNhidkSikTExscfYMOnab
-sidebar_position: 19
+sidebar_position: 20
 version: stable
 ---
 

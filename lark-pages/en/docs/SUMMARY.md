@@ -249,6 +249,7 @@
       - [Web Trade Product User Guide](GD2Vwtbp8iL7BBk2qnZjWdzUp7b.md)
   - [Release Notes](RTc7wghg2i7ldbkDitBjstoLptf.md)
     - [Whale Console](DmmAwnoAEia6tEk0lrsjCplnptb.md)
+      - [2026-04-08 Release Notes](OnRkwIlmtidftqkwrCcju7qFpgh.md)
       - [2026-03-16 Release Notes](L5ftwq0DmiRSPnkAVTWjTTNOpMb.md)
       - [2024-08-24 Release Notes](HnLewbMEIi2xJikrdIcjmb6Vpbh.md)
       - [2024-07-02 Release Notes](ZqizwIUsLi8UjdkQQ6xj9X3ap3d.md)
