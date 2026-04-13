@@ -565,11 +565,85 @@ function getSlugFromContent(content: string): string | null {
   }
 }
 
-function syncDocsJsonOnly(docsJsonPath: string) {
-  console.log(`  🔄 Syncing docs.json with meta.slug...`)
+// function syncDocsJsonOnly(docsJsonPath: string) {
+//   console.log(`  🔄 Syncing docs.json with meta.slug...`)
 
-  // Only sync docs.json, don't rename source files
+//   // Only sync docs.json, don't rename source files
+//   if (existsSync(docsJsonPath)) {
+//     syncDocsJsonWithMetaSlug(docsJsonPath)
+//   }
+// }
+
+// Rename markdown files based on their slug frontmatter field and update docs.json
+function renameFilesBySlug(docsPath: string, docsJsonPath: string) {
+  console.log(`  🔄 Renaming files based on slug in: ${docsPath}`)
+
+  const allMdFiles = sync(`${docsPath}/**/*.md`)
+  const skipFiles = ['index.md', 'docs.md', 'SUMMARY.md']
+
+  // Build a map of all files: slug -> filename (from frontmatter)
+  // This will be used to update docs.json
+  const slugToFilenameMap = new Map<string, string>()
+
+  allMdFiles.forEach((filePath) => {
+    const fileName = basename(filePath)
+
+    // Skip special files
+    if (skipFiles.includes(fileName)) {
+      return
+    }
+
+    try {
+      const content = readFileSync(filePath, "utf-8")
+
+      // Match frontmatter block
+      const frontmatterMatch = content.match(/^---\n([\s\S]*?)\n---\n/)
+
+      if (!frontmatterMatch) {
+        console.warn(`  ⚠️  No frontmatter found in: ${fileName}`)
+        return
+      }
+
+      const frontmatterStr = frontmatterMatch[1]
+
+      // Parse YAML frontmatter
+      const frontmatter = yaml.load(frontmatterStr) as Record<string, any>
+
+      if (!frontmatter || !frontmatter.slug) {
+        console.warn(`  ⚠️  No slug field found in: ${fileName}`)
+        return
+      }
+
+      const slug = frontmatter.slug
+
+      // Record the slug for docs.json update
+      slugToFilenameMap.set(slug, slug)
+
+      const newFileName = `${slug}.md`
+      const newFilePath = join(dirname(filePath), newFileName)
+
+      // Skip if filename already matches slug
+      if (fileName === newFileName) {
+        return
+      }
+
+      // Check if target file already exists
+      if (existsSync(newFilePath)) {
+        console.warn(`  ⚠️  Target file already exists: ${newFileName}`)
+        return
+      }
+
+      // Rename the file
+      renameSync(filePath, newFilePath)
+
+    } catch (error) {
+      console.warn(`  ⚠️  Failed to process ${fileName}:`, error)
+    }
+  })
+
+  // Always update docs.json to sync slug and filename with meta.slug
   if (existsSync(docsJsonPath)) {
+    console.log(`  🔄 Syncing docs.json with meta.slug...`)
     syncDocsJsonWithMetaSlug(docsJsonPath)
   }
 }
@@ -677,13 +751,13 @@ async function run() {
   const zhHKDocsPath = resolve(__dirname, "../lark-pages/zh-HK/docs")
   const zhHKDocsJsonPath = resolve(__dirname, "../lark-pages/zh-HK/docs.json")
   cleanupDuplicateH1Titles(zhHKDocsPath)
-  syncDocsJsonOnly(zhHKDocsJsonPath)
+  renameFilesBySlug(zhHKDocsPath, zhHKDocsJsonPath)
 
   console.log("  🔧 Processing en docs...")
   const enDocsPath = resolve(__dirname, "../lark-pages/en/docs")
   const enDocsJsonPath = resolve(__dirname, "../lark-pages/en/docs.json")
   cleanupDuplicateH1Titles(enDocsPath)
-  syncDocsJsonOnly(enDocsJsonPath)
+  renameFilesBySlug(enDocsPath, enDocsJsonPath)
 
   // Step 2: Clean up hidden docs
   console.log("📋 Step 2: Cleaning up hidden docs...")

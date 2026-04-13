@@ -5,35 +5,35 @@ sidebar_position: 2
 ---
 
 
-# Frequently Asked Questions
+# FAQs
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
 <div class='callout-emoji'>📍</div>
 <p>Q: What withdrawal methods are available?</p>
 </div>
 
-A: Currently supported withdrawal methods include: bank-to-securities withdrawals, API direct payments (FPS, CHATS, SWIFT, intra-bank transfers), and bulk online banking transfers.
+A: The following withdrawal methods are currently supported: bank-to-securities withdrawals, API direct payments (including FPS, CHATS, SWIFT, and intra-bank transfers), and batch online banking transfers.
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
 <div class='callout-emoji'>📍</div>
-<p>Q: What is the source of abnormal withdrawal records?</p>
+<p>Q: What are the common causes of withdrawal exception records?</p>
 </div>
 
-A: Abnormal withdrawal records may result from discrepancies between the withdrawal records and the bank’s transaction statements, or from the bank rejecting a submitted withdrawal. Possible causes include the chosen deposit/withdrawal method or the triggering of AML (Anti-Money Laundering) rules; for the specific reason, please contact the bank.
+A: Withdrawal exception records typically arise from one of two situations: a discrepancy between the system's withdrawal records and the bank's transaction statements, or a withdrawal being rejected by the bank. Common causes include the use of an unsupported deposit or withdrawal method, or the triggering of Anti-Money Laundering (AML) rules. For the specific reason, please contact the bank.
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
 <div class='callout-emoji'>📍</div>
 <p>Q: Why do some withdrawals not require manual status updates?</p>
 </div>
 
-A: Because certain withdrawal methods are integrated via API channels, approval and disbursement are automated and the system executes the entire process automatically without manual intervention.
+A: Certain withdrawal methods are processed through API-integrated channels, which automate both approval and disbursement. For these methods, the system executes the entire withdrawal process automatically without any manual intervention.
 
 <div class="callout callout-bg-5 callout-border-5 callout-color-1">
 <div class='callout-emoji'>📍</div>
-<p>Q: Can withdrawal rules be configured to replace manual operations?</p>
+<p>Q: Can I configure withdrawal rules to replace manual operations?</p>
 </div>
 
-A: Yes. To create withdrawal rules, navigate to "Service Parameter &gt; Withdrawal Rules Management &gt; Withdrawal Rules" tab. Click "Add" and configure the corresponding fields in the popup dialog. You may also "Edit" or "Delete" existing records according to your business requirements.
+A: Yes. To set up withdrawal rules, navigate to Service Parameter &gt; Withdrawal Rules Management &gt; Withdrawal Rules and click Add. Complete the required fields in the pop-up window and confirm. You can also click Edit or Delete to modify or remove an existing rule if needed.
 
 <img src="/assets/FSg1bKmJxo2yFXxXCHnj99HUphf.png" src-width="2452" src-height="2886" align="center"/>
 

@@ -7,8 +7,6 @@ sidebar_position: 4
 
 # Message Settings
 
-# Message Settings
-
 Message Settings is a proprietary Whale Back Office (WBO) system feature that enables brokerage operators to configure and send specific message notifications for the scenarios below, facilitating real-time message notification management.
 
 Scenario 1: To-Do Notifications (Workflow/Task-Based)

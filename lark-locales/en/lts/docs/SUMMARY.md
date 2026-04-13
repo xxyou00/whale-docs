@@ -21,7 +21,7 @@
         - [Withdraw Funds](WeRowFQJvibZl7k50DFjsPbPptc.md)
           - [Business Overview](NXLUwQiEHiz1hAk1vQYjppwHpFh.md)
           - [System Overview](PS8Cw541oiuiKJkXgyGjg0u1pV6.md)
-          - [Frequently Asked Questions](HkO0wy3jSi92Hakjnm6jZTNspOf.md)
+          - [FAQs](HkO0wy3jSi92Hakjnm6jZTNspOf.md)
           - [Quick Start](LmpowMiljiDfG6kGLChj0ARFppf.md)
         - [Customer Bank Card](Mca2wj5xGi1hS4kjrP4jHgHdpLh.md)
           - [Business Overview](At1Sw946Pic6Blkfe1ijSB1dpRL.md)
