@@ -287,47 +287,30 @@ Operation flow:
 
 1. After enabling the rule, clients can also view an "Auto Repayment" function in the mobile app and opt in. If a client enables Auto Repayment and triggers the rule, the system will perform automatic exchanges or background manual conversion operations as configured.
 
-    <img src="/assets/HTKDbD99VoQi4Nxsz9WjA7FbpZd.png" src-width="1170" src-height="2532" align="center"/>
+    <img src="/assets/Xz9nbTKh3oQjdYxxT7kjIIknpsc.png" src-width="710" src-height="1572" align="center"/>
     
-App navigation: "Me" - "Settings" - "Account Settings"
-b. If "Auto Repayment" is enabled in the App, the "Auto Exchange" field displays as "Enabled" and supports the "Exchange" operation.
-
-    <img src="/assets/J7N6bYykroODeBxpJMpjHVGKpKb.png" src-width="3216" src-height="682" align="center"/>
+App navigation: "Me" - "Settings" - "Account Preference"
+If "Auto-currency Conversion" is enabled in the App, the "Auto Convert" field displays as "Open" and supports the "Exchange" operation.
+    <img src="/assets/C4PXbnEPDocRZkxOMfejcQ6EpHf.png" src-width="2472" src-height="870" align="center"/>
     1. App "Auto Repayment"
 
 2. Exchange: Clients who enable Auto Repayment default to automatic system exchange; before the system executes automatic exchange, the page also supports manual exchange. The list "Details" action allows viewing real‑time client data, message history, and exchange records. The manual exchange modal shows the client's current cash situation and allows configuration of exchange amounts and currencies to confirm the exchange.
 
-<img src="/assets/WuQJbSIB3o6XRJxGKyVj2FgbpBh.png" src-width="3274" src-height="1640" align="center"/>
+<img src="/assets/FngsbPiBwormMpxxdRMjNlAApcf.png" src-width="2502" src-height="1164" align="center"/>
 
-<img src="/assets/C1QobRrL6oGTBQxu4WhjeOSnpdg.png" src-width="3222" src-height="1220" align="center"/>
+<img src="/assets/EKIFbczVFo3zdGx4f0JjI1MVp5d.png" src-width="2498" src-height="1202" align="center"/>
 
 1. Exchange result review: After manual/automatic exchange completes, if remaining assets still meet the rule conditions they will remain in the Reminder Query list; if they no longer meet the conditions they move to history, viewable under "History (link missing)". For exchange audit triggers or exchange failures, view exceptions on the "Exchange Exceptions" page (exchange audits require manual review under "Funds Management" - "Exchange" - "Client Exchange").
 
-<img src="/assets/Oj1Cbt3oVolR7vxrz2MjCUjNpYd.png" src-width="3290" src-height="1072" align="center"/>
+<img src="/assets/OcknbnmQWoBlXcxqU86jd3APpPg.png" src-width="2478" src-height="1020" align="center"/>
 
-### History
+### Notification History
 
 Menu description: This menu is used to query historical clients who received reminders and related exchange details.
 
-<img src="/assets/DUBxbVTzMogONJxi8cTjzRjOpGd.png" src-width="3198" src-height="1070" align="center"/>
+<img src="/assets/LKgwb42dKov3TXxmiJIjh5vcpFb.png" src-width="2460" src-height="1144" align="center"/>
 
 Currency borrowing reminder history page
-
-### Snapshots
-
-Menu description: This menu is used to query snapshot values at a given time, including outstanding/conversion‑eligible amounts and cash/balance channel data.
-
-<img src="/assets/AhrWbZxepoyFkZxyOjpjHA3ep9e.png" src-width="3314" src-height="1558" align="center"/>
-
-Currency borrowing reminder snapshot query page
-
-### Auto Repayment Enrollment Query
-
-Menu description: This menu queries clients who have enrolled in Auto Repayment (all clients who have ever enabled the feature are queryable; the current status distinguishes whether it is currently enabled).
-
-<img src="/assets/PpxWb1ODyowwnoxWtEDjEEo5pDg.png" src-width="3248" src-height="1642" align="center"/>
-
-Auto Repayment enrollment records query
 
 # Margin Call
 
@@ -335,7 +318,7 @@ When a client's net asset value falls below the maintenance margin level due to 
 
 Business flow:
 
-<img src="/assets/T4TGbEgOdoZVyOxDW4BjJemDpod.png" src-width="2564" src-height="754" align="center"/>
+<img src="/assets/NaXBbdFqGoa9uHxhzhCjDvfypbf.png" src-width="1584" src-height="734" align="center"/>
 
 ## Risk Alerts
 

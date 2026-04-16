@@ -74,7 +74,7 @@ A: The App will send a push notification (see Figure 17.1G-1), and forced liquid
 
 <em>(Figure 17.1G-1)</em>
 
-<img src="/assets/ZeqibBgrXoang8xM7ZLjenMtp9g.png" src-width="1724" src-height="306" align="center"/>
+<img src="/assets/C3vpblZHLotm2cxkVFxj5unZp0e.png" src-width="1542" src-height="1060" align="center"/>
 
 <em>(Figure 17.1G-2)</em>
 
