@@ -6084,26 +6084,6 @@
               },
               {
                 "depth": 3,
-                "title": "2026-Q1 What's New",
-                "node_token": "OHfgwhwIpilLnykNalpjdnBapAb",
-                "parent_node_token": "PPvCwZ71xiM9obkeqU2jOABJpOb",
-                "obj_create_time": "1773108320",
-                "obj_edit_time": "1773108377",
-                "obj_token": "JzN5drToEoQfsAxnGgojMp04pjD",
-                "children": [],
-                "has_child": false,
-                "meta": {
-                  "slug": "2025-Q4-What-s-New",
-                  "version": "lts",
-                  "title": "2025-Q4 What‘s New",
-                  "sidebar_position": 7
-                },
-                "slug": "2025-Q4-What-s-New",
-                "position": 10,
-                "filename": "2025-Q4-What-s-New.md"
-              },
-              {
-                "depth": 3,
                 "title": "2026-04 What's New（RC）",
                 "node_token": "VUaGwILK5iJLlMk0B6ljk4oyplb",
                 "parent_node_token": "PPvCwZ71xiM9obkeqU2jOABJpOb",
@@ -6117,8 +6097,26 @@
                   "version": "stable"
                 },
                 "slug": "2026-04-What-s-New-RC",
-                "position": 11,
+                "position": 10,
                 "filename": "2026-04-What-s-New-RC.md"
+              },
+              {
+                "depth": 3,
+                "title": "2026-Q1 What's New",
+                "node_token": "V9RqwcWBGinrwqkrdwpjYP9bpld",
+                "parent_node_token": "PPvCwZ71xiM9obkeqU2jOABJpOb",
+                "obj_create_time": "1776424053",
+                "obj_edit_time": "1776424443",
+                "obj_token": "BiAMdIaH5osCypxBauQj4oGnpjd",
+                "children": [],
+                "has_child": false,
+                "meta": {
+                  "slug": "2026-Q1-What-s-New-RC",
+                  "version": "lts"
+                },
+                "slug": "2026-Q1-What-s-New-RC",
+                "position": 11,
+                "filename": "2026-Q1-What-s-New-RC.md"
               }
             ],
             "has_child": true,

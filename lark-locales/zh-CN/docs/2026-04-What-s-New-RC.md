@@ -1,7 +1,7 @@
 ---
 title: 2026-04 What's New（RC）
 slug: 2026-04-What-s-New-RC
-sidebar_position: 11
+sidebar_position: 10
 version: stable
 ---
 
